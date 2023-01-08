@@ -1,0 +1,59 @@
+{
+  "pages": [
+    {
+      "id": "Login_Page",
+      "isDefault": true
+    },
+    {
+      "id": "Signup_Page",
+      "isDefault": false
+    },
+    {
+      "id": "Home_Page",
+      "isDefault": false
+    },
+    {
+      "id": "Assets_Page",
+      "isDefault": false
+    },
+    {
+      "id": "Liabilities_Page",
+      "isDefault": false
+    },
+    {
+      "id": "Nudges_Page",
+      "isDefault": false
+    },
+    {
+      "id": "Profile_Page",
+      "isDefault": false
+    },
+    {
+      "id": "Marriage_Page",
+      "isDefault": false
+    },
+    {
+      "id": "Children_Page",
+      "isDefault": false
+    },
+    {
+      "id": "Estate_Tools_Page",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#CCCCCC",
+  "icon": "cricket",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}

@@ -399,9 +399,6 @@
                 },
                 {
                   "key": "boxShadow"
-                },
-                {
-                  "key": "isVisible"
                 }
               ],
               "children": [
@@ -3359,7 +3356,7 @@
               "rightColumn": 64,
               "dynamicHeight": "FIXED",
               "widgetId": "nd24d83j58",
-              "isVisible": "{{ShowHideWillsInfoContainer.isChecked}}",
+              "isVisible": "true",
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,

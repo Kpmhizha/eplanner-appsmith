@@ -51,10 +51,10 @@
   "color": "#C2DAF0",
   "icon": "yen",
   "unpublishedAppLayout": {
-    "type": "MOBILE"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "MOBILE"
   },
   "evaluationVersion": 2,
   "applicationVersion": 2,

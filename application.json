@@ -51,7 +51,7 @@
   "color": "#C2DAF0",
   "icon": "yen",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "MOBILE"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"

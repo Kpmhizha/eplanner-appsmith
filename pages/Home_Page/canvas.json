@@ -632,7 +632,7 @@
                             {
                               "resetFormOnClick": false,
                               "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-                              "widgetName": "btnChildrenProfile",
+                              "widgetName": "btnSettingsCopy",
                               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                               "displayName": "Button",
                               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -654,13 +654,13 @@
                                   "key": "buttonColor"
                                 }
                               ],
-                              "text": "Children Profile",
+                              "text": "Help",
                               "isDisabled": false,
                               "key": "a4h5w0e141",
                               "isDeprecated": false,
                               "rightColumn": 64,
                               "isDefaultClickDisabled": true,
-                              "widgetId": "fq5x1nwj3o",
+                              "widgetId": "tpzd9n73em",
                               "isVisible": true,
                               "recaptchaType": "V3",
                               "version": 1,
@@ -668,14 +668,14 @@
                               "renderMode": "CANVAS",
                               "isLoading": false,
                               "disabledWhenInvalid": false,
-                              "borderRadius": "0px",
+                              "borderRadius": "0.375rem",
                               "buttonVariant": "PRIMARY",
                               "placement": "CENTER"
                             },
                             {
                               "resetFormOnClick": false,
-                              "boxShadow": "none",
-                              "widgetName": "btnMarriageProfile",
+                              "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+                              "widgetName": "btnSettings",
                               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                               "displayName": "Button",
                               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -697,13 +697,13 @@
                                   "key": "buttonColor"
                                 }
                               ],
-                              "text": "Marriage Profile",
+                              "text": "Settings",
                               "isDisabled": false,
                               "key": "a4h5w0e141",
                               "isDeprecated": false,
                               "rightColumn": 64,
                               "isDefaultClickDisabled": true,
-                              "widgetId": "y2hhzybpy7",
+                              "widgetId": "argpnyvi6u",
                               "isVisible": true,
                               "recaptchaType": "V3",
                               "version": 1,
@@ -711,14 +711,15 @@
                               "renderMode": "CANVAS",
                               "isLoading": false,
                               "disabledWhenInvalid": false,
-                              "borderRadius": "0px",
+                              "borderRadius": "0.375rem",
                               "buttonVariant": "PRIMARY",
                               "placement": "CENTER"
                             },
                             {
                               "resetFormOnClick": false,
                               "boxShadow": "none",
-                              "widgetName": "btnLiabilities",
+                              "widgetName": "btnManageEstate",
+                              "onClick": "{{navigateTo('Manage Estate Page ', {}, 'SAME_WINDOW')}}",
                               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                               "displayName": "Button",
                               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -726,68 +727,29 @@
                                 "click",
                                 "submit"
                               ],
-                              "topRow": 29,
-                              "bottomRow": 35,
+                              "topRow": 16,
+                              "bottomRow": 22,
                               "parentRowSpace": 10,
                               "type": "BUTTON_WIDGET",
                               "hideCard": false,
                               "animateLoading": true,
                               "parentColumnSpace": 3.292877197265625,
-                              "dynamicTriggerPathList": [],
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
                               "leftColumn": 0,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "buttonColor"
                                 }
                               ],
-                              "text": "Liabilites",
+                              "text": "Manage Estate",
                               "isDisabled": false,
                               "key": "a4h5w0e141",
                               "isDeprecated": false,
-                              "rightColumn": 64,
-                              "isDefaultClickDisabled": true,
-                              "widgetId": "ohm361ip46",
-                              "isVisible": true,
-                              "recaptchaType": "V3",
-                              "version": 1,
-                              "parentId": "gvmarkekr9",
-                              "renderMode": "CANVAS",
-                              "isLoading": false,
-                              "disabledWhenInvalid": false,
-                              "borderRadius": "0px",
-                              "buttonVariant": "PRIMARY",
-                              "placement": "CENTER"
-                            },
-                            {
-                              "resetFormOnClick": false,
-                              "boxShadow": "none",
-                              "widgetName": "btnAssets",
-                              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "displayName": "Button",
-                              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
-                              "searchTags": [
-                                "click",
-                                "submit"
-                              ],
-                              "topRow": 22,
-                              "bottomRow": 28,
-                              "parentRowSpace": 10,
-                              "type": "BUTTON_WIDGET",
-                              "hideCard": false,
-                              "animateLoading": true,
-                              "parentColumnSpace": 3.292877197265625,
-                              "dynamicTriggerPathList": [],
-                              "leftColumn": 0,
-                              "dynamicBindingPathList": [
-                                {
-                                  "key": "buttonColor"
-                                }
-                              ],
-                              "text": "Assets",
-                              "isDisabled": false,
-                              "key": "a4h5w0e141",
-                              "isDeprecated": false,
-                              "rightColumn": 64,
+                              "rightColumn": 63,
                               "isDefaultClickDisabled": true,
                               "widgetId": "aq2u2milwm",
                               "isVisible": true,
@@ -812,8 +774,8 @@
                                 "click",
                                 "submit"
                               ],
-                              "topRow": 15,
-                              "bottomRow": 21,
+                              "topRow": 24,
+                              "bottomRow": 30,
                               "parentRowSpace": 10,
                               "type": "BUTTON_WIDGET",
                               "hideCard": false,
@@ -874,7 +836,7 @@
                                   "key": "buttonColor"
                                 }
                               ],
-                              "text": "Edit Profile",
+                              "text": "User Profile",
                               "isDisabled": false,
                               "key": "a4h5w0e141",
                               "isDeprecated": false,
@@ -1101,7 +1063,7 @@
                               "originalTopRow": 4,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "maxDynamicHeight": 9000,
-                              "originalBottomRow": 10,
+                              "originalBottomRow": 8,
                               "fontSize": "1.25rem",
                               "minDynamicHeight": 4
                             },
@@ -1149,10 +1111,10 @@
                               "parentId": "50woci3iqz",
                               "renderMode": "CANVAS",
                               "isLoading": false,
-                              "originalTopRow": 10,
+                              "originalTopRow": 8,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "maxDynamicHeight": 9000,
-                              "originalBottomRow": 15,
+                              "originalBottomRow": 13,
                               "fontSize": "0.875rem",
                               "minDynamicHeight": 4
                             },
@@ -1223,7 +1185,7 @@
                       "originalTopRow": 37,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 54,
+                      "originalBottomRow": 52,
                       "minDynamicHeight": 14
                     }
                   ],

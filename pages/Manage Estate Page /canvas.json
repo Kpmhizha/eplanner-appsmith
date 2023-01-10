@@ -326,7 +326,7 @@
                       "isLoading": false,
                       "disabledWhenInvalid": false,
                       "borderRadius": "0.375rem",
-                      "buttonVariant": "PRIMARY",
+                      "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
                     {
@@ -374,7 +374,7 @@
                       "isLoading": false,
                       "disabledWhenInvalid": false,
                       "borderRadius": "0.375rem",
-                      "buttonVariant": "PRIMARY",
+                      "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
                     {
@@ -422,7 +422,7 @@
                       "isLoading": false,
                       "disabledWhenInvalid": false,
                       "borderRadius": "0.375rem",
-                      "buttonVariant": "PRIMARY",
+                      "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
                     {
@@ -470,7 +470,7 @@
                       "isLoading": false,
                       "disabledWhenInvalid": false,
                       "borderRadius": "0.375rem",
-                      "buttonVariant": "PRIMARY",
+                      "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
                     {
@@ -518,7 +518,7 @@
                       "isLoading": false,
                       "disabledWhenInvalid": false,
                       "borderRadius": "0.375rem",
-                      "buttonVariant": "PRIMARY",
+                      "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
                     {
@@ -566,7 +566,7 @@
                       "isLoading": false,
                       "disabledWhenInvalid": false,
                       "borderRadius": "0.375rem",
-                      "buttonVariant": "PRIMARY",
+                      "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
                     {

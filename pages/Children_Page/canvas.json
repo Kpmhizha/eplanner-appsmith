@@ -479,7 +479,7 @@
                       "isLoading": false,
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "buttonVariant": "PRIMARY",
+                      "buttonVariant": "SECONDARY",
                       "iconAlign": "left",
                       "placement": "CENTER"
                     },
@@ -532,7 +532,7 @@
                       "isLoading": false,
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "buttonVariant": "PRIMARY",
+                      "buttonVariant": "SECONDARY",
                       "iconAlign": "left",
                       "placement": "CENTER"
                     },
@@ -879,7 +879,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 12.2998046875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 20,
+                      "leftColumn": 17,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -889,7 +889,7 @@
                       "key": "00fj5ss8ai",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 44,
+                      "rightColumn": 47,
                       "isDefaultClickDisabled": true,
                       "widgetId": "xvylnrhamv",
                       "isVisible": true,
@@ -1367,7 +1367,7 @@
               "text": "E-PLANNER",
               "key": "jzefs4my5q",
               "isDeprecated": false,
-              "rightColumn": 61,
+              "rightColumn": 62,
               "backgroundColor": "{{appsmith.theme.colors.primaryColor}}",
               "textAlign": "LEFT",
               "dynamicHeight": "FIXED",

@@ -423,7 +423,7 @@
               "text": "E-PLANNER",
               "key": "jzefs4my5q",
               "isDeprecated": false,
-              "rightColumn": 61,
+              "rightColumn": 62,
               "backgroundColor": "{{appsmith.theme.colors.primaryColor}}",
               "textAlign": "LEFT",
               "dynamicHeight": "FIXED",
@@ -1059,7 +1059,7 @@
                       "isLoading": false,
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "buttonVariant": "PRIMARY",
+                      "buttonVariant": "SECONDARY",
                       "iconAlign": "left",
                       "placement": "CENTER"
                     },

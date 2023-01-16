@@ -81,7 +81,7 @@
                       "searchTags": [
                         "group"
                       ],
-                      "topRow": 7,
+                      "topRow": 6,
                       "bottomRow": 195,
                       "parentRowSpace": 10,
                       "type": "FORM_WIDGET",
@@ -90,7 +90,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 17.9375,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 11,
+                      "leftColumn": 13,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -105,12 +105,12 @@
                           "widgetName": "Canvas2",
                           "displayName": "Canvas",
                           "topRow": 0,
-                          "bottomRow": 1880,
+                          "bottomRow": 1890,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
                           "canExtend": false,
                           "hideCard": true,
-                          "minHeight": 1880,
+                          "minHeight": 1890,
                           "parentColumnSpace": 1,
                           "leftColumn": 0,
                           "dynamicBindingPathList": [
@@ -125,7 +125,7 @@
                             {
                               "tabId": "",
                               "boxShadow": "NONE",
-                              "widgetName": "Holding_company_info_group",
+                              "widgetName": "EstateToolsChecklist_Container",
                               "borderColor": "#E0DEDE",
                               "isCanvas": true,
                               "displayName": "Container",
@@ -135,15 +135,374 @@
                                 "parent",
                                 "group"
                               ],
-                              "topRow": 155,
-                              "bottomRow": 186,
+                              "topRow": 44,
+                              "bottomRow": 54,
+                              "parentRowSpace": 10,
+                              "type": "CONTAINER_WIDGET",
+                              "hideCard": false,
+                              "shouldScrollContents": true,
+                              "animateLoading": true,
+                              "parentColumnSpace": 10.915939331054688,
+                              "leftColumn": 0,
+                              "children": [
+                                {
+                                  "rightColumn": 698.6201171875,
+                                  "widgetName": "Canvas10",
+                                  "detachFromLayout": true,
+                                  "widgetId": "2mgvzzddez",
+                                  "containerStyle": "none",
+                                  "bottomRow": 100,
+                                  "topRow": 0,
+                                  "parentRowSpace": 1,
+                                  "isVisible": true,
+                                  "type": "CANVAS_WIDGET",
+                                  "canExtend": false,
+                                  "version": 1,
+                                  "parentId": "8r840jovby",
+                                  "props": {
+                                    "containerStyle": "none",
+                                    "canExtend": false,
+                                    "detachFromLayout": true,
+                                    "children": []
+                                  },
+                                  "isLoading": false,
+                                  "minHeight": 100,
+                                  "renderMode": "CANVAS",
+                                  "parentColumnSpace": 1,
+                                  "leftColumn": 0,
+                                  "children": [
+                                    {
+                                      "widgetName": "ShowHide_OtherTools_Container",
+                                      "displayName": "Checkbox",
+                                      "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+                                      "searchTags": [
+                                        "boolean"
+                                      ],
+                                      "topRow": 0,
+                                      "bottomRow": 4,
+                                      "parentRowSpace": 10,
+                                      "type": "CHECKBOX_WIDGET",
+                                      "alignWidget": "LEFT",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 10.915939331054688,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 56.774193548387096,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "accentColor"
+                                        },
+                                        {
+                                          "key": "borderRadius"
+                                        }
+                                      ],
+                                      "labelPosition": "Right",
+                                      "isDisabled": false,
+                                      "key": "hobxonie75",
+                                      "isRequired": false,
+                                      "isDeprecated": false,
+                                      "rightColumn": 64,
+                                      "dynamicHeight": "AUTO_HEIGHT",
+                                      "widgetId": "foz2scl8ck",
+                                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                                      "isVisible": true,
+                                      "label": "Other",
+                                      "version": 1,
+                                      "parentId": "2mgvzzddez",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "originalTopRow": 48,
+                                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                      "defaultCheckedState": false,
+                                      "maxDynamicHeight": 9000,
+                                      "originalBottomRow": 52,
+                                      "minDynamicHeight": 4
+                                    },
+                                    {
+                                      "widgetName": "ShowHide_HoldingCompany_Contai",
+                                      "displayName": "Checkbox",
+                                      "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+                                      "searchTags": [
+                                        "boolean"
+                                      ],
+                                      "topRow": 0,
+                                      "bottomRow": 4,
+                                      "parentRowSpace": 10,
+                                      "type": "CHECKBOX_WIDGET",
+                                      "alignWidget": "LEFT",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 10.915939331054688,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 42.32258064516129,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "accentColor"
+                                        },
+                                        {
+                                          "key": "borderRadius"
+                                        }
+                                      ],
+                                      "labelPosition": "Right",
+                                      "isDisabled": false,
+                                      "key": "hobxonie75",
+                                      "isRequired": false,
+                                      "isDeprecated": false,
+                                      "rightColumn": 55.74193548387097,
+                                      "dynamicHeight": "AUTO_HEIGHT",
+                                      "widgetId": "uhcgbrxmt1",
+                                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                                      "isVisible": true,
+                                      "label": "Holding Company",
+                                      "version": 1,
+                                      "parentId": "2mgvzzddez",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "originalTopRow": 0,
+                                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                      "defaultCheckedState": false,
+                                      "maxDynamicHeight": 9000,
+                                      "originalBottomRow": 5,
+                                      "minDynamicHeight": 4
+                                    },
+                                    {
+                                      "widgetName": "ShowHide_TrustStructures_Conta",
+                                      "displayName": "Checkbox",
+                                      "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+                                      "searchTags": [
+                                        "boolean"
+                                      ],
+                                      "topRow": 0,
+                                      "bottomRow": 4,
+                                      "parentRowSpace": 10,
+                                      "type": "CHECKBOX_WIDGET",
+                                      "alignWidget": "LEFT",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 10.915939331054688,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 34.064516129032256,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "accentColor"
+                                        },
+                                        {
+                                          "key": "borderRadius"
+                                        }
+                                      ],
+                                      "labelPosition": "Right",
+                                      "isDisabled": false,
+                                      "key": "hobxonie75",
+                                      "isRequired": false,
+                                      "isDeprecated": false,
+                                      "rightColumn": 41.29032258064516,
+                                      "dynamicHeight": "AUTO_HEIGHT",
+                                      "widgetId": "brscvce48d",
+                                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                                      "isVisible": true,
+                                      "label": "Trusts",
+                                      "version": 1,
+                                      "parentId": "2mgvzzddez",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                      "defaultCheckedState": false,
+                                      "maxDynamicHeight": 9000,
+                                      "minDynamicHeight": 4
+                                    },
+                                    {
+                                      "widgetName": "ShowHideLetterOfWishes",
+                                      "displayName": "Checkbox",
+                                      "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+                                      "searchTags": [
+                                        "boolean"
+                                      ],
+                                      "topRow": 0,
+                                      "bottomRow": 4,
+                                      "parentRowSpace": 10,
+                                      "type": "CHECKBOX_WIDGET",
+                                      "alignWidget": "LEFT",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 10.915939331054688,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 20.64516129032258,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "accentColor"
+                                        },
+                                        {
+                                          "key": "borderRadius"
+                                        }
+                                      ],
+                                      "labelPosition": "Right",
+                                      "isDisabled": false,
+                                      "key": "hobxonie75",
+                                      "isRequired": false,
+                                      "isDeprecated": false,
+                                      "rightColumn": 34.064516129032256,
+                                      "dynamicHeight": "AUTO_HEIGHT",
+                                      "widgetId": "c8k9q6cn8y",
+                                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                                      "isVisible": true,
+                                      "label": "Letter of Wishes",
+                                      "version": 1,
+                                      "parentId": "2mgvzzddez",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "originalTopRow": 44,
+                                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                      "defaultCheckedState": false,
+                                      "maxDynamicHeight": 9000,
+                                      "originalBottomRow": 49,
+                                      "minDynamicHeight": 4
+                                    },
+                                    {
+                                      "widgetName": "ShowHide_LivingWIll_Container",
+                                      "displayName": "Checkbox",
+                                      "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+                                      "searchTags": [
+                                        "boolean"
+                                      ],
+                                      "topRow": 0,
+                                      "bottomRow": 4,
+                                      "parentRowSpace": 10,
+                                      "type": "CHECKBOX_WIDGET",
+                                      "alignWidget": "LEFT",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 10.915939331054688,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 11.35483870967742,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "accentColor"
+                                        },
+                                        {
+                                          "key": "borderRadius"
+                                        }
+                                      ],
+                                      "labelPosition": "Right",
+                                      "isDisabled": false,
+                                      "key": "hobxonie75",
+                                      "isRequired": false,
+                                      "isDeprecated": false,
+                                      "rightColumn": 20.64516129032258,
+                                      "dynamicHeight": "AUTO_HEIGHT",
+                                      "widgetId": "b5chadxje2",
+                                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                                      "isVisible": true,
+                                      "label": "Living Will",
+                                      "version": 1,
+                                      "parentId": "2mgvzzddez",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                      "defaultCheckedState": false,
+                                      "maxDynamicHeight": 9000,
+                                      "minDynamicHeight": 4
+                                    },
+                                    {
+                                      "widgetName": "Hide_Show_OffshoreWills_contai",
+                                      "displayName": "Checkbox",
+                                      "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+                                      "searchTags": [
+                                        "boolean"
+                                      ],
+                                      "topRow": 0,
+                                      "bottomRow": 4,
+                                      "parentRowSpace": 10,
+                                      "type": "CHECKBOX_WIDGET",
+                                      "alignWidget": "LEFT",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 10.915939331054688,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 0,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "accentColor"
+                                        },
+                                        {
+                                          "key": "borderRadius"
+                                        }
+                                      ],
+                                      "labelPosition": "Right",
+                                      "isDisabled": false,
+                                      "key": "hobxonie75",
+                                      "isRequired": false,
+                                      "isDeprecated": false,
+                                      "rightColumn": 11.35483870967742,
+                                      "dynamicHeight": "AUTO_HEIGHT",
+                                      "widgetId": "245paqswlq",
+                                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                                      "isVisible": true,
+                                      "label": "Offshore Will",
+                                      "version": 1,
+                                      "parentId": "2mgvzzddez",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "originalTopRow": 44,
+                                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                      "defaultCheckedState": false,
+                                      "maxDynamicHeight": 9000,
+                                      "originalBottomRow": 48,
+                                      "minDynamicHeight": 4
+                                    }
+                                  ]
+                                }
+                              ],
+                              "borderWidth": "1",
+                              "key": "622fppg7zm",
+                              "backgroundColor": "#FFFFFF",
+                              "isDeprecated": false,
+                              "rightColumn": 64,
+                              "dynamicHeight": "AUTO_HEIGHT",
+                              "widgetId": "8r840jovby",
+                              "containerStyle": "card",
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "rkx3fq4pu1",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "originalTopRow": 44,
+                              "maxDynamicHeight": 9000,
+                              "originalBottomRow": 54,
+                              "minDynamicHeight": 10
+                            },
+                            {
+                              "tabId": "",
+                              "boxShadow": "NONE",
+                              "widgetName": "Holding_company_info_group",
+                              "borderColor": "#E0DEDE",
+                              "isCanvas": true,
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "displayName": "Container",
+                              "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+                              "searchTags": [
+                                "div",
+                                "parent",
+                                "group"
+                              ],
+                              "topRow": 157,
+                              "bottomRow": 187,
                               "parentRowSpace": 10,
                               "type": "CONTAINER_WIDGET",
                               "hideCard": false,
                               "shouldScrollContents": true,
                               "animateLoading": true,
                               "parentColumnSpace": 12.234375,
+                              "dynamicTriggerPathList": [],
                               "leftColumn": 0,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
                               "children": [
                                 {
                                   "rightColumn": 783,
@@ -151,7 +510,7 @@
                                   "detachFromLayout": true,
                                   "widgetId": "9chctalky2",
                                   "containerStyle": "none",
-                                  "bottomRow": 310,
+                                  "bottomRow": 300,
                                   "topRow": 0,
                                   "parentRowSpace": 1,
                                   "isVisible": true,
@@ -166,7 +525,7 @@
                                     "children": []
                                   },
                                   "isLoading": false,
-                                  "minHeight": 310,
+                                  "minHeight": 300,
                                   "renderMode": "CANVAS",
                                   "parentColumnSpace": 1,
                                   "leftColumn": 0,
@@ -180,8 +539,8 @@
                                       "searchTags": [
                                         "upload"
                                       ],
-                                      "topRow": 25,
-                                      "bottomRow": 29,
+                                      "topRow": 24,
+                                      "bottomRow": 28,
                                       "parentRowSpace": 10,
                                       "allowedFileTypes": [],
                                       "type": "FILE_PICKER_WIDGET_V2",
@@ -230,8 +589,8 @@
                                       "searchTags": [
                                         "upload"
                                       ],
-                                      "topRow": 25,
-                                      "bottomRow": 29,
+                                      "topRow": 24,
+                                      "bottomRow": 28,
                                       "parentRowSpace": 10,
                                       "allowedFileTypes": [],
                                       "type": "FILE_PICKER_WIDGET_V2",
@@ -282,8 +641,8 @@
                                         "number",
                                         "textarea"
                                       ],
-                                      "topRow": 15,
-                                      "bottomRow": 22,
+                                      "topRow": 14,
+                                      "bottomRow": 21,
                                       "parentRowSpace": 10,
                                       "labelWidth": 5,
                                       "autoFocus": false,
@@ -341,8 +700,8 @@
                                         "number",
                                         "textarea"
                                       ],
-                                      "topRow": 15,
-                                      "bottomRow": 22,
+                                      "topRow": 14,
+                                      "bottomRow": 21,
                                       "parentRowSpace": 10,
                                       "labelWidth": 5,
                                       "autoFocus": false,
@@ -518,8 +877,8 @@
                                         "number",
                                         "textarea"
                                       ],
-                                      "topRow": 6,
-                                      "bottomRow": 13,
+                                      "topRow": 5,
+                                      "bottomRow": 12,
                                       "parentRowSpace": 10,
                                       "labelWidth": 5,
                                       "autoFocus": false,
@@ -577,8 +936,8 @@
                                         "number",
                                         "textarea"
                                       ],
-                                      "topRow": 6,
-                                      "bottomRow": 13,
+                                      "topRow": 5,
+                                      "bottomRow": 12,
                                       "parentRowSpace": 10,
                                       "labelWidth": 5,
                                       "autoFocus": false,
@@ -635,7 +994,7 @@
                                         "label"
                                       ],
                                       "topRow": 0,
-                                      "bottomRow": 5,
+                                      "bottomRow": 4,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -661,7 +1020,7 @@
                                       "text": "Details of Investment Holding Company",
                                       "key": "5uangsayb5",
                                       "isDeprecated": false,
-                                      "rightColumn": 27,
+                                      "rightColumn": 30,
                                       "textAlign": "LEFT",
                                       "dynamicHeight": "AUTO_HEIGHT",
                                       "widgetId": "fhlltjfjkx",
@@ -690,14 +1049,14 @@
                               "dynamicHeight": "AUTO_HEIGHT",
                               "widgetId": "hm05kiv2uo",
                               "containerStyle": "card",
-                              "isVisible": true,
+                              "isVisible": "{{ShowHide_HoldingCompany_Contai.isChecked}}",
                               "version": 1,
                               "parentId": "rkx3fq4pu1",
                               "renderMode": "CANVAS",
                               "isLoading": false,
-                              "originalTopRow": 155,
+                              "originalTopRow": 157,
                               "maxDynamicHeight": 9000,
-                              "originalBottomRow": 186,
+                              "originalBottomRow": 187,
                               "minDynamicHeight": 10
                             },
                             {
@@ -706,6 +1065,11 @@
                               "widgetName": "Trust_Structures_info_Group",
                               "borderColor": "#E0DEDE",
                               "isCanvas": true,
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
                               "displayName": "Container",
                               "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
                               "searchTags": [
@@ -713,15 +1077,21 @@
                                 "parent",
                                 "group"
                               ],
-                              "topRow": 121,
-                              "bottomRow": 154,
+                              "topRow": 125,
+                              "bottomRow": 156,
                               "parentRowSpace": 10,
                               "type": "CONTAINER_WIDGET",
                               "hideCard": false,
                               "shouldScrollContents": true,
                               "animateLoading": true,
                               "parentColumnSpace": 12.105697631835938,
+                              "dynamicTriggerPathList": [],
                               "leftColumn": 0,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
                               "children": [
                                 {
                                   "rightColumn": 774.7646484375,
@@ -729,7 +1099,7 @@
                                   "detachFromLayout": true,
                                   "widgetId": "6ts6ri1lp5",
                                   "containerStyle": "none",
-                                  "bottomRow": 330,
+                                  "bottomRow": 310,
                                   "topRow": 0,
                                   "parentRowSpace": 1,
                                   "isVisible": true,
@@ -744,7 +1114,7 @@
                                     "children": []
                                   },
                                   "isLoading": false,
-                                  "minHeight": 330,
+                                  "minHeight": 310,
                                   "renderMode": "CANVAS",
                                   "parentColumnSpace": 1,
                                   "leftColumn": 0,
@@ -808,8 +1178,8 @@
                                       "searchTags": [
                                         "upload"
                                       ],
-                                      "topRow": 26,
-                                      "bottomRow": 31,
+                                      "topRow": 24,
+                                      "bottomRow": 29,
                                       "parentRowSpace": 10,
                                       "allowedFileTypes": [],
                                       "type": "FILE_PICKER_WIDGET_V2",
@@ -858,8 +1228,8 @@
                                       "searchTags": [
                                         "upload"
                                       ],
-                                      "topRow": 26,
-                                      "bottomRow": 31,
+                                      "topRow": 24,
+                                      "bottomRow": 29,
                                       "parentRowSpace": 10,
                                       "allowedFileTypes": [],
                                       "type": "FILE_PICKER_WIDGET_V2",
@@ -910,8 +1280,8 @@
                                         "number",
                                         "textarea"
                                       ],
-                                      "topRow": 16,
-                                      "bottomRow": 23,
+                                      "topRow": 14,
+                                      "bottomRow": 21,
                                       "parentRowSpace": 10,
                                       "labelWidth": 5,
                                       "autoFocus": false,
@@ -969,8 +1339,8 @@
                                         "number",
                                         "textarea"
                                       ],
-                                      "topRow": 16,
-                                      "bottomRow": 23,
+                                      "topRow": 14,
+                                      "bottomRow": 21,
                                       "parentRowSpace": 10,
                                       "labelWidth": 5,
                                       "autoFocus": false,
@@ -1146,8 +1516,8 @@
                                         "number",
                                         "textarea"
                                       ],
-                                      "topRow": 7,
-                                      "bottomRow": 14,
+                                      "topRow": 5,
+                                      "bottomRow": 12,
                                       "parentRowSpace": 10,
                                       "labelWidth": 5,
                                       "autoFocus": false,
@@ -1205,8 +1575,8 @@
                                         "number",
                                         "textarea"
                                       ],
-                                      "topRow": 7,
-                                      "bottomRow": 14,
+                                      "topRow": 5,
+                                      "bottomRow": 12,
                                       "parentRowSpace": 10,
                                       "labelWidth": 5,
                                       "autoFocus": false,
@@ -1263,7 +1633,7 @@
                                         "label"
                                       ],
                                       "topRow": 0,
-                                      "bottomRow": 6,
+                                      "bottomRow": 4,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -1289,7 +1659,7 @@
                                       "text": "Details of Trust Structures",
                                       "key": "5uangsayb5",
                                       "isDeprecated": false,
-                                      "rightColumn": 22.349206349206348,
+                                      "rightColumn": 24,
                                       "textAlign": "LEFT",
                                       "dynamicHeight": "AUTO_HEIGHT",
                                       "widgetId": "wqtndslyne",
@@ -1318,14 +1688,14 @@
                               "dynamicHeight": "AUTO_HEIGHT",
                               "widgetId": "rp582bndqw",
                               "containerStyle": "card",
-                              "isVisible": true,
+                              "isVisible": "{{ShowHide_TrustStructures_Conta.isChecked}}",
                               "version": 1,
                               "parentId": "rkx3fq4pu1",
                               "renderMode": "CANVAS",
                               "isLoading": false,
-                              "originalTopRow": 121,
+                              "originalTopRow": 125,
                               "maxDynamicHeight": 9000,
-                              "originalBottomRow": 154,
+                              "originalBottomRow": 156,
                               "minDynamicHeight": 10
                             },
                             {
@@ -1334,6 +1704,11 @@
                               "widgetName": "Letter_of_Wishes_Info_Group",
                               "borderColor": "#E0DEDE",
                               "isCanvas": true,
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
                               "displayName": "Container",
                               "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
                               "searchTags": [
@@ -1341,15 +1716,21 @@
                                 "parent",
                                 "group"
                               ],
-                              "topRow": 106,
-                              "bottomRow": 119,
+                              "topRow": 110,
+                              "bottomRow": 123,
                               "parentRowSpace": 10,
                               "type": "CONTAINER_WIDGET",
                               "hideCard": false,
                               "shouldScrollContents": true,
                               "animateLoading": true,
                               "parentColumnSpace": 7.94775390625,
+                              "dynamicTriggerPathList": [],
                               "leftColumn": 0,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
                               "children": [
                                 {
                                   "rightColumn": 508.65625,
@@ -1551,14 +1932,14 @@
                               "dynamicHeight": "AUTO_HEIGHT",
                               "widgetId": "oif3l6zh9m",
                               "containerStyle": "card",
-                              "isVisible": true,
+                              "isVisible": "{{ShowHideLetterOfWishes.isChecked}}",
                               "version": 1,
                               "parentId": "rkx3fq4pu1",
                               "renderMode": "CANVAS",
                               "isLoading": false,
-                              "originalTopRow": 106,
+                              "originalTopRow": 110,
                               "maxDynamicHeight": 9000,
-                              "originalBottomRow": 119,
+                              "originalBottomRow": 123,
                               "minDynamicHeight": 10
                             },
                             {
@@ -1567,6 +1948,11 @@
                               "widgetName": "Living_Will_Info_Group",
                               "borderColor": "#E0DEDE",
                               "isCanvas": true,
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
                               "displayName": "Container",
                               "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
                               "searchTags": [
@@ -1574,15 +1960,21 @@
                                 "parent",
                                 "group"
                               ],
-                              "topRow": 83,
-                              "bottomRow": 104,
+                              "topRow": 87,
+                              "bottomRow": 108,
                               "parentRowSpace": 10,
                               "type": "CONTAINER_WIDGET",
                               "hideCard": false,
                               "shouldScrollContents": true,
                               "animateLoading": true,
                               "parentColumnSpace": 11.82470703125,
+                              "dynamicTriggerPathList": [],
                               "leftColumn": 0,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
                               "children": [
                                 {
                                   "rightColumn": 756.78125,
@@ -1961,14 +2353,14 @@
                               "dynamicHeight": "AUTO_HEIGHT",
                               "widgetId": "p59jxjd5u1",
                               "containerStyle": "card",
-                              "isVisible": true,
+                              "isVisible": "{{ShowHide_LivingWIll_Container.isChecked}}",
                               "version": 1,
                               "parentId": "rkx3fq4pu1",
                               "renderMode": "CANVAS",
                               "isLoading": false,
-                              "originalTopRow": 83,
+                              "originalTopRow": 87,
                               "maxDynamicHeight": 9000,
-                              "originalBottomRow": 104,
+                              "originalBottomRow": 108,
                               "minDynamicHeight": 10
                             },
                             {
@@ -1977,6 +2369,11 @@
                               "widgetName": "Offshore_Will_Info_group",
                               "borderColor": "#E0DEDE",
                               "isCanvas": true,
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
                               "displayName": "Container",
                               "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
                               "searchTags": [
@@ -1984,15 +2381,21 @@
                                 "parent",
                                 "group"
                               ],
-                              "topRow": 52,
-                              "bottomRow": 82,
+                              "topRow": 56,
+                              "bottomRow": 86,
                               "parentRowSpace": 10,
                               "type": "CONTAINER_WIDGET",
                               "hideCard": false,
                               "shouldScrollContents": true,
                               "animateLoading": true,
                               "parentColumnSpace": 11.82470703125,
+                              "dynamicTriggerPathList": [],
                               "leftColumn": 0,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
                               "children": [
                                 {
                                   "rightColumn": 756.78125,
@@ -2140,8 +2543,8 @@
                                         "number",
                                         "textarea"
                                       ],
-                                      "topRow": 4,
-                                      "bottomRow": 11,
+                                      "topRow": 6,
+                                      "bottomRow": 13,
                                       "parentRowSpace": 10,
                                       "labelWidth": 5,
                                       "autoFocus": false,
@@ -2151,7 +2554,7 @@
                                       "parentColumnSpace": 11.82470703125,
                                       "dynamicTriggerPathList": [],
                                       "resetOnSubmit": true,
-                                      "leftColumn": 50.36065573770492,
+                                      "leftColumn": 50,
                                       "dynamicBindingPathList": [
                                         {
                                           "key": "accentColor"
@@ -2199,8 +2602,8 @@
                                         "number",
                                         "textarea"
                                       ],
-                                      "topRow": 4,
-                                      "bottomRow": 11,
+                                      "topRow": 6,
+                                      "bottomRow": 13,
                                       "parentRowSpace": 10,
                                       "labelWidth": 5,
                                       "autoFocus": false,
@@ -2210,7 +2613,7 @@
                                       "parentColumnSpace": 11.82470703125,
                                       "dynamicTriggerPathList": [],
                                       "resetOnSubmit": true,
-                                      "leftColumn": 33.57377049180328,
+                                      "leftColumn": 33,
                                       "dynamicBindingPathList": [
                                         {
                                           "key": "accentColor"
@@ -2227,7 +2630,7 @@
                                       "labelTextSize": "0.875rem",
                                       "isRequired": false,
                                       "isDeprecated": false,
-                                      "rightColumn": 49.31147540983607,
+                                      "rightColumn": 49,
                                       "dynamicHeight": "FIXED",
                                       "widgetId": "42khvhcrmp",
                                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -2258,8 +2661,8 @@
                                         "number",
                                         "textarea"
                                       ],
-                                      "topRow": 6,
-                                      "bottomRow": 13,
+                                      "topRow": 4,
+                                      "bottomRow": 11,
                                       "parentRowSpace": 10,
                                       "labelWidth": 5,
                                       "autoFocus": false,
@@ -2317,8 +2720,8 @@
                                         "number",
                                         "textarea"
                                       ],
-                                      "topRow": 6,
-                                      "bottomRow": 13,
+                                      "topRow": 4,
+                                      "bottomRow": 11,
                                       "parentRowSpace": 10,
                                       "labelWidth": 5,
                                       "autoFocus": false,
@@ -2375,7 +2778,7 @@
                                         "label"
                                       ],
                                       "topRow": 0,
-                                      "bottomRow": 6,
+                                      "bottomRow": 4,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -2401,7 +2804,7 @@
                                       "text": "Details of Offshore Will",
                                       "key": "5uangsayb5",
                                       "isDeprecated": false,
-                                      "rightColumn": 21,
+                                      "rightColumn": 24,
                                       "textAlign": "LEFT",
                                       "dynamicHeight": "AUTO_HEIGHT",
                                       "widgetId": "9qfl5zmdqc",
@@ -2430,14 +2833,14 @@
                               "dynamicHeight": "AUTO_HEIGHT",
                               "widgetId": "8fwn2wpsgm",
                               "containerStyle": "card",
-                              "isVisible": true,
+                              "isVisible": "{{ShowHideWillsInfoContainer.isChecked}}",
                               "version": 1,
                               "parentId": "rkx3fq4pu1",
                               "renderMode": "CANVAS",
                               "isLoading": false,
-                              "originalTopRow": 52,
+                              "originalTopRow": 56,
                               "maxDynamicHeight": 9000,
-                              "originalBottomRow": 82,
+                              "originalBottomRow": 86,
                               "minDynamicHeight": 10
                             },
                             {
@@ -2956,79 +3359,57 @@
                               "minDynamicHeight": 4
                             },
                             {
-                              "widgetName": "Estate_Tools_Checkbox",
-                              "displayName": "Checkbox Group",
-                              "iconSVG": "/static/media/icon.ecb3847950c4515966ef642a32758afb.svg",
-                              "labelText": "WHICH OF THE FOLLOWING ESTATE TOOLS DO YOU HAVE IN PLACE?",
-                              "topRow": 41,
-                              "bottomRow": 51,
+                              "widgetName": "Estate_Tools_question",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                              "searchTags": [
+                                "typography",
+                                "paragraph",
+                                "label"
+                              ],
+                              "topRow": 39,
+                              "bottomRow": 43,
                               "parentRowSpace": 10,
-                              "labelWidth": 5,
-                              "type": "CHECKBOX_GROUP_WIDGET",
+                              "type": "TEXT_WIDGET",
                               "hideCard": false,
                               "animateLoading": true,
-                              "parentColumnSpace": 12.8603515625,
+                              "overflow": "NONE",
+                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "parentColumnSpace": 11.601730346679688,
                               "dynamicTriggerPathList": [],
                               "leftColumn": 0,
                               "dynamicBindingPathList": [
                                 {
-                                  "key": "accentColor"
+                                  "key": "truncateButtonColor"
+                                },
+                                {
+                                  "key": "fontFamily"
                                 },
                                 {
                                   "key": "borderRadius"
                                 }
                               ],
-                              "labelPosition": "Top",
-                              "options": [
-                                {
-                                  "label": "Offshore Will",
-                                  "value": ""
-                                },
-                                {
-                                  "label": "Living Will",
-                                  "value": "GREEN"
-                                },
-                                {
-                                  "label": "Letter of Wishes",
-                                  "value": "RED"
-                                },
-                                {
-                                  "label": "Trust Structures",
-                                  "value": "OPTION1"
-                                },
-                                {
-                                  "label": "Holding Company",
-                                  "value": "OPTION2"
-                                },
-                                {
-                                  "label": "Other",
-                                  "value": "OPTION3"
-                                }
-                              ],
-                              "labelStyle": "BOLD",
-                              "isDisabled": false,
-                              "key": "ugrcmz1pbj",
-                              "labelTextSize": "0.875rem",
-                              "isRequired": false,
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "text": "WHICH OF THE FOLLOWING ESTATE TOOLS DO YOU CURRENTLY HAVE?",
+                              "key": "mtwp4y9m6s",
                               "isDeprecated": false,
                               "rightColumn": 63,
-                              "defaultSelectedValues": [
-                                "BLUE"
-                              ],
+                              "textAlign": "LEFT",
                               "dynamicHeight": "AUTO_HEIGHT",
-                              "widgetId": "4o4mw2wnki",
-                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "widgetId": "x8j0umu3rx",
                               "isVisible": true,
-                              "version": 2,
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
                               "parentId": "rkx3fq4pu1",
-                              "labelAlignment": "left",
                               "renderMode": "CANVAS",
                               "isLoading": false,
-                              "originalTopRow": 41,
+                              "originalTopRow": 39,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "maxDynamicHeight": 9000,
-                              "originalBottomRow": 51,
-                              "isInline": true,
+                              "originalBottomRow": 48,
+                              "fontSize": "1rem",
                               "minDynamicHeight": 4
                             }
                           ],
@@ -3051,14 +3432,14 @@
                       "key": "dy43fblovv",
                       "backgroundColor": "#FFFFFF",
                       "isDeprecated": false,
-                      "rightColumn": 58,
+                      "rightColumn": 60,
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "nd24d83j58",
                       "isVisible": true,
                       "parentId": "43yv8pkr8k",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 7,
+                      "originalTopRow": 6,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 195,
@@ -3086,7 +3467,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 3.292877197265625,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 0,
+                      "leftColumn": 5,
                       "dynamicBindingPathList": [],
                       "children": [
                         {
@@ -3407,7 +3788,7 @@
                       "key": "clq6nnnf42",
                       "backgroundColor": "#FFFFFF",
                       "isDeprecated": false,
-                      "rightColumn": 11,
+                      "rightColumn": 13,
                       "dynamicHeight": "FIXED",
                       "widgetId": "61shhlc866",
                       "containerStyle": "card",
@@ -3430,7 +3811,7 @@
                         "label"
                       ],
                       "topRow": 0,
-                      "bottomRow": 7,
+                      "bottomRow": 6,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -3506,10 +3887,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 78,
+              "originalTopRow": 4,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 275,
+              "originalBottomRow": 201,
               "minDynamicHeight": 10
             }
           ]

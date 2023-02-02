@@ -6,9 +6,11 @@ export default {
 	},
 	insertOrUpdate: async () => {
 		//use async-await or promises
-			getMarriageProfile.run()
-			const marriageDetails = getMarriageProfile.data[0]
-			// console.log(marriageDetails)
+		 let marriageDetails
+			await getMarriageProfile.run().then(() => {
+			marriageDetails = getMarriageProfile.data[0]
+			console.log(Boolean(marriageDetails))
+			})
 			if(marriageDetails) {
 				updateMarriageProfile.run()
 				showAlert('Update Successful')

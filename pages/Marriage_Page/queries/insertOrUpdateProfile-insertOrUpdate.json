@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n  getMarriageProfile.run();\n  const marriageDetails = getMarriageProfile.data[0];\n  if (marriageDetails) {\n    updateMarriageProfile.run();\n    showAlert('Update Successful');\n    return;\n  }\n  insertMarriageProfile.run();\n  showAlert('Insert Successful');\n}",
+      "body": "async () => {\n  let marriageDetails;\n  await getMarriageProfile.run().then(() => {\n    marriageDetails = getMarriageProfile.data[0];\n    console.log(Boolean(marriageDetails));\n  });\n  if (marriageDetails) {\n    updateMarriageProfile.run();\n    showAlert('Update Successful');\n    return;\n  }\n  insertMarriageProfile.run();\n  showAlert('Insert Successful');\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n  getMarriageProfile.run();\n  const marriageDetails = getMarriageProfile.data[0];\n  if (marriageDetails) {\n    updateMarriageProfile.run();\n    showAlert('Update Successful');\n    return;\n  }\n  insertMarriageProfile.run();\n  showAlert('Insert Successful');\n}"
+      "async () => {\n  let marriageDetails;\n  await getMarriageProfile.run().then(() => {\n    marriageDetails = getMarriageProfile.data[0];\n    console.log(Boolean(marriageDetails));\n  });\n  if (marriageDetails) {\n    updateMarriageProfile.run();\n    showAlert('Update Successful');\n    return;\n  }\n  insertMarriageProfile.run();\n  showAlert('Insert Successful');\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

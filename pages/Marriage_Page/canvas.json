@@ -518,7 +518,7 @@
                               "key": "x93dscta9w",
                               "labelTextSize": "0.875rem",
                               "isRequired": false,
-                              "defaultDate": "{{getUser.data[0]['Date of Birth']}}",
+                              "defaultDate": "{{getMarriageProfile.data[0].dateOfMarriage}}",
                               "isDeprecated": false,
                               "rightColumn": 62,
                               "dynamicHeight": "FIXED",
@@ -659,7 +659,7 @@
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "maxDynamicHeight": 9000,
                               "iconAlign": "left",
-                              "defaultText": "{{getUser.data[0].Email}}",
+                              "defaultText": "{{getMarriageProfile.data[0].spouseEmail}}",
                               "minDynamicHeight": 4
                             },
                             {
@@ -728,7 +728,7 @@
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "maxDynamicHeight": 9000,
                               "iconAlign": "left",
-                              "defaultText": "{{getUser.data[0]['Contact Number']}}",
+                              "defaultText": "{{getMarriageProfile.data[0].spouseContact}}",
                               "minDynamicHeight": 4
                             },
                             {
@@ -801,7 +801,7 @@
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "maxDynamicHeight": 9000,
                               "iconAlign": "left",
-                              "defaultText": "{{getUser.data[0]['ID Number']}}",
+                              "defaultText": "{{getMarriageProfile.data[0].spouseId}}",
                               "minDynamicHeight": 4
                             },
                             {
@@ -920,7 +920,7 @@
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "maxDynamicHeight": 9000,
                               "iconAlign": "left",
-                              "defaultText": "{{getUser.data[0].Name}}",
+                              "defaultText": "{{getMarriageProfile.data[0].spouseFullName}}",
                               "minDynamicHeight": 4
                             },
                             {
@@ -1019,7 +1019,7 @@
                               "key": "x93dscta9w",
                               "labelTextSize": "0.875rem",
                               "isRequired": false,
-                              "defaultDate": "{{getUser.data[0]['Date of Birth']}}",
+                              "defaultDate": "{{getMarriageProfile.data[0].spouseDateOfBirth}}",
                               "isDeprecated": false,
                               "rightColumn": 62,
                               "dynamicHeight": "FIXED",
@@ -1058,7 +1058,7 @@
                               "type": "SELECT_WIDGET",
                               "serverSideFiltering": false,
                               "hideCard": false,
-                              "defaultOptionValue": "",
+                              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getMarriageProfile.data[0].marriageType))(selectMarriageType.options, selectMarriageType.serverSideFiltering) }}",
                               "animateLoading": true,
                               "parentColumnSpace": 12.2998046875,
                               "dynamicTriggerPathList": [],
@@ -1069,6 +1069,9 @@
                                 },
                                 {
                                   "key": "borderRadius"
+                                },
+                                {
+                                  "key": "defaultOptionValue"
                                 }
                               ],
                               "labelPosition": "Top",
@@ -1314,11 +1317,13 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Marriage_Page_getUser",
-              "name": "getUser",
+              "id": "Marriage_Page_getMarriageProfile",
+              "name": "getMarriageProfile",
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                " appsmith.store.jwt"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

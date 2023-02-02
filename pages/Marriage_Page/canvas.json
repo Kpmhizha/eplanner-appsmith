@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 900,
+          "bottomRow": 820,
           "containerStyle": "none",
           "snapRows": 67,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 74,
+          "version": 76,
           "minHeight": 680,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -37,8 +37,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 8,
-              "bottomRow": 82,
+              "topRow": 0,
+              "bottomRow": 74,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -60,7 +60,7 @@
                   "widgetName": "Canvas3",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 730,
+                  "bottomRow": 740,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -429,7 +429,7 @@
                       "minDynamicHeight": 4
                     },
                     {
-                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "boxShadow": "none",
                       "borderColor": "#E0DEDE",
                       "widgetName": "marriageForm",
                       "isCanvas": true,
@@ -451,9 +451,6 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
-                        },
-                        {
-                          "key": "boxShadow"
                         }
                       ],
                       "children": [
@@ -930,8 +927,9 @@
                               "resetFormOnClick": false,
                               "boxShadow": "none",
                               "widgetName": "btnSaveProfile",
-                              "onClick": "{{updateProfile.run(() => showAlert('Profile updated successfully!','success'), () => showAlert('Saving failed :(','error'))}}",
+                              "onClick": "{{insertOrUpdateProfile.insertOrUpdate()}}",
                               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "dynamicPropertyPathList": [],
                               "displayName": "Button",
                               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                               "searchTags": [
@@ -1060,7 +1058,7 @@
                               "type": "SELECT_WIDGET",
                               "serverSideFiltering": false,
                               "hideCard": false,
-                              "defaultOptionValue": "GREEN",
+                              "defaultOptionValue": "",
                               "animateLoading": true,
                               "parentColumnSpace": 12.2998046875,
                               "dynamicTriggerPathList": [],
@@ -1201,7 +1199,7 @@
                           "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
                         }
                       ],
-                      "borderWidth": "1",
+                      "borderWidth": "0",
                       "key": "dy43fblovv",
                       "backgroundColor": "#FFFFFF",
                       "isDeprecated": false,
@@ -1313,7 +1311,18 @@
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Marriage_Page_getUser",
+              "name": "getUser",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Marriage_Page",

@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 840,
+          "bottomRow": 760,
           "containerStyle": "none",
           "snapRows": 67,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 74,
+          "version": 75,
           "minHeight": 680,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -37,8 +37,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 5,
-              "bottomRow": 76,
+              "topRow": 0,
+              "bottomRow": 68,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -46,7 +46,7 @@
               "animateLoading": true,
               "parentColumnSpace": 17.9375,
               "dynamicTriggerPathList": [],
-              "leftColumn": 4,
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -60,12 +60,12 @@
                   "widgetName": "Canvas3",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 710,
+                  "bottomRow": 680,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
                   "hideCard": true,
-                  "minHeight": 710,
+                  "minHeight": 680,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
@@ -427,7 +427,7 @@
                       "minDynamicHeight": 4
                     },
                     {
-                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "boxShadow": "none",
                       "borderColor": "#E0DEDE",
                       "widgetName": "childrenForm",
                       "isCanvas": true,
@@ -437,19 +437,18 @@
                         "group"
                       ],
                       "topRow": 8,
-                      "bottomRow": 69,
+                      "bottomRow": 66,
                       "parentRowSpace": 10,
                       "type": "FORM_WIDGET",
                       "hideCard": false,
+                      "shouldScrollContents": true,
                       "animateLoading": true,
                       "parentColumnSpace": 17.9375,
+                      "dynamicTriggerPathList": [],
                       "leftColumn": 11,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
-                        },
-                        {
-                          "key": "boxShadow"
                         }
                       ],
                       "children": [
@@ -458,12 +457,12 @@
                           "widgetName": "Canvas2",
                           "displayName": "Canvas",
                           "topRow": 0,
-                          "bottomRow": 610,
+                          "bottomRow": 580,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
                           "canExtend": false,
                           "hideCard": true,
-                          "minHeight": 610,
+                          "minHeight": 580,
                           "parentColumnSpace": 1,
                           "leftColumn": 0,
                           "dynamicBindingPathList": [
@@ -561,7 +560,7 @@
                                   "key": "borderRadius"
                                 }
                               ],
-                              "text": "Continue to Children Profile",
+                              "text": "Continue to Assets Summary",
                               "isDisabled": false,
                               "key": "776p7f724t",
                               "isDeprecated": false,
@@ -1355,20 +1354,22 @@
                           "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
                         }
                       ],
-                      "borderWidth": "1",
+                      "borderWidth": "0",
                       "key": "dy43fblovv",
                       "backgroundColor": "#FFFFFF",
                       "isDeprecated": false,
                       "rightColumn": 64,
-                      "dynamicHeight": "FIXED",
+                      "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "65xv2pxm3z",
                       "isVisible": true,
                       "parentId": "oxfdbi0j1d",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "originalTopRow": 8,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "minDynamicHeight": 4
+                      "originalBottomRow": 69,
+                      "minDynamicHeight": 10
                     },
                     {
                       "widgetName": "EPlannerBanner",
@@ -1447,7 +1448,7 @@
               "key": "uq8a2ee0jc",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 63,
+              "rightColumn": 59,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "vwqqx4eyil",
               "containerStyle": "card",
@@ -1456,10 +1457,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 72,
+              "originalTopRow": 0,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 148,
+              "originalBottomRow": 71,
               "minDynamicHeight": 10
             }
           ]

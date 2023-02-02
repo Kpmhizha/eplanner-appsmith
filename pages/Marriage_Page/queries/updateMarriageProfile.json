@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "updateProfile",
+    "name": "updateMarriageProfile",
     "datasource": {
       "name": "eplannerDB",
       "pluginId": "google-sheets-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Profile_Page",
+    "pageId": "Marriage_Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,19 +42,16 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{{\n{ \n\tName: nameField.inputText,\n\tSurname: surnameField.inputText,\n\t'Date of Birth': dobField.formattedDate,\n\t'ID Number': idField.inputText,\n\tEmail: emailField.inputText,\n\t'Residential Address': addressField.inputText,\n\t'Is Married': marriageCheckBox.isChecked,\n\t'Has Children': childrenCheckBox.isChecked,\n\t\"rowIndex\": getUser.data.find( user => user.Email === emailField.inputText).rowIndex\n}\n}}"
+          "data": "{{\n{ \n\tspouseFullName: nameField.inputText,\n\tspouseDateOfBirth: dobField.formattedDate,\n\tdateOfMarriage: domField.formattedDate,\n\tspouseId: idField.inputText,\n\tspouseContact: contactField.inputText,\n\tspouseEmail: emailField.inputText,\n\tmarriageType: selectMarriageType.selectedOptionValue,\n\tmarriageCertificate: \"\",\n\tmarriageContract: \"\",\n\tuserId: appsmith.store.jwt,\n\trowIndex: getMarriageProfile.data[0].rowIndex\n}\n}}"
         },
         "sheetName": {
-          "data": "Users"
+          "data": "Marriage Information"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1FHGOAvxHSNNlL7eMCMQ-HsGR_xno7J603SvEUaeCd3w/edit"
         },
         "smartSubstitution": {
           "data": true
-        },
-        "sortBy": {
-          "data": []
         },
         "tableHeaderIndex": {
           "data": "1"
@@ -76,14 +73,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "\n{ \n\tName: nameField.inputText,\n\tSurname: surnameField.inputText,\n\t'Date of Birth': dobField.formattedDate,\n\t'ID Number': idField.inputText,\n\tEmail: emailField.inputText,\n\t'Residential Address': addressField.inputText,\n\t'Is Married': marriageCheckBox.isChecked,\n\t'Has Children': childrenCheckBox.isChecked,\n\t\"rowIndex\": getUser.data.find( user => user.Email === emailField.inputText).rowIndex\n}\n"
+      "\n{ \n\tspouseFullName: nameField.inputText,\n\tspouseDateOfBirth: dobField.formattedDate,\n\tdateOfMarriage: domField.formattedDate,\n\tspouseId: idField.inputText,\n\tspouseContact: contactField.inputText,\n\tspouseEmail: emailField.inputText,\n\tmarriageType: selectMarriageType.selectedOptionValue,\n\tmarriageCertificate: \"\",\n\tmarriageContract: \"\",\n\tuserId: appsmith.store.jwt,\n\trowIndex: getMarriageProfile.data[0].rowIndex\n}\n"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Profile_Page_updateProfile",
+  "id": "Marriage_Page_updateMarriageProfile",
   "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_6384e296d4541418e7486192"
+  "gitSyncId": "6381f6413e748351b7e698c0_63cd3b648516cd46b3628ab0"
 }

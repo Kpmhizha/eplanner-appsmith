@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 74,
+          "version": 75,
           "minHeight": 680,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -46,7 +46,7 @@
               "animateLoading": true,
               "parentColumnSpace": 17.9375,
               "dynamicTriggerPathList": [],
-              "leftColumn": 1,
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -1281,7 +1281,7 @@
               "key": "uq8a2ee0jc",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 51,
+              "rightColumn": 50,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "4ohlb4ek3z",
               "containerStyle": "card",

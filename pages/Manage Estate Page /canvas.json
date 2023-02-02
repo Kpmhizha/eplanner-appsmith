@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 890,
+          "bottomRow": 700,
           "containerStyle": "none",
           "snapRows": 60,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 74,
+          "version": 76,
           "minHeight": 610,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -37,8 +37,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 19,
-              "bottomRow": 81,
+              "topRow": 0,
+              "bottomRow": 62,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -46,7 +46,7 @@
               "animateLoading": true,
               "parentColumnSpace": 17.9375,
               "dynamicTriggerPathList": [],
-              "leftColumn": 14,
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -1020,7 +1020,7 @@
               "key": "clq6nnnf42",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 64,
+              "rightColumn": 50,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "3xwmgx1cs4",
               "containerStyle": "card",
@@ -1048,7 +1048,7 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": false
+    "isHidden": true
   },
   "deleted": false,
   "gitSyncId": "6381f6413e748351b7e698c0_63bbc347a9c896341acc3689"

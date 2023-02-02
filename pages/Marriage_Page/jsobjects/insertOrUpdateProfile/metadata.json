@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "insertOrUpdateProfile",
+    "pageId": "Marriage_Page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Marriage_Page_insertOrUpdateProfile",
+  "deleted": false,
+  "gitSyncId": "6381f6413e748351b7e698c0_63cede548516cd46b362a1ea"
+}

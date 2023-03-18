@@ -477,7 +477,7 @@
                                       "animateLoading": true,
                                       "parentColumnSpace": 10.915939331054688,
                                       "dynamicTriggerPathList": [],
-                                      "leftColumn": 42.32258064516129,
+                                      "leftColumn": 42,
                                       "dynamicBindingPathList": [
                                         {
                                           "key": "accentColor"
@@ -491,7 +491,7 @@
                                       "key": "hobxonie75",
                                       "isRequired": false,
                                       "isDeprecated": false,
-                                      "rightColumn": 55.74193548387097,
+                                      "rightColumn": 56,
                                       "dynamicHeight": "AUTO_HEIGHT",
                                       "widgetId": "uhcgbrxmt1",
                                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",

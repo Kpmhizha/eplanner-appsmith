@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 780,
+          "bottomRow": 830,
           "containerStyle": "none",
           "snapRows": 67,
           "parentRowSpace": 1,
@@ -289,7 +289,7 @@
                 "group"
               ],
               "topRow": 0,
-              "bottomRow": 70,
+              "bottomRow": 83,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -311,7 +311,7 @@
                   "widgetName": "Canvas6",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 700,
+                  "bottomRow": 830,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -685,7 +685,7 @@
                       "displayName": "Tabs",
                       "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
                       "topRow": 8,
-                      "bottomRow": 68,
+                      "bottomRow": 81,
                       "parentRowSpace": 10,
                       "type": "TABS_WIDGET",
                       "hideCard": false,
@@ -707,7 +707,7 @@
                           "tabId": "tab1",
                           "widgetName": "Canvas2",
                           "displayName": "Canvas",
-                          "bottomRow": 560,
+                          "bottomRow": 690,
                           "topRow": 0,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
@@ -1734,7 +1734,7 @@
                           "tabId": "tab2",
                           "widgetName": "Canvas3",
                           "displayName": "Canvas",
-                          "bottomRow": 670,
+                          "bottomRow": 690,
                           "topRow": 0,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
@@ -1796,8 +1796,8 @@
                                         "paragraph",
                                         "label"
                                       ],
-                                      "topRow": 49,
-                                      "bottomRow": 53,
+                                      "topRow": 54,
+                                      "bottomRow": 58,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -1834,10 +1834,10 @@
                                       "parentId": "ghh2fww39f",
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
-                                      "originalTopRow": 53,
+                                      "originalTopRow": 49,
                                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                                       "maxDynamicHeight": 9000,
-                                      "originalBottomRow": 57,
+                                      "originalBottomRow": 53,
                                       "fontSize": "0.875rem",
                                       "minDynamicHeight": 4
                                     },
@@ -1850,8 +1850,8 @@
                                         "paragraph",
                                         "label"
                                       ],
-                                      "topRow": 42,
-                                      "bottomRow": 46,
+                                      "topRow": 47,
+                                      "bottomRow": 51,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -1888,10 +1888,10 @@
                                       "parentId": "ghh2fww39f",
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
-                                      "originalTopRow": 46,
+                                      "originalTopRow": 42,
                                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                                       "maxDynamicHeight": 9000,
-                                      "originalBottomRow": 50,
+                                      "originalBottomRow": 46,
                                       "fontSize": "0.875rem",
                                       "minDynamicHeight": 4
                                     },
@@ -1904,8 +1904,8 @@
                                         "paragraph",
                                         "label"
                                       ],
-                                      "topRow": 35,
-                                      "bottomRow": 39,
+                                      "topRow": 39,
+                                      "bottomRow": 44,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -1942,10 +1942,10 @@
                                       "parentId": "ghh2fww39f",
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
-                                      "originalTopRow": 39,
+                                      "originalTopRow": 35,
                                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                                       "maxDynamicHeight": 9000,
-                                      "originalBottomRow": 43,
+                                      "originalBottomRow": 39,
                                       "fontSize": "0.875rem",
                                       "minDynamicHeight": 4
                                     },
@@ -1958,8 +1958,8 @@
                                         "paragraph",
                                         "label"
                                       ],
-                                      "topRow": 28,
-                                      "bottomRow": 32,
+                                      "topRow": 31,
+                                      "bottomRow": 36,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -1996,10 +1996,10 @@
                                       "parentId": "ghh2fww39f",
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
-                                      "originalTopRow": 31,
+                                      "originalTopRow": 28,
                                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                                       "maxDynamicHeight": 9000,
-                                      "originalBottomRow": 36,
+                                      "originalBottomRow": 32,
                                       "fontSize": "0.875rem",
                                       "minDynamicHeight": 4
                                     },
@@ -2012,8 +2012,8 @@
                                         "paragraph",
                                         "label"
                                       ],
-                                      "topRow": 21,
-                                      "bottomRow": 26,
+                                      "topRow": 23,
+                                      "bottomRow": 29,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -2050,10 +2050,10 @@
                                       "parentId": "ghh2fww39f",
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
-                                      "originalTopRow": 23,
+                                      "originalTopRow": 21,
                                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                                       "maxDynamicHeight": 9000,
-                                      "originalBottomRow": 29,
+                                      "originalBottomRow": 26,
                                       "fontSize": "0.875rem",
                                       "minDynamicHeight": 4
                                     },
@@ -2066,8 +2066,8 @@
                                         "paragraph",
                                         "label"
                                       ],
-                                      "topRow": 16,
-                                      "bottomRow": 20,
+                                      "topRow": 17,
+                                      "bottomRow": 22,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -2104,10 +2104,10 @@
                                       "parentId": "ghh2fww39f",
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
-                                      "originalTopRow": 17,
+                                      "originalTopRow": 16,
                                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                                       "maxDynamicHeight": 9000,
-                                      "originalBottomRow": 22,
+                                      "originalBottomRow": 20,
                                       "fontSize": "0.875rem",
                                       "minDynamicHeight": 4
                                     },
@@ -2229,7 +2229,7 @@
                                         "label"
                                       ],
                                       "topRow": 10,
-                                      "bottomRow": 14,
+                                      "bottomRow": 15,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -2269,7 +2269,7 @@
                                       "originalTopRow": 10,
                                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                                       "maxDynamicHeight": 9000,
-                                      "originalBottomRow": 15,
+                                      "originalBottomRow": 14,
                                       "fontSize": "0.875rem",
                                       "minDynamicHeight": 4
                                     },
@@ -2302,6 +2302,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2329,7 +2332,7 @@
                                       "maxDynamicHeight": 9000,
                                       "originalBottomRow": 62,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Other_Liabilities.data[0].otherDebtsComments}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2361,6 +2364,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2388,7 +2394,7 @@
                                       "maxDynamicHeight": 9000,
                                       "originalBottomRow": 54,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Other_Liabilities.data[0].medicalAidComments}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2420,6 +2426,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2447,7 +2456,7 @@
                                       "maxDynamicHeight": 9000,
                                       "originalBottomRow": 46,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Other_Liabilities.data[0].ratesTaxesComments}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2479,6 +2488,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2506,7 +2518,7 @@
                                       "maxDynamicHeight": 9000,
                                       "originalBottomRow": 38,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Other_Liabilities.data[0].medicalExpensesComments}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2538,6 +2550,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2565,7 +2580,7 @@
                                       "maxDynamicHeight": 9000,
                                       "originalBottomRow": 30,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Other_Liabilities.data[0].otherContractsComments}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2597,6 +2612,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2624,7 +2642,7 @@
                                       "maxDynamicHeight": 9000,
                                       "originalBottomRow": 22,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Other_Liabilities.data[0].cellphoneContractsComments}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2656,6 +2674,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2683,7 +2704,7 @@
                                       "maxDynamicHeight": 9000,
                                       "originalBottomRow": 14,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Other_Liabilities.data[0].storeAccountsComments}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2714,6 +2735,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2742,7 +2766,7 @@
                                       "originalBottomRow": 60,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Other_Liabilities.data[0].otherDebtsAmount}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2762,6 +2786,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelStyle": "",
@@ -2802,7 +2829,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Other_Liabilities.data[0].medicalAidAmount}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2833,6 +2860,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2861,7 +2891,7 @@
                                       "originalBottomRow": 46,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Other_Liabilities.data[0].ratesTaxesAmount}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2892,6 +2922,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2920,7 +2953,7 @@
                                       "originalBottomRow": 39,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Other_Liabilities.data[0].medicalExpensesAmount}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2951,6 +2984,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2979,7 +3015,7 @@
                                       "originalBottomRow": 32,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Other_Liabilities.data[0].otherContractsAmount}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -3010,6 +3046,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -3038,7 +3077,7 @@
                                       "originalBottomRow": 25,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Other_Liabilities.data[0].cellphoneContractsAmount}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -3069,6 +3108,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -3097,7 +3139,7 @@
                                       "originalBottomRow": 18,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Other_Liabilities.data[0].storeAccountsAmount}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -3391,6 +3433,16 @@
             {
               "id": "Liabilities_Page_get_Loans_Credit",
               "name": "get_Loans_Credit",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                " appsmith.store.jwt "
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Liabilities_Page_get_Other_Liabilities",
+              "name": "get_Other_Liabilities",
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
               "jsonPathKeys": [

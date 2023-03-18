@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "Insert_Policies_Assets",
+    "name": "Insert_Will_and_testament",
     "datasource": {
       "name": "eplannerDB",
       "pluginId": "google-sheets-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Assets_Page",
+    "pageId": "Estate_Tools_Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,10 +42,10 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"lifePoliciesCurrentValue\" : {{Input_lifePolicy_CurrentVal.value}},\n\t\"lifePolicieDeathPayoutValue\" : {{Input_LifePolicy_DeathPayVal.value}},\n\t\"lifePoliciesComments\" : {{Input_LifePolicy_Comms.value}},\n\t\n\t\"retirementPoliciesCurrentValue\" : {{Input_RetirementPolicy_CurrVal.value}},\n\t\"retirementPoliciesDeathPayoutValue\" : {{Input_RetirementPolicy_DeathVa.value}},\n\t\"retirementPoliciesComments\" : {{Input_RetirementPolicy_Comms.value}},\n\t\n\t\"otherPoliciesCurrentValue\" : {{Input_OtherPolicy_CurrVal.value}},\n\t\"otherPoliciesDeathPayoutValue\" : {{Input_OtherPolicy_DeathPayVal.value}},\n\t\"otherPoliciesComments\" : {{Input_OtherPolicy_Comms.value}}\n}"
+          "data": "{\n\t\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"dateExecuted\":{{Date_Will_Executed_input.value}},\n\t\"executorsFullName\":{{Executors_full_name_input}},\n\t\"executorsEmail\":{{Executors_email_input.value}},\n\t\"executorsContactNo\":{{Executors_contact_no_input.value}},\n\t\"whereOriginalisStored\":{{Wheres_original_will_input.value}}\n\t\n}"
         },
         "sheetName": {
-          "data": "Policies"
+          "data": "Last Will and Testament"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1FHGOAvxHSNNlL7eMCMQ-HsGR_xno7J603SvEUaeCd3w/edit"
@@ -73,15 +73,11 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Input_LifePolicy_Comms.value",
-      "Input_LifePolicy_DeathPayVal.value",
-      "Input_OtherPolicy_Comms.value",
-      "Input_OtherPolicy_CurrVal.value",
-      "Input_OtherPolicy_DeathPayVal.value",
-      "Input_RetirementPolicy_Comms.value",
-      "Input_RetirementPolicy_CurrVal.value",
-      "Input_RetirementPolicy_DeathVa.value",
-      "Input_lifePolicy_CurrentVal.value",
+      "Date_Will_Executed_input.value",
+      "Executors_contact_no_input.value",
+      "Executors_email_input.value",
+      "Executors_full_name_input",
+      "Wheres_original_will_input.value",
       "appsmith.store.jwt"
     ],
     "userSetOnLoad": false,
@@ -89,7 +85,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Assets_Page_Insert_Policies_Assets",
+  "id": "Estate_Tools_Page_Insert_Will_and_testament",
   "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_6415a99a7d14f758304b7c93"
+  "gitSyncId": "6381f6413e748351b7e698c0_6415ab98ec20775f76c4cbb7"
 }

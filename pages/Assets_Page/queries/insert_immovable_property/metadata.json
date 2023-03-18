@@ -42,7 +42,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"primaryResMarketValue\": {{ input_MV_PrimaryRes.value}},\n\t\"primaryResBaseCost\" : {{input_BC_PrimaryRes.value}},\n\t\"primaryResComments\" : {{inputCommentPrimaryRes.value}}\n\t\n}"
+          "data": "{\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"primaryResMarketValue\": {{ input_MV_PrimaryRes.value}},\n\t\"primaryResBaseCost\" : {{input_BC_PrimaryRes.value}},\n\t\"primaryResComments\" : {{inputCommentPrimaryRes.value}},\n\t\"otherImmovablePropMarketValue\" : {{input_MV_OtherImmv.value}}\n\t\n}"
         },
         "sheetName": {
           "data": "Immovable Property"
@@ -76,7 +76,8 @@
       " input_MV_PrimaryRes.value",
       "appsmith.store.jwt",
       "inputCommentPrimaryRes.value",
-      "input_BC_PrimaryRes.value"
+      "input_BC_PrimaryRes.value",
+      "input_MV_OtherImmv.value"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

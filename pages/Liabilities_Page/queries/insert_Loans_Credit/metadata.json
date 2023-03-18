@@ -42,7 +42,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\t\n\t\"userId\": {{ appsmith.store.jwt }},\n\t\"bondAmount\" : {{ inputBondAmount.value }},\n\t\"bondComments\" : {{ inputBondComments.value }},\n\t\"vehicleFinancingAmount\" :{{ inputVehicleAmount.value }},\n\t\"vehicleFinancingComments\" : {{ inputVehicleComments.value }},\n\t\"stLoanAmount\" :{{inputLoanAmount.value}},\n\t\"stLoanComments\":{{inputLoansComments.value}}\n\t\"creditCardDebtAmount\":{{inputCreditCardAmount.value}}\n\t\"creditCardDebtComments\" :{{inputCreditCardComments.value}}\n}\n\n\n"
+          "data": "{\t\n\t\"userId\": {{ appsmith.store.jwt }},\n\t\"bondAmount\" : {{ inputBondAmount.value }},\n\t\"bondComments\" : {{ inputBondComments.value }},\n\t\"vehicleFinancingAmount\" :{{ inputVehicleAmount.value }},\n\t\"vehicleFinancingComments\" : {{ inputVehicleComments.value }},\n\t\"stLoanAmount\" :{{inputLoanAmount.value}},\n\t\"stLoanComments\":{{inputLoansComments.value}},\n\t\"creditCardDebtAmount\":{{inputCreditCardAmount.value}},\n\t\"creditCardDebtComments\" :{{inputCreditCardComments.value}}\n}\n\n\n"
         },
         "sheetName": {
           "data": "Loans and Credit Liabilities"

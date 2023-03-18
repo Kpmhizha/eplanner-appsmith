@@ -4216,7 +4216,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1Copy1CopyCopy2",
+                                      "widgetName": "Input_OtherPolicy_CurrVal",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -4273,7 +4273,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1CopyCopyCopyCopy2",
+                                      "widgetName": "Input_OtherPolicy_DeathPayVal",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -4332,7 +4332,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "Input1CopyCopyCopy2",
+                                      "widgetName": "Input_OtherPolicy_Comms",
                                       "displayName": "Input",
                                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                                       "searchTags": [
@@ -4445,7 +4445,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1Copy1Copy3",
+                                      "widgetName": "Input_RetirementPolicy_CurrVal",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -4502,7 +4502,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1CopyCopyCopy3",
+                                      "widgetName": "Input_RetirementPolicy_DeathVa",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -4561,7 +4561,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "Input1CopyCopy3",
+                                      "widgetName": "Input_RetirementPolicy_Comms",
                                       "displayName": "Input",
                                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                                       "searchTags": [
@@ -4674,7 +4674,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1CopyCopy3",
+                                      "widgetName": "Input_LifePolicy_DeathPayVal",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -4889,7 +4889,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1Copy4",
+                                      "widgetName": "Input_lifePolicy_CurrentVal",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -5000,7 +5000,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "Input1Copy3",
+                                      "widgetName": "Input_LifePolicy_Comms",
                                       "displayName": "Input",
                                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                                       "searchTags": [

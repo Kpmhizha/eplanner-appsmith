@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "Insert_other_assets_",
+    "name": "Insert_Policies_Assets",
     "datasource": {
       "name": "eplannerDB",
       "pluginId": "google-sheets-plugin",
@@ -42,10 +42,10 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"localBankAccountValue\": {{input_Local_Account_Amount.value}},\n\t\"localBankAccountComments\":{{Input_Local_Acc_Comments.value}},\n\t\"offshoreBankAccountsValue\":{{Input_Offshore_Account_Amount.value}},\n\t\"offshoreBankAccountsComments\":{{input_Offshore_account_Comment.value}},\n\t\"highValuePersonalUseAssetsValue\":{{Input_HighValue_Assets.value}},\n\t\"highValuePersonalUseAssetsComments\":{{input_highvalue_comments.value}}\n\n\n\n\n}"
+          "data": "{\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"lifePoliciesCurrentValue\" : {{Input_lifePolicy_CurrentVal.value}},\n\t\"lifePolicieDeathPayoutValue\" : {{Input_LifePolicy_DeathPayVal.value}},\n\t\"lifePoliciesComments\" : {{Input_LifePolicy_Comms.value}},\n\t\n\t\"retirementPoliciesCurrentValue\" : {{Input_RetirementPolicy_CurrVal.value}}\n}"
         },
         "sheetName": {
-          "data": "Other Assets"
+          "data": "Policies"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1FHGOAvxHSNNlL7eMCMQ-HsGR_xno7J603SvEUaeCd3w/edit"
@@ -73,20 +73,18 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Input_HighValue_Assets.value",
-      "Input_Local_Acc_Comments.value",
-      "Input_Offshore_Account_Amount.value",
-      "appsmith.store.jwt",
-      "input_Local_Account_Amount.value",
-      "input_Offshore_account_Comment.value",
-      "input_highvalue_comments.value"
+      "Input_LifePolicy_Comms.value",
+      "Input_LifePolicy_DeathPayVal.value",
+      "Input_RetirementPolicy_CurrVal.value",
+      "Input_lifePolicy_CurrentVal.value",
+      "appsmith.store.jwt"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Assets_Page_Insert_other_assets_",
+  "id": "Assets_Page_Insert_Policies_Assets",
   "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_6415a07971d5213f118d37e7"
+  "gitSyncId": "6381f6413e748351b7e698c0_6415a99a7d14f758304b7c93"
 }

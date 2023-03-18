@@ -42,7 +42,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"trustName\":{{Trust_name_input.value}},\n\t\"managingTrusteeName\":{{Trustee_name_input.value}}\n\t\"managingTrusteeEmail\":{{Trustee_email_input.value}}\n\t\"managingTrusteeContactNo\":{{Trustee_contact_input.value}}\n\t\"trustRegNo\":{{Trust_Reg_No_input.value}}\n\t\"trustTaxNo\":{{Trust_Tax_No_Input.value}}\n\t\"letterOfAuthority\":\"\"\n\t\"trustDeed\":\"\"\n\t\"trustResolution\":\"\"\n\t\n}"
+          "data": "{\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"trustName\":{{Trust_name_input.value}},\n\t\"managingTrusteeName\":{{Trustee_name_input.value}},\n\t\"managingTrusteeEmail\":{{Trustee_email_input.value}},\n\t\"managingTrusteeContactNo\":{{Trustee_contact_input.value}},\n\t\"trustRegNo\":{{Trust_Reg_No_input.value}},\n\t\"trustTaxNo\":{{Trust_Tax_No_Input.value}},\n\t\"letterOfAuthority\":\"\",\n\t\"trustDeed\":\"\",\n\t\"trustResolution\":\"\"\n\t\n}"
         },
         "sheetName": {
           "data": "Trust Structures"

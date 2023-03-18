@@ -42,7 +42,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"dateSigned\":{{Date_Signed_Input.value}}"
+          "data": "{\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"dateSigned\":{{Date_Signed_Input.value}}\n}"
         },
         "sheetName": {
           "data": "Letter of Wishes"

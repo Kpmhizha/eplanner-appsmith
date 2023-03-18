@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "Insert_Hoding_Company",
+    "name": "insert_other_Estate_tools",
     "datasource": {
       "name": "eplannerDB",
       "pluginId": "google-sheets-plugin",
@@ -42,10 +42,10 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"companyName\":{{Company_name_input.value}},\n\t\"managingDirectorName\":{{Directors_name_input.value}},\n\t\"managingDirectorsContactNo\":{{Directors_contact_no_input.value}},\n\t\"companyRegNo\":{{Company_reg_no_input.value}},\n\t\"companyTaxNo\":{{Company_tax_no_input.value}},\n\t\"cipcDisclosureDoc\":\"\",\n\t\"annualFinancials\":\"\"\n}"
+          "data": "{\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"otherEstateToolsDetails\":{{OtherEstateToolsInput.value}},\n\t\"otherEstateToolsInfo\":\"\"\n}"
         },
         "sheetName": {
-          "data": "Holding Company"
+          "data": "Other Estate Tools"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1FHGOAvxHSNNlL7eMCMQ-HsGR_xno7J603SvEUaeCd3w/edit"
@@ -73,11 +73,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Company_name_input.value",
-      "Company_reg_no_input.value",
-      "Company_tax_no_input.value",
-      "Directors_contact_no_input.value",
-      "Directors_name_input.value",
+      "OtherEstateToolsInput.value",
       "appsmith.store.jwt"
     ],
     "userSetOnLoad": false,
@@ -85,7 +81,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Estate_Tools_Page_Insert_Hoding_Company",
+  "id": "Estate_Tools_Page_insert_other_Estate_tools",
   "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_6415c2b471d5213f118d3912"
+  "gitSyncId": "6381f6413e748351b7e698c0_6415c6d671d5213f118d3927"
 }

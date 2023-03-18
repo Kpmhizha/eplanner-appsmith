@@ -1612,6 +1612,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -1638,7 +1641,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Movable_Property.data[0].moneyMarketUnitTrustsMarketValue}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -1669,6 +1672,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -1695,7 +1701,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Movable_Property.data[0].moneyMarketUnitTrustsBaseCost}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -1727,6 +1733,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -1754,7 +1763,7 @@
                                       "maxDynamicHeight": 9000,
                                       "originalBottomRow": 49,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Movable_Property.data[0].moneyMarketUnitTrustsComments}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -1839,6 +1848,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -1865,7 +1877,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Movable_Property.data[0].digitalAssetsMarketValue}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -1896,6 +1908,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -1922,7 +1937,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Movable_Property.data[0].digitalAssetsBaseCost}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -1954,6 +1969,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -1981,7 +1999,7 @@
                                       "maxDynamicHeight": 9000,
                                       "originalBottomRow": 43,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Movable_Property.data[0].digitalAssetsComments}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2066,6 +2084,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2092,7 +2113,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Movable_Property.data[0].highValueNonPersonalUseMarketValue}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2123,6 +2144,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2149,7 +2173,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Movable_Property.data[0].highValueNonPersonalUseBaseCost}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2181,6 +2205,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2208,7 +2235,7 @@
                                       "maxDynamicHeight": 9000,
                                       "originalBottomRow": 37,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Movable_Property.data[0].highValueNonPersonalUseComments}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2402,6 +2429,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2428,7 +2458,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Movable_Property.data[0].unlistedInvestmentsMarketValue}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2459,6 +2489,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2485,7 +2518,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Movable_Property.data[0].unlistedInvestmentsBaseCost}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2517,6 +2550,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2544,7 +2580,7 @@
                                       "maxDynamicHeight": 9000,
                                       "originalBottomRow": 31,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Movable_Property.data[0].unlistedInvestmentsComments}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2629,6 +2665,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2655,7 +2694,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Movable_Property.data[0].offshoreInvestmentPortfolioMarketValue}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2686,6 +2725,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2712,7 +2754,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Movable_Property.data[0].offshoreInvestmentPortfolioBaseCost}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2744,6 +2786,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -2771,7 +2816,7 @@
                                       "maxDynamicHeight": 9000,
                                       "originalBottomRow": 24,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Movable_Property.data[0].offshoreInvestmentPortfolioComments}}",
                                       "minDynamicHeight": 4
                                     },
                                     {

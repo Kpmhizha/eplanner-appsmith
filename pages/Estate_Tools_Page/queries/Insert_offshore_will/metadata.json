@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "Insert_Will_and_testament",
+    "name": "Insert_offshore_will",
     "datasource": {
       "name": "eplannerDB",
       "pluginId": "google-sheets-plugin",
@@ -41,11 +41,8 @@
         "range": {
           "data": ""
         },
-        "rowObjects": {
-          "data": "{\n\t\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"dateExecuted\":{{Date_Will_Executed_input.value}},\n\t\"executorsFullName\":{{Executors_full_name_input.value}},\n\t\"executorsEmail\":{{Executors_email_input.value}},\n\t\"executorsContactNo\":{{Executors_contact_no_input.value}},\n\t\"whereOriginalisStored\":{{Wheres_original_will_input.value}},\n\t\"copyOfWill\":\"\"\n}\n"
-        },
         "sheetName": {
-          "data": "Last Will and Testament"
+          "data": "Offshore Will"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1FHGOAvxHSNNlL7eMCMQ-HsGR_xno7J603SvEUaeCd3w/edit"
@@ -64,28 +61,17 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "formData.rowObjects.data"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "Date_Will_Executed_input.value",
-      "Executors_contact_no_input.value",
-      "Executors_email_input.value",
-      "Executors_full_name_input.value",
-      "Wheres_original_will_input.value",
-      "appsmith.store.jwt"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Estate_Tools_Page_Insert_Will_and_testament",
+  "id": "Estate_Tools_Page_Insert_offshore_will",
   "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_6415ab98ec20775f76c4cbb7"
+  "gitSyncId": "6381f6413e748351b7e698c0_6415b216ec20775f76c4cbeb"
 }

@@ -1559,7 +1559,7 @@
                                   "children": [
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1Copy1CopyCopyCopy2",
+                                      "widgetName": "Input_MM_UnitTrust_MV",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -1616,7 +1616,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1CopyCopyCopyCopyCopy2",
+                                      "widgetName": "Input_MM_UnitTrust_BC",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -1673,7 +1673,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "Input1CopyCopyCopyCopy2",
+                                      "widgetName": "Input_MM_UnitTrust_Comms",
                                       "displayName": "Input",
                                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                                       "searchTags": [
@@ -1786,7 +1786,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1Copy1CopyCopyCopy1",
+                                      "widgetName": "Input_DigiAss_MV",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -1843,7 +1843,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1CopyCopyCopyCopyCopy1",
+                                      "widgetName": "Input_DigiAss_BC",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -1900,7 +1900,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "Input1CopyCopyCopyCopy1",
+                                      "widgetName": "Input_DigiAss_Comms",
                                       "displayName": "Input",
                                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                                       "searchTags": [
@@ -2013,7 +2013,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1Copy1CopyCopyCopy",
+                                      "widgetName": "Input_HighVal_non_personal_Ass",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -2070,7 +2070,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1CopyCopyCopyCopyCopy",
+                                      "widgetName": "Input_HighVal_nonpersonAss_BC",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -2127,7 +2127,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "Input1CopyCopyCopyCopy",
+                                      "widgetName": "Input_HighVal_NonPersonAss_Com",
                                       "displayName": "Input",
                                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                                       "searchTags": [
@@ -2349,7 +2349,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1Copy1CopyCopy",
+                                      "widgetName": "Input_UnlistedInv_MV",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -2406,7 +2406,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1CopyCopyCopyCopy",
+                                      "widgetName": "Input_UnlistedInv_BC",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -2463,7 +2463,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "Input1CopyCopyCopy",
+                                      "widgetName": "Input_UnlistedInv_Comms",
                                       "displayName": "Input",
                                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                                       "searchTags": [
@@ -2633,7 +2633,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1CopyCopyCopy1",
+                                      "widgetName": "Input_OffshoreInvPort_BC",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -2690,7 +2690,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "Input1CopyCopy1",
+                                      "widgetName": "Input_OffshoreInvPortfolio_Com",
                                       "displayName": "Input",
                                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                                       "searchTags": [
@@ -3394,7 +3394,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1Copy1CopyCopy1",
+                                      "widgetName": "Input_HighValue_Assets",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -3451,7 +3451,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "Input1CopyCopyCopy1",
+                                      "widgetName": "input_highvalue_comments",
                                       "displayName": "Input",
                                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                                       "searchTags": [
@@ -3564,7 +3564,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1Copy1Copy2",
+                                      "widgetName": "Input_Offshore_Account_Amount",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -3621,7 +3621,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "Input1CopyCopy2",
+                                      "widgetName": "input_Offshore_account_Comment",
                                       "displayName": "Input",
                                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                                       "searchTags": [
@@ -3836,7 +3836,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1Copy3",
+                                      "widgetName": "input_Local_Account_Amount",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -3947,7 +3947,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "Input1Copy2",
+                                      "widgetName": "Input_Local_Acc_Comments",
                                       "displayName": "Input",
                                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                                       "searchTags": [

@@ -42,7 +42,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"dateExecuted\":{{Date_Will_Executed_input.value}},\n\t\"executorsFullName\":{{Executors_full_name_input}},\n\t\"executorsEmail\":{{Executors_email_input.value}},\n\t\"executorsContactNo\":{{Executors_contact_no_input.value}},\n\t\"whereOriginalisStored\":{{Wheres_original_will_input.value}}\n\t\n}"
+          "data": "{\n\t\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"dateExecuted\":{{Date_Will_Executed_input.value}},\n\t\"executorsFullName\":{{Executors_full_name_input}},\n\t\"executorsEmail\":{{Executors_email_input.value}},\n\t\"executorsContactNo\":{{Executors_contact_no_input.value}},\n\t\"whereOriginalisStored\":{{Wheres_original_will_input.value}}\n\t\"copyOfWill\":\"\"\n}"
         },
         "sheetName": {
           "data": "Last Will and Testament"

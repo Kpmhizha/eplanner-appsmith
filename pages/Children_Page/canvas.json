@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 760,
+          "bottomRow": 680,
           "containerStyle": "none",
           "snapRows": 67,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 75,
+          "version": 77,
           "minHeight": 680,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -618,9 +618,6 @@
                                 },
                                 {
                                   "key": "borderRadius"
-                                },
-                                {
-                                  "key": "defaultText"
                                 }
                               ],
                               "labelPosition": "Top",
@@ -646,7 +643,7 @@
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "maxDynamicHeight": 9000,
                               "iconAlign": "left",
-                              "defaultText": "{{getUser.data[0]['Contact Number']}}",
+                              "defaultText": "",
                               "minDynamicHeight": 4
                             },
                             {
@@ -691,9 +688,6 @@
                                 },
                                 {
                                   "key": "borderRadius"
-                                },
-                                {
-                                  "key": "defaultText"
                                 }
                               ],
                               "labelPosition": "Top",
@@ -719,7 +713,7 @@
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "maxDynamicHeight": 9000,
                               "iconAlign": "left",
-                              "defaultText": "{{getUser.data[0]['ID Number']}}",
+                              "defaultText": "",
                               "minDynamicHeight": 4
                             },
                             {
@@ -810,9 +804,6 @@
                                 },
                                 {
                                   "key": "borderRadius"
-                                },
-                                {
-                                  "key": "defaultText"
                                 }
                               ],
                               "labelPosition": "Top",
@@ -838,7 +829,7 @@
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "maxDynamicHeight": 9000,
                               "iconAlign": "left",
-                              "defaultText": "{{getUser.data[0].Name}}",
+                              "defaultText": "",
                               "minDynamicHeight": 4
                             },
                             {
@@ -873,9 +864,6 @@
                                 },
                                 {
                                   "key": "borderRadius"
-                                },
-                                {
-                                  "key": "defaultDate"
                                 }
                               ],
                               "labelPosition": "Top",
@@ -883,7 +871,7 @@
                               "key": "x93dscta9w",
                               "labelTextSize": "0.875rem",
                               "isRequired": false,
-                              "defaultDate": "{{getUser.data[0]['Date of Birth']}}",
+                              "defaultDate": "",
                               "isDeprecated": false,
                               "rightColumn": 62,
                               "dynamicHeight": "FIXED",
@@ -971,21 +959,6 @@
                                   "key": "tableData"
                                 },
                                 {
-                                  "key": "primaryColumns.EditActions1.saveButtonColor"
-                                },
-                                {
-                                  "key": "primaryColumns.EditActions1.saveBorderRadius"
-                                },
-                                {
-                                  "key": "primaryColumns.EditActions1.discardBorderRadius"
-                                },
-                                {
-                                  "key": "primaryColumns.EditActions1.isSaveDisabled"
-                                },
-                                {
-                                  "key": "primaryColumns.EditActions1.isDiscardDisabled"
-                                },
-                                {
                                   "key": "primaryColumns.childName.computedValue"
                                 },
                                 {
@@ -1008,6 +981,21 @@
                                 },
                                 {
                                   "key": "borderColor"
+                                },
+                                {
+                                  "key": "primaryColumns.EditActions1.saveButtonColor"
+                                },
+                                {
+                                  "key": "primaryColumns.EditActions1.saveBorderRadius"
+                                },
+                                {
+                                  "key": "primaryColumns.EditActions1.discardBorderRadius"
+                                },
+                                {
+                                  "key": "primaryColumns.EditActions1.isSaveDisabled"
+                                },
+                                {
+                                  "key": "primaryColumns.EditActions1.isDiscardDisabled"
                                 }
                               ],
                               "leftColumn": 1,
@@ -1046,6 +1034,7 @@
                                 }
                               },
                               "borderRadius": "1.5rem",
+                              "columnUpdatedAt": 1677696939271,
                               "defaultSelectedRowIndices": [
                                 0
                               ],
@@ -1056,10 +1045,10 @@
                                 "childDateOfBirth",
                                 "guardianName",
                                 "guardianContact",
-                                "EditActions1",
                                 "acceptanceOfGuardianship",
                                 "userId",
-                                "rowIndex"
+                                "rowIndex",
+                                "EditActions1"
                               ],
                               "dynamicPropertyPathList": [
                                 {
@@ -1087,44 +1076,6 @@
                               "dynamicTriggerPathList": [],
                               "borderWidth": "2",
                               "primaryColumns": {
-                                "EditActions1": {
-                                  "allowCellWrapping": false,
-                                  "index": 4,
-                                  "width": 150,
-                                  "originalId": "EditActions1",
-                                  "id": "EditActions1",
-                                  "alias": "EditActions1",
-                                  "horizontalAlignment": "LEFT",
-                                  "verticalAlignment": "CENTER",
-                                  "columnType": "editActions",
-                                  "textSize": "0.875rem",
-                                  "enableFilter": true,
-                                  "enableSort": true,
-                                  "isVisible": true,
-                                  "isDisabled": false,
-                                  "isCellEditable": false,
-                                  "isEditable": false,
-                                  "isCellVisible": true,
-                                  "isDerived": true,
-                                  "label": "Save / Discard",
-                                  "isSaveVisible": true,
-                                  "isDiscardVisible": true,
-                                  "computedValue": "",
-                                  "validation": {},
-                                  "buttonStyle": "rgb(3, 179, 101)",
-                                  "saveIconAlign": "left",
-                                  "discardIconAlign": "left",
-                                  "saveActionLabel": "Save",
-                                  "discardActionLabel": "Discard",
-                                  "saveButtonColor": "{{childrenTable.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
-                                  "discardButtonColor": "#F22B2B",
-                                  "saveBorderRadius": "{{childrenTable.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
-                                  "discardBorderRadius": "{{childrenTable.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
-                                  "discardButtonVariant": "TERTIARY",
-                                  "isSaveDisabled": "{{childrenTable.processedTableData.map((currentRow, currentIndex) => ( !childrenTable.updatedRowIndices.includes(currentIndex)))}}",
-                                  "isDiscardDisabled": "{{childrenTable.processedTableData.map((currentRow, currentIndex) => ( !childrenTable.updatedRowIndices.includes(currentIndex)))}}",
-                                  "cellBackground": "#fff"
-                                },
                                 "childName": {
                                   "allowCellWrapping": false,
                                   "index": 0,
@@ -1151,7 +1102,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{childrenTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"childName\"]))}}",
                                   "validation": {},
-                                  "cellBackground": "#fff"
+                                  "cellBackground": "#fff",
+                                  "sticky": ""
                                 },
                                 "childDateOfBirth": {
                                   "allowCellWrapping": false,
@@ -1170,8 +1122,8 @@
                                   "enableSort": true,
                                   "isVisible": true,
                                   "isDisabled": false,
-                                  "isCellEditable": false,
-                                  "isEditable": false,
+                                  "isCellEditable": true,
+                                  "isEditable": true,
                                   "isCellVisible": true,
                                   "isDerived": false,
                                   "label": "Date of Birth",
@@ -1179,7 +1131,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{childrenTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"childDateOfBirth\"]))}}",
                                   "validation": {},
-                                  "cellBackground": "#fff"
+                                  "cellBackground": "#fff",
+                                  "sticky": ""
                                 },
                                 "guardianName": {
                                   "allowCellWrapping": false,
@@ -1207,7 +1160,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{childrenTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"guardianName\"]))}}",
                                   "validation": {},
-                                  "cellBackground": "#fff"
+                                  "cellBackground": "#fff",
+                                  "sticky": ""
                                 },
                                 "guardianContact": {
                                   "allowCellWrapping": false,
@@ -1235,7 +1189,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{childrenTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"guardianContact\"]))}}",
                                   "validation": {},
-                                  "cellBackground": "#fff"
+                                  "cellBackground": "#fff",
+                                  "sticky": ""
                                 },
                                 "acceptanceOfGuardianship": {
                                   "allowCellWrapping": false,
@@ -1263,7 +1218,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{childrenTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"acceptanceOfGuardianship\"]))}}",
                                   "validation": {},
-                                  "cellBackground": "#fff"
+                                  "cellBackground": "#fff",
+                                  "sticky": ""
                                 },
                                 "userId": {
                                   "allowCellWrapping": false,
@@ -1291,7 +1247,8 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{childrenTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"userId\"]))}}",
                                   "validation": {},
-                                  "cellBackground": "#fff"
+                                  "cellBackground": "#fff",
+                                  "sticky": ""
                                 },
                                 "rowIndex": {
                                   "allowCellWrapping": false,
@@ -1319,14 +1276,52 @@
                                   "isDiscardVisible": true,
                                   "computedValue": "{{childrenTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rowIndex\"]))}}",
                                   "validation": {},
-                                  "cellBackground": "#fff"
+                                  "cellBackground": "#fff",
+                                  "sticky": ""
+                                },
+                                "EditActions1": {
+                                  "allowCellWrapping": false,
+                                  "index": 7,
+                                  "width": 150,
+                                  "originalId": "EditActions1",
+                                  "id": "EditActions1",
+                                  "alias": "EditActions1",
+                                  "columnType": "editActions",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellEditable": false,
+                                  "isEditable": false,
+                                  "isCellVisible": true,
+                                  "isDerived": true,
+                                  "label": "Save / Discard",
+                                  "isSaveVisible": true,
+                                  "isDiscardVisible": true,
+                                  "computedValue": "",
+                                  "validation": {},
+                                  "buttonStyle": "rgb(3, 179, 101)",
+                                  "saveIconAlign": "left",
+                                  "discardIconAlign": "left",
+                                  "saveActionLabel": "Save",
+                                  "discardActionLabel": "Discard",
+                                  "saveButtonColor": "{{childrenTable.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
+                                  "discardButtonColor": "#F22B2B",
+                                  "saveBorderRadius": "{{childrenTable.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
+                                  "discardBorderRadius": "{{childrenTable.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
+                                  "discardButtonVariant": "TERTIARY",
+                                  "isSaveDisabled": "{{childrenTable.processedTableData.map((currentRow, currentIndex) => ( !childrenTable.updatedRowIndices.includes(currentIndex)))}}",
+                                  "isDiscardDisabled": "{{childrenTable.processedTableData.map((currentRow, currentIndex) => ( !childrenTable.updatedRowIndices.includes(currentIndex)))}}",
+                                  "sticky": ""
                                 }
                               },
                               "key": "264qt571c2",
+                              "canFreezeColumn": false,
                               "isDeprecated": false,
                               "rightColumn": 63,
                               "textSize": "0.875rem",
                               "widgetId": "so7c91c3js",
+                              "allowAddNewRow": false,
                               "tableData": "{{fetchChildren.data}}",
                               "label": "Data",
                               "searchKey": "",
@@ -1368,7 +1363,7 @@
                       "originalTopRow": 8,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 69,
+                      "originalBottomRow": 66,
                       "minDynamicHeight": 10
                     },
                     {
@@ -1460,7 +1455,7 @@
               "originalTopRow": 0,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 71,
+              "originalBottomRow": 68,
               "minDynamicHeight": 10
             }
           ]

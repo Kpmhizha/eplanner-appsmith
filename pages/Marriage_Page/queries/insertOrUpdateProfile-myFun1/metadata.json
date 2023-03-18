@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "myFun1",
-    "fullyQualifiedName": "JSObject1.myFun1",
+    "fullyQualifiedName": "insertOrUpdateProfile.myFun1",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,13 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Estate_Tools_Page",
-    "collectionId": "Estate_Tools_Page_JSObject1",
+    "pageId": "Marriage_Page",
+    "collectionId": "Marriage_Page_insertOrUpdateProfile",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -34,15 +33,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => {}"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Estate_Tools_Page_JSObject1.myFun1",
+  "id": "Marriage_Page_insertOrUpdateProfile.myFun1",
   "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_63c0241b926a11120b6fc752"
+  "gitSyncId": "6381f6413e748351b7e698c0_63cede548516cd46b362a1e6"
 }

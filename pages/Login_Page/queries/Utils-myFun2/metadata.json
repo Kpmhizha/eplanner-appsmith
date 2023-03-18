@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "loginUser",
-    "fullyQualifiedName": "Utils.loginUser",
+    "name": "myFun2",
+    "fullyQualifiedName": "Utils.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -19,12 +19,12 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  const user = fetchUser.run();\n  return user.then(res => {\n    console.log(res);\n    if (res.length > 0) {\n      storeValue('jwt', res[0].jwt);\n      navigateTo('Home_Page');\n      return res[0].jwt;\n    } else {\n      showAlert('Invalid Credentials', 'error');\n      return '';\n    }\n  });\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
     },
     "executeOnLoad": false,
+    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -33,15 +33,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => {\n  const user = fetchUser.run();\n  return user.then(res => {\n    console.log(res);\n    if (res.length > 0) {\n      storeValue('jwt', res[0].jwt);\n      navigateTo('Home_Page');\n      return res[0].jwt;\n    } else {\n      showAlert('Invalid Credentials', 'error');\n      return '';\n    }\n  });\n}"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Login_Page_Utils.loginUser",
+  "id": "Login_Page_Utils.myFun2",
   "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_638291623e748351b7e69f43"
+  "gitSyncId": "6381f6413e748351b7e698c0_6382914ad4d99c4ab3bf75d7"
 }

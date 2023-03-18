@@ -2,7 +2,7 @@
   "pages": [
     {
       "id": "Login_Page",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Signup_Page",
@@ -43,6 +43,10 @@
     {
       "id": "Manage Estate Page ",
       "isDefault": false
+    },
+    {
+      "id": "Landing Home Page",
+      "isDefault": true
     }
   ],
   "viewMode": false,

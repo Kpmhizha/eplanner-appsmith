@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 720,
+          "bottomRow": 650,
           "containerStyle": "none",
           "snapRows": 67,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 76,
+          "version": 77,
           "minHeight": 680,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -38,7 +38,7 @@
                 "group"
               ],
               "topRow": 0,
-              "bottomRow": 64,
+              "bottomRow": 65,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -61,12 +61,12 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 640,
+                  "bottomRow": 650,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
                   "hideCard": true,
-                  "minHeight": 640,
+                  "minHeight": 650,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [
@@ -412,7 +412,7 @@
                               "borderRadius": "0.375rem",
                               "buttonVariant": "PRIMARY",
                               "iconAlign": "left",
-                              "placement": "CENTER"
+                              "placement": "START"
                             }
                           ]
                         }
@@ -526,6 +526,7 @@
                         }
                       },
                       "borderRadius": "0.375rem",
+                      "columnUpdatedAt": 1677244643201,
                       "defaultSelectedRowIndices": [
                         0
                       ],
@@ -583,7 +584,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Name\"]))}}",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "Surname": {
                           "allowCellWrapping": false,
@@ -608,7 +610,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Surname\"]))}}",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "ID_Number": {
                           "allowCellWrapping": false,
@@ -633,7 +636,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ID Number\"]))}}",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "Date_of_Birth": {
                           "allowCellWrapping": false,
@@ -658,7 +662,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Date of Birth\"]))}}",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "Contact_Number": {
                           "allowCellWrapping": false,
@@ -683,7 +688,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Contact Number\"]))}}",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "Email": {
                           "allowCellWrapping": false,
@@ -708,7 +714,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Email\"]))}}",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "Residential_Address": {
                           "allowCellWrapping": false,
@@ -733,7 +740,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Residential Address\"]))}}",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "Has_Children": {
                           "allowCellWrapping": false,
@@ -758,7 +766,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Has Children\"]))}}",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "Password": {
                           "allowCellWrapping": false,
@@ -783,7 +792,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Password\"]))}}",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "jwt": {
                           "allowCellWrapping": false,
@@ -808,7 +818,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"jwt\"]))}}",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "rowIndex": {
                           "allowCellWrapping": false,
@@ -833,7 +844,8 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rowIndex\"]))}}",
-                          "validation": {}
+                          "validation": {},
+                          "sticky": ""
                         },
                         "Is_Married": {
                           "allowCellWrapping": false,
@@ -861,10 +873,12 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{users.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Is Married\"]))}}",
                           "validation": {},
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "sticky": ""
                         }
                       },
                       "key": "fyi5qvgcfh",
+                      "canFreezeColumn": false,
                       "isDeprecated": false,
                       "rightColumn": 58,
                       "textSize": "0.875rem",
@@ -887,7 +901,7 @@
                       "displayName": "Stats Box",
                       "iconSVG": "/static/media/icon.382a7c7bc55323fbbd8edd79208c5324.svg",
                       "topRow": 48,
-                      "bottomRow": 62,
+                      "bottomRow": 63,
                       "parentRowSpace": 10,
                       "type": "STATBOX_WIDGET",
                       "hideCard": false,
@@ -908,12 +922,12 @@
                           "widgetName": "Canvas2",
                           "displayName": "Canvas",
                           "topRow": 0,
-                          "bottomRow": 140,
+                          "bottomRow": 150,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
                           "canExtend": false,
                           "hideCard": true,
-                          "minHeight": 140,
+                          "minHeight": 150,
                           "parentColumnSpace": 1,
                           "leftColumn": 0,
                           "dynamicBindingPathList": [],
@@ -1034,7 +1048,7 @@
                                 "label"
                               ],
                               "topRow": 8,
-                              "bottomRow": 12,
+                              "bottomRow": 13,
                               "type": "TEXT_WIDGET",
                               "hideCard": false,
                               "animateLoading": true,
@@ -1230,10 +1244,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 8,
+              "originalTopRow": 0,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 72,
+              "originalBottomRow": 64,
               "minDynamicHeight": 10
             }
           ]

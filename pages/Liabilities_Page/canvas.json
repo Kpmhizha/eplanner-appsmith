@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 790,
+          "bottomRow": 780,
           "containerStyle": "none",
           "snapRows": 67,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 76,
+          "version": 77,
           "minHeight": 680,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -289,7 +289,7 @@
                 "group"
               ],
               "topRow": 0,
-              "bottomRow": 71,
+              "bottomRow": 70,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -311,7 +311,7 @@
                   "widgetName": "Canvas6",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 710,
+                  "bottomRow": 700,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -685,7 +685,7 @@
                       "displayName": "Tabs",
                       "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
                       "topRow": 8,
-                      "bottomRow": 69,
+                      "bottomRow": 68,
                       "parentRowSpace": 10,
                       "type": "TABS_WIDGET",
                       "hideCard": false,
@@ -877,8 +877,8 @@
                                         "paragraph",
                                         "label"
                                       ],
-                                      "topRow": 35,
-                                      "bottomRow": 39,
+                                      "topRow": 36,
+                                      "bottomRow": 40,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -915,10 +915,10 @@
                                       "parentId": "wdg8bh4lbb",
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
-                                      "originalTopRow": 37,
+                                      "originalTopRow": 35,
                                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                                       "maxDynamicHeight": 9000,
-                                      "originalBottomRow": 41,
+                                      "originalBottomRow": 39,
                                       "fontSize": "0.875rem",
                                       "minDynamicHeight": 4
                                     },
@@ -932,7 +932,7 @@
                                         "label"
                                       ],
                                       "topRow": 28,
-                                      "bottomRow": 32,
+                                      "bottomRow": 33,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -969,10 +969,10 @@
                                       "parentId": "wdg8bh4lbb",
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
-                                      "originalTopRow": 29,
+                                      "originalTopRow": 28,
                                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                                       "maxDynamicHeight": 9000,
-                                      "originalBottomRow": 34,
+                                      "originalBottomRow": 32,
                                       "fontSize": "0.875rem",
                                       "minDynamicHeight": 4
                                     },
@@ -1519,6 +1519,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -1547,7 +1550,7 @@
                                       "originalBottomRow": 20,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{ get_Loans_Credit.data[0].bondAmount}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -1579,6 +1582,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -1606,7 +1612,7 @@
                                       "maxDynamicHeight": 9000,
                                       "originalBottomRow": 17,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{ get_Loans_Credit.data[0].bondComments}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -1710,7 +1716,7 @@
                           "tabId": "tab2",
                           "widgetName": "Canvas3",
                           "displayName": "Canvas",
-                          "bottomRow": 560,
+                          "bottomRow": 670,
                           "topRow": 0,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
@@ -2901,7 +2907,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "inputOtherContracts",
+                                      "widgetName": "inputOtherContractsAmount",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -2960,7 +2966,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "inputBondAmountCopyCopy",
+                                      "widgetName": "inputCellAmount",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -3019,7 +3025,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "inputBondAmountCopy",
+                                      "widgetName": "inputStoreAccounts",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -3265,7 +3271,7 @@
                       "originalTopRow": 8,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 82,
+                      "originalBottomRow": 69,
                       "minDynamicHeight": 10
                     },
                     {
@@ -3357,12 +3363,25 @@
               "originalTopRow": 0,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 84,
+              "originalBottomRow": 71,
               "minDynamicHeight": 10
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Liabilities_Page_get_Loans_Credit",
+              "name": "get_Loans_Credit",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                " appsmith.store.jwt "
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Liabilities_Page",

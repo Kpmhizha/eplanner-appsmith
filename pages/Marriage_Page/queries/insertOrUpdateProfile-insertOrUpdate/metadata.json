@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "Utils.myFun1",
+    "name": "insertOrUpdate",
+    "fullyQualifiedName": "insertOrUpdateProfile.insertOrUpdate",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,19 +13,17 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Login_Page",
-    "collectionId": "Login_Page_Utils",
+    "pageId": "Marriage_Page",
+    "collectionId": "Marriage_Page_insertOrUpdateProfile",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
-      "isAsync": false
+      "isAsync": true
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -34,15 +32,12 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "() => {}"
-    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Login_Page_Utils.myFun1",
+  "id": "Marriage_Page_insertOrUpdateProfile.insertOrUpdate",
   "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_6382914ad4d99c4ab3bf75d8"
+  "gitSyncId": "6381f6413e748351b7e698c0_63cedec5af0003311d22db27"
 }

@@ -648,6 +648,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -674,7 +677,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Immovable_Property.data[0].offshoreImmovablePropMarketValue}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -705,6 +708,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -731,7 +737,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Immovable_Property.data[0].offshoreImmovablePropBaseCost}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -763,6 +769,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -790,7 +799,7 @@
                                       "maxDynamicHeight": 9000,
                                       "originalBottomRow": 31,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Immovable_Property.data[0].offshoreImmovablePropComments}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -875,6 +884,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -901,7 +913,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Immovable_Property.data[0].otherImmovablePropMarketValue}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -932,6 +944,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -958,7 +973,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Immovable_Property.data[0].otherImmovablePropBaseCost}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -990,6 +1005,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -1017,7 +1035,7 @@
                                       "maxDynamicHeight": 9000,
                                       "originalBottomRow": 24,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Immovable_Property.data[0].otherImmovablePropComments}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -1102,6 +1120,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -1128,7 +1149,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "{{get_Immovable_Property.data[0].primaryResBaseCost",
+                                      "defaultText": "{{get_Immovable_Property.data[0].primaryResBaseCost}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -1428,6 +1449,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -1455,7 +1479,7 @@
                                       "maxDynamicHeight": 9000,
                                       "originalBottomRow": 17,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Immovable_Property.data[0].primaryResComments}}",
                                       "minDynamicHeight": 4
                                     }
                                   ],

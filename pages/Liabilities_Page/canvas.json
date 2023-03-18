@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 780,
+          "bottomRow": 700,
           "containerStyle": "none",
           "snapRows": 67,
           "parentRowSpace": 1,
@@ -877,8 +877,8 @@
                                         "paragraph",
                                         "label"
                                       ],
-                                      "topRow": 36,
-                                      "bottomRow": 40,
+                                      "topRow": 37,
+                                      "bottomRow": 42,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -915,10 +915,10 @@
                                       "parentId": "wdg8bh4lbb",
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
-                                      "originalTopRow": 35,
+                                      "originalTopRow": 37,
                                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                                       "maxDynamicHeight": 9000,
-                                      "originalBottomRow": 39,
+                                      "originalBottomRow": 42,
                                       "fontSize": "0.875rem",
                                       "minDynamicHeight": 4
                                     },
@@ -931,8 +931,8 @@
                                         "paragraph",
                                         "label"
                                       ],
-                                      "topRow": 28,
-                                      "bottomRow": 33,
+                                      "topRow": 29,
+                                      "bottomRow": 34,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -969,10 +969,10 @@
                                       "parentId": "wdg8bh4lbb",
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
-                                      "originalTopRow": 28,
+                                      "originalTopRow": 29,
                                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                                       "maxDynamicHeight": 9000,
-                                      "originalBottomRow": 32,
+                                      "originalBottomRow": 34,
                                       "fontSize": "0.875rem",
                                       "minDynamicHeight": 4
                                     },
@@ -986,7 +986,7 @@
                                         "label"
                                       ],
                                       "topRow": 20,
-                                      "bottomRow": 24,
+                                      "bottomRow": 25,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -1232,6 +1232,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -1259,7 +1262,7 @@
                                       "maxDynamicHeight": 9000,
                                       "originalBottomRow": 25,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{ get_Loans_Credit.data[0].vehicleFinancingComments}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -1408,6 +1411,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -1436,7 +1442,7 @@
                                       "originalBottomRow": 27,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{ get_Loans_Credit.data[0].vehicleFinancingAmount}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -3271,7 +3277,7 @@
                       "originalTopRow": 8,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 69,
+                      "originalBottomRow": 68,
                       "minDynamicHeight": 10
                     },
                     {
@@ -3363,7 +3369,7 @@
               "originalTopRow": 0,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 71,
+              "originalBottomRow": 70,
               "minDynamicHeight": 10
             }
           ]

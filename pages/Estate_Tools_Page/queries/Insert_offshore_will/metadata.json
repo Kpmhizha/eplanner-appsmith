@@ -41,6 +41,9 @@
         "range": {
           "data": ""
         },
+        "rowObjects": {
+          "data": "{\n\t\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"dateExecuted\":{{offshore_will_date_input.value}},\n\t\"executorsName\":{{offshore_executor_name_input.value}},\n\t\"executorsEmail\":{{Offshore_exec_email_input.value}},\n\t\"executorsContactNo\":{{Offshore_Exec_No_Input.value}},\n\t\"whereOriginalStored\":{{Offshore_Will_stored_input.value}}\n\t\"offshoreWill\":\"\"\n\t\n}"
+        },
         "sheetName": {
           "data": "Offshore Will"
         },
@@ -61,11 +64,22 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.rowObjects.data"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "Offshore_Exec_No_Input.value",
+      "Offshore_Will_stored_input.value",
+      "Offshore_exec_email_input.value",
+      "appsmith.store.jwt",
+      "offshore_executor_name_input.value",
+      "offshore_will_date_input.value"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

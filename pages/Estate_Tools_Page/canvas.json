@@ -2995,7 +2995,7 @@
                                       "labelTextSize": "0.875rem",
                                       "isRequired": false,
                                       "isDeprecated": false,
-                                      "rightColumn": 11.540983606557377,
+                                      "rightColumn": 12,
                                       "dynamicHeight": "FIXED",
                                       "widgetId": "huceyue0dy",
                                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",

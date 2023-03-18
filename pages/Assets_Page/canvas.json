@@ -575,8 +575,8 @@
                                         "paragraph",
                                         "label"
                                       ],
-                                      "topRow": 25,
-                                      "bottomRow": 30,
+                                      "topRow": 26,
+                                      "bottomRow": 32,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -613,10 +613,10 @@
                                       "parentId": "mh53i4yie5",
                                       "renderMode": "CANVAS",
                                       "isLoading": false,
-                                      "originalTopRow": 26,
+                                      "originalTopRow": 25,
                                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                                       "maxDynamicHeight": 9000,
-                                      "originalBottomRow": 32,
+                                      "originalBottomRow": 30,
                                       "fontSize": "0.875rem",
                                       "minDynamicHeight": 4
                                     },
@@ -803,7 +803,7 @@
                                         "label"
                                       ],
                                       "topRow": 18,
-                                      "bottomRow": 23,
+                                      "bottomRow": 24,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -843,7 +843,7 @@
                                       "originalTopRow": 18,
                                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                                       "maxDynamicHeight": 9000,
-                                      "originalBottomRow": 24,
+                                      "originalBottomRow": 23,
                                       "fontSize": "0.875rem",
                                       "minDynamicHeight": 4
                                     },
@@ -1128,7 +1128,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Immovable_Property.data[0].primaryResBaseCost",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -1313,6 +1313,9 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "defaultText"
                                         }
                                       ],
                                       "labelPosition": "Top",
@@ -1339,7 +1342,7 @@
                                       "maxDynamicHeight": 9000,
                                       "decimals": 0,
                                       "iconAlign": "left",
-                                      "defaultText": "",
+                                      "defaultText": "{{get_Immovable_Property.data[0].primaryResMarketValue}}",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -5151,7 +5154,7 @@
                       "originalTopRow": 8,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 54,
+                      "originalBottomRow": 53,
                       "minDynamicHeight": 10
                     },
                     {
@@ -5251,7 +5254,20 @@
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Assets_Page_get_Immovable_Property",
+              "name": "get_Immovable_Property",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "appsmith.store.jwt"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Assets_Page",

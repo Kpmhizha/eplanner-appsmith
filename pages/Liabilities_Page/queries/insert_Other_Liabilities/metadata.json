@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "insert_immovable_property",
+    "name": "insert_Other_Liabilities",
     "datasource": {
       "name": "eplannerDB",
       "pluginId": "google-sheets-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Assets_Page",
+    "pageId": "Liabilities_Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,10 +42,10 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"primaryResMarketValue\": {{ input_MV_PrimaryRes.value}},\n\t\"primaryResBaseCost\" : {{input_BC_PrimaryRes.value}},\n\t\"primaryResComments\" : {{inputCommentPrimaryRes.value}},\n\t\n\t\"otherImmovablePropMarketValue\" : {{input_MV_OtherImmv.value}},\n\t\"otherImmovablePropBaseCost\" : {{input_BC_OtherImmv.value}},\n\t\"otherImmovablePropComments\" : {{inputCommentOtherImmv.value}},\n\t\n\t\"offshoreImmovablePropMarketValue\" : {{input_MV_OffshoreImmv.value}},\n\t\"offshoreImmovablePropBaseCost\" : {{input_BC_OffshoreImmv.value}},\n\t\"offshoreImmovablePropComments\" : {{inputCommentOffshoreImmv.value}}\n\t\n}"
+          "data": "{\t\n\t\"userId\": {{ appsmith.store.jwt }},\n\t\"storeAccountsAmount\":{{inputStoreAccounts.value}},\n\t\"storeAccountsComments\":{{inputStoreAccComments.value}},\n\t\"cellphoneContractsAmount\":{{inputCellAmount.value}},\n\t\"cellphoneContractsComments\":{{inputCellComments.value}},\n\t\"otherContractsAmount\":{{inputOtherContractsAmount.value}},\n\t\"otherContractsComments\":{{inputContractsComments.value}},\n\t\"medicalExpensesAmount\":{{inputMedicalExpenses.value}},"
         },
         "sheetName": {
-          "data": "Immovable Property"
+          "data": "Other debts and Liabilities"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1FHGOAvxHSNNlL7eMCMQ-HsGR_xno7J603SvEUaeCd3w/edit"
@@ -73,23 +73,21 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      " input_MV_PrimaryRes.value",
-      "appsmith.store.jwt",
-      "inputCommentOffshoreImmv.value",
-      "inputCommentOtherImmv.value",
-      "inputCommentPrimaryRes.value",
-      "input_BC_OffshoreImmv.value",
-      "input_BC_OtherImmv.value",
-      "input_BC_PrimaryRes.value",
-      "input_MV_OffshoreImmv.value",
-      "input_MV_OtherImmv.value"
+      " appsmith.store.jwt ",
+      "inputCellAmount.value",
+      "inputCellComments.value",
+      "inputContractsComments.value",
+      "inputMedicalExpenses.value",
+      "inputOtherContractsAmount.value",
+      "inputStoreAccComments.value",
+      "inputStoreAccounts.value"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Assets_Page_insert_immovable_property",
+  "id": "Liabilities_Page_insert_Other_Liabilities",
   "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_640496b98a12fa7e07debbdc"
+  "gitSyncId": "6381f6413e748351b7e698c0_641596afaf6c5c7531cd4950"
 }

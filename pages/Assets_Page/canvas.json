@@ -2576,7 +2576,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1Copy1Copy1",
+                                      "widgetName": "Input_OffshoreInvPortfolio_MV",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -2803,7 +2803,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1CopyCopy1",
+                                      "widgetName": "Input_LocalShare_BC",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -3014,7 +3014,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "CurrencyInput1Copy2",
+                                      "widgetName": "Input_Local_Share_MV",
                                       "displayName": "Currency Input",
                                       "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
                                       "searchTags": [
@@ -3125,7 +3125,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "Input1Copy1",
+                                      "widgetName": "Input_Local_Share_Comms",
                                       "displayName": "Input",
                                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                                       "searchTags": [

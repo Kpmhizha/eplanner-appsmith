@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1200,
+          "bottomRow": 1190,
           "containerStyle": "none",
           "snapRows": 50,
           "parentRowSpace": 1,
@@ -1116,7 +1116,7 @@
                 "group"
               ],
               "topRow": 43,
-              "bottomRow": 120,
+              "bottomRow": 119,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -1138,7 +1138,7 @@
                   "widgetName": "Canvas5",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 770,
+                  "bottomRow": 760,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -2565,8 +2565,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 65,
-                      "bottomRow": 75,
+                      "topRow": 63,
+                      "bottomRow": 73,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -2575,7 +2575,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 17.625,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 13,
+                      "leftColumn": 15,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -2592,10 +2592,10 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "We understand the nature of the data collected and take the necessary steps to secure all your data to the best of our abilities. At all times the data belongs to you and can be deleted by you.\n\nWe will never at any point sell your data to any third party and do not use the data for any other purpose than rendering our services.",
+                      "text": "We understand the nature of the data collected and take the necessary steps to secure all your data to the best of our abilities. At all times the data belongs to you and can be deleted by you.\n\nWe will never at any point sell your data to any third party and do not use the data for any other purpose than to fulfill the functions of the platform.",
                       "key": "gidjpgxlhl",
                       "isDeprecated": false,
-                      "rightColumn": 53,
+                      "rightColumn": 55,
                       "textAlign": "CENTER",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "8xyzugldzi",
@@ -2608,10 +2608,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 65,
+                      "originalTopRow": 64,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 78,
+                      "originalBottomRow": 74,
                       "fontSize": "0.875rem",
                       "minDynamicHeight": 4
                     }
@@ -2645,7 +2645,7 @@
               "originalTopRow": 43,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 124,
+              "originalBottomRow": 120,
               "minDynamicHeight": 10
             }
           ]

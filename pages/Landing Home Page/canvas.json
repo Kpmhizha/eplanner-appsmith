@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 850,
+          "bottomRow": 710,
           "containerStyle": "none",
           "snapRows": 50,
           "parentRowSpace": 1,
@@ -1113,13 +1113,14 @@
                 "group"
               ],
               "topRow": 43,
-              "bottomRow": 85,
+              "bottomRow": 71,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [],
               "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
@@ -1134,7 +1135,7 @@
                   "widgetName": "Canvas5",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 420,
+                  "bottomRow": 280,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -1145,6 +1146,698 @@
                   "dynamicBindingPathList": [],
                   "children": [
                     {
+                      "tabId": "",
+                      "boxShadow": "NONE",
+                      "widgetName": "Container4",
+                      "borderColor": "#E0DEDE",
+                      "isCanvas": true,
+                      "displayName": "Container",
+                      "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+                      "searchTags": [
+                        "div",
+                        "parent",
+                        "group"
+                      ],
+                      "topRow": 7,
+                      "bottomRow": 26,
+                      "parentRowSpace": 10,
+                      "type": "CONTAINER_WIDGET",
+                      "hideCard": false,
+                      "shouldScrollContents": true,
+                      "animateLoading": true,
+                      "parentColumnSpace": 12.166259765625,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "backgroundColor"
+                        }
+                      ],
+                      "children": [
+                        {
+                          "rightColumn": 778.640625,
+                          "widgetName": "Canvas6",
+                          "detachFromLayout": true,
+                          "widgetId": "cgw62uqcr0",
+                          "containerStyle": "none",
+                          "bottomRow": 190,
+                          "topRow": 0,
+                          "parentRowSpace": 1,
+                          "isVisible": true,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "version": 1,
+                          "parentId": "dmcxr8gt6b",
+                          "props": {
+                            "containerStyle": "none",
+                            "canExtend": false,
+                            "detachFromLayout": true,
+                            "children": []
+                          },
+                          "isLoading": false,
+                          "minHeight": 173.03125,
+                          "renderMode": "CANVAS",
+                          "parentColumnSpace": 1,
+                          "leftColumn": 0,
+                          "children": [
+                            {
+                              "widgetName": "Text10",
+                              "borderColor": "#dbeafe",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                              "searchTags": [
+                                "typography",
+                                "paragraph",
+                                "label"
+                              ],
+                              "topRow": 9,
+                              "bottomRow": 17,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "parentColumnSpace": 12.166259765625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 0,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "truncateButtonColor"
+                                },
+                                {
+                                  "key": "fontFamily"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                },
+                                {
+                                  "key": "textColor"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "borderWidth": "",
+                              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "text": "Instantly and easily access all your information provided. In a neatly created dashboard, get insights into your finances in one place!",
+                              "key": "6ju7axll95",
+                              "isDeprecated": false,
+                              "rightColumn": 14,
+                              "textAlign": "LEFT",
+                              "dynamicHeight": "AUTO_HEIGHT",
+                              "widgetId": "jaag5fat0i",
+                              "isVisible": true,
+                              "fontStyle": "ITALIC",
+                              "textColor": "{{appsmith.theme.colors.backgroundColor}}",
+                              "version": 1,
+                              "parentId": "cgw62uqcr0",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "originalTopRow": 9,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "maxDynamicHeight": 9000,
+                              "originalBottomRow": 17,
+                              "fontSize": "0.875rem",
+                              "minDynamicHeight": 4
+                            },
+                            {
+                              "widgetName": "Text10Copy2",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                              "searchTags": [
+                                "typography",
+                                "paragraph",
+                                "label"
+                              ],
+                              "topRow": 8,
+                              "bottomRow": 14,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "parentColumnSpace": 12.166259765625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 50,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "truncateButtonColor"
+                                },
+                                {
+                                  "key": "fontFamily"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                },
+                                {
+                                  "key": "textColor"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "text": "Instantly share a read only version of your estate information to your advisor or loved one.",
+                              "key": "6ju7axll95",
+                              "isDeprecated": false,
+                              "rightColumn": 64,
+                              "textAlign": "LEFT",
+                              "dynamicHeight": "AUTO_HEIGHT",
+                              "widgetId": "t1ow7cf3wn",
+                              "isVisible": true,
+                              "fontStyle": "ITALIC",
+                              "textColor": "{{appsmith.theme.colors.backgroundColor}}",
+                              "version": 1,
+                              "parentId": "cgw62uqcr0",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "originalTopRow": 8,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "maxDynamicHeight": 9000,
+                              "originalBottomRow": 14,
+                              "fontSize": "0.875rem",
+                              "minDynamicHeight": 4
+                            },
+                            {
+                              "widgetName": "Text10Copy1",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                              "searchTags": [
+                                "typography",
+                                "paragraph",
+                                "label"
+                              ],
+                              "topRow": 9,
+                              "bottomRow": 15,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "parentColumnSpace": 12.166259765625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 33,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "truncateButtonColor"
+                                },
+                                {
+                                  "key": "fontFamily"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                },
+                                {
+                                  "key": "textColor"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "text": "Where a gap is identified in your estate plan, you also recieve insight on how to resolve the issue.",
+                              "key": "6ju7axll95",
+                              "isDeprecated": false,
+                              "rightColumn": 47,
+                              "textAlign": "LEFT",
+                              "dynamicHeight": "AUTO_HEIGHT",
+                              "widgetId": "fpr3s0wkyq",
+                              "isVisible": true,
+                              "fontStyle": "ITALIC",
+                              "textColor": "{{appsmith.theme.colors.backgroundColor}}",
+                              "version": 1,
+                              "parentId": "cgw62uqcr0",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "originalTopRow": 9,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "maxDynamicHeight": 9000,
+                              "originalBottomRow": 15,
+                              "fontSize": "0.875rem",
+                              "minDynamicHeight": 4
+                            },
+                            {
+                              "widgetName": "Text10Copy",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                              "searchTags": [
+                                "typography",
+                                "paragraph",
+                                "label"
+                              ],
+                              "topRow": 9,
+                              "bottomRow": 17,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "parentColumnSpace": 12.166259765625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 16,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "truncateButtonColor"
+                                },
+                                {
+                                  "key": "fontFamily"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                },
+                                {
+                                  "key": "textColor"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "text": "Where a possible pitfall is identified, you will get an alert on the potential pitfall in your estate plan.",
+                              "key": "6ju7axll95",
+                              "isDeprecated": false,
+                              "rightColumn": 30,
+                              "textAlign": "LEFT",
+                              "dynamicHeight": "AUTO_HEIGHT",
+                              "widgetId": "0urp6ggl8o",
+                              "isVisible": true,
+                              "fontStyle": "ITALIC",
+                              "textColor": "{{appsmith.theme.colors.backgroundColor}}",
+                              "version": 1,
+                              "parentId": "cgw62uqcr0",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "originalTopRow": 9,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "maxDynamicHeight": 9000,
+                              "originalBottomRow": 17,
+                              "fontSize": "0.875rem",
+                              "minDynamicHeight": 4
+                            },
+                            {
+                              "widgetName": "Text8",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                              "searchTags": [
+                                "typography",
+                                "paragraph",
+                                "label"
+                              ],
+                              "topRow": 4,
+                              "bottomRow": 9,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "parentColumnSpace": 12.166259765625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 33,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "truncateButtonColor"
+                                },
+                                {
+                                  "key": "fontFamily"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                },
+                                {
+                                  "key": "textColor"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "text": "Recieve personalised solutions on gaps in your estate plan",
+                              "key": "6ju7axll95",
+                              "isDeprecated": false,
+                              "rightColumn": 48,
+                              "textAlign": "LEFT",
+                              "dynamicHeight": "AUTO_HEIGHT",
+                              "widgetId": "qees2b24jm",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "{{appsmith.theme.colors.backgroundColor}}",
+                              "version": 1,
+                              "parentId": "cgw62uqcr0",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "originalTopRow": 4,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "maxDynamicHeight": 9000,
+                              "originalBottomRow": 9,
+                              "fontSize": "1rem",
+                              "minDynamicHeight": 4
+                            },
+                            {
+                              "widgetName": "Text7",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                              "searchTags": [
+                                "typography",
+                                "paragraph",
+                                "label"
+                              ],
+                              "topRow": 4,
+                              "bottomRow": 9,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "parentColumnSpace": 12.166259765625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 16,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "truncateButtonColor"
+                                },
+                                {
+                                  "key": "fontFamily"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                },
+                                {
+                                  "key": "textColor"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "text": "Recieve alerts on possible gaps in your estate plan",
+                              "key": "6ju7axll95",
+                              "isDeprecated": false,
+                              "rightColumn": 30,
+                              "textAlign": "LEFT",
+                              "dynamicHeight": "AUTO_HEIGHT",
+                              "widgetId": "opupco3s2r",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "{{appsmith.theme.colors.backgroundColor}}",
+                              "version": 1,
+                              "parentId": "cgw62uqcr0",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "originalTopRow": 4,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "maxDynamicHeight": 9000,
+                              "originalBottomRow": 9,
+                              "fontSize": "1rem",
+                              "minDynamicHeight": 4
+                            },
+                            {
+                              "widgetName": "Text6",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                              "searchTags": [
+                                "typography",
+                                "paragraph",
+                                "label"
+                              ],
+                              "topRow": 4,
+                              "bottomRow": 9,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "parentColumnSpace": 12.166259765625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 0,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "truncateButtonColor"
+                                },
+                                {
+                                  "key": "fontFamily"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                },
+                                {
+                                  "key": "textColor"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "text": "Access to a summary of your current estate plan",
+                              "key": "6ju7axll95",
+                              "isDeprecated": false,
+                              "rightColumn": 14,
+                              "textAlign": "LEFT",
+                              "dynamicHeight": "AUTO_HEIGHT",
+                              "widgetId": "nzkso0fynh",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "{{appsmith.theme.colors.backgroundColor}}",
+                              "version": 1,
+                              "parentId": "cgw62uqcr0",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "originalTopRow": 4,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "maxDynamicHeight": 9000,
+                              "originalBottomRow": 9,
+                              "fontSize": "1rem",
+                              "minDynamicHeight": 4
+                            },
+                            {
+                              "widgetName": "Text9",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                              "searchTags": [
+                                "typography",
+                                "paragraph",
+                                "label"
+                              ],
+                              "topRow": 4,
+                              "bottomRow": 8,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "parentColumnSpace": 12.166259765625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 50,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "truncateButtonColor"
+                                },
+                                {
+                                  "key": "fontFamily"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                },
+                                {
+                                  "key": "textColor"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "text": "Share your estate plan",
+                              "key": "6ju7axll95",
+                              "isDeprecated": false,
+                              "rightColumn": 62,
+                              "textAlign": "LEFT",
+                              "dynamicHeight": "AUTO_HEIGHT",
+                              "widgetId": "b326svwgl5",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "{{appsmith.theme.colors.backgroundColor}}",
+                              "version": 1,
+                              "parentId": "cgw62uqcr0",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "originalTopRow": 0,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "maxDynamicHeight": 9000,
+                              "originalBottomRow": 4,
+                              "fontSize": "1rem",
+                              "minDynamicHeight": 4
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "IconButton3",
+                              "buttonColor": "#dbeafe",
+                              "displayName": "Icon Button",
+                              "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                              "searchTags": [
+                                "click",
+                                "submit"
+                              ],
+                              "topRow": 0,
+                              "bottomRow": 4,
+                              "parentRowSpace": 10,
+                              "type": "ICON_BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 17.037109375,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 4,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "isDisabled": false,
+                              "key": "np38pk8z2a",
+                              "isDeprecated": false,
+                              "rightColumn": 8,
+                              "iconName": "book",
+                              "widgetId": "xbuwpmk6t7",
+                              "minWidth": 50,
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "cgw62uqcr0",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "buttonVariant": "PRIMARY"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "IconButton4",
+                              "buttonColor": "#dbeafe",
+                              "displayName": "Icon Button",
+                              "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                              "searchTags": [
+                                "click",
+                                "submit"
+                              ],
+                              "topRow": 0,
+                              "bottomRow": 4,
+                              "parentRowSpace": 10,
+                              "type": "ICON_BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 17.037109375,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 20,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "isDisabled": false,
+                              "key": "np38pk8z2a",
+                              "isDeprecated": false,
+                              "rightColumn": 24,
+                              "iconName": "issue-new",
+                              "widgetId": "kkz01waurj",
+                              "minWidth": 50,
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "cgw62uqcr0",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "buttonVariant": "PRIMARY"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "IconButton5",
+                              "buttonColor": "#dbeafe",
+                              "displayName": "Icon Button",
+                              "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                              "searchTags": [
+                                "click",
+                                "submit"
+                              ],
+                              "topRow": 0,
+                              "bottomRow": 4,
+                              "parentRowSpace": 10,
+                              "type": "ICON_BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 17.037109375,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 38,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "isDisabled": false,
+                              "key": "np38pk8z2a",
+                              "isDeprecated": false,
+                              "rightColumn": 42,
+                              "iconName": "issue-closed",
+                              "widgetId": "vl4h6ecga8",
+                              "minWidth": 50,
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "cgw62uqcr0",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "buttonVariant": "PRIMARY"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "IconButton6",
+                              "buttonColor": "#dbeafe",
+                              "displayName": "Icon Button",
+                              "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                              "searchTags": [
+                                "click",
+                                "submit"
+                              ],
+                              "topRow": 0,
+                              "bottomRow": 4,
+                              "parentRowSpace": 10,
+                              "type": "ICON_BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 17.037109375,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 54,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "isDisabled": false,
+                              "key": "np38pk8z2a",
+                              "isDeprecated": false,
+                              "rightColumn": 58,
+                              "iconName": "document-share",
+                              "widgetId": "lhqpi2p0ad",
+                              "minWidth": 50,
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "cgw62uqcr0",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "buttonVariant": "PRIMARY"
+                            }
+                          ]
+                        }
+                      ],
+                      "borderWidth": "1",
+                      "key": "j1ym1lmwve",
+                      "backgroundColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "dmcxr8gt6b",
+                      "containerStyle": "card",
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "pyk7va2sn2",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "originalTopRow": 7,
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 26,
+                      "minDynamicHeight": 10
+                    },
+                    {
                       "widgetName": "Text5",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
@@ -1154,7 +1847,7 @@
                         "label"
                       ],
                       "topRow": 1,
-                      "bottomRow": 5,
+                      "bottomRow": 6,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -1163,7 +1856,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 17.625,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 22,
+                      "leftColumn": 18,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -1173,6 +1866,9 @@
                         },
                         {
                           "key": "borderRadius"
+                        },
+                        {
+                          "key": "textColor"
                         }
                       ],
                       "shouldTruncate": false,
@@ -1180,330 +1876,22 @@
                       "text": "What Features Do we Have Currently?",
                       "key": "6ju7axll95",
                       "isDeprecated": false,
-                      "rightColumn": 44,
+                      "rightColumn": 51,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "vmwqnws2oy",
                       "isVisible": true,
                       "fontStyle": "BOLD",
-                      "textColor": "#231F20",
+                      "textColor": "{{appsmith.theme.colors.primaryColor}}",
                       "version": 1,
                       "parentId": "pyk7va2sn2",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 0,
+                      "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 6,
-                      "fontSize": "1.25rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text6",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 10,
-                      "bottomRow": 16,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 17.625,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 10,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Access to a summary of your current estate plan",
-                      "key": "6ju7axll95",
-                      "isDeprecated": false,
-                      "rightColumn": 32,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "9ork5yozaq",
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "pyk7va2sn2",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 10,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 16,
-                      "fontSize": "1.25rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text7",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 24,
-                      "bottomRow": 30,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 17.625,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 47,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Recieve alerts on possible gaps in your estate plan",
-                      "key": "6ju7axll95",
-                      "isDeprecated": false,
-                      "rightColumn": 63,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "uhep9z107f",
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "pyk7va2sn2",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 24,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 30,
-                      "fontSize": "1.25rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text8",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 29,
-                      "bottomRow": 37,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 17.625,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 2,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Get personalised solutions on identified gaps in your estate plan",
-                      "key": "6ju7axll95",
-                      "isDeprecated": false,
-                      "rightColumn": 18,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "9sby4dbzoc",
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "pyk7va2sn2",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 29,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 37,
-                      "fontSize": "1.25rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text9",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 34,
-                      "bottomRow": 40,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 17.625,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 36,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Share your estate plan one person",
-                      "key": "6ju7axll95",
-                      "isDeprecated": false,
-                      "rightColumn": 52,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "7nr4ao9cyn",
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "pyk7va2sn2",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 34,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 40,
-                      "fontSize": "1.25rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "boxShadow": "none",
-                      "widgetName": "IconButton3",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "displayName": "Icon Button",
-                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
-                      "searchTags": [
-                        "click",
-                        "submit"
-                      ],
-                      "topRow": 10,
-                      "bottomRow": 20,
-                      "parentRowSpace": 10,
-                      "type": "ICON_BUTTON_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 17.625,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 47,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        }
-                      ],
-                      "isDisabled": false,
-                      "key": "6mv8dbconv",
-                      "isDeprecated": false,
-                      "rightColumn": 58,
-                      "iconName": "dashboard",
-                      "widgetId": "yz43ixfc23",
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "pyk7va2sn2",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "0.375rem",
-                      "buttonVariant": "TERTIARY"
-                    },
-                    {
-                      "widgetName": "Text10",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 17,
-                      "bottomRow": 24,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 17.625,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 10,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Sorted in simple manner and folders, get access to all your family and financial information. In a neatly created dashboard, get insights into your finances in one place!",
-                      "key": "6ju7axll95",
-                      "isDeprecated": false,
-                      "rightColumn": 37,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "mt7dmoiegg",
-                      "isVisible": true,
-                      "fontStyle": "",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "pyk7va2sn2",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 17,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 24,
-                      "fontSize": "1rem",
+                      "originalBottomRow": 9,
+                      "fontSize": "1.875rem",
                       "minDynamicHeight": 4
                     }
                   ],
@@ -1522,7 +1910,7 @@
               ],
               "borderWidth": "1",
               "key": "mi5u4hcjgi",
-              "backgroundColor": "#FFFFFF",
+              "backgroundColor": "#dbeafe",
               "isDeprecated": false,
               "rightColumn": 64,
               "dynamicHeight": "AUTO_HEIGHT",
@@ -1536,7 +1924,7 @@
               "originalTopRow": 43,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 85,
+              "originalBottomRow": 71,
               "minDynamicHeight": 10
             }
           ]

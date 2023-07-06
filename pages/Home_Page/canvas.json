@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 79,
+          "version": 80,
           "minHeight": 680,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -546,7 +546,11 @@
                         "rowIndex",
                         "Is_Married"
                       ],
-                      "dynamicPropertyPathList": [],
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "tableData"
+                        }
+                      ],
                       "compactMode": "DEFAULT",
                       "displayName": "Table",
                       "bottomRow": 49,
@@ -1439,7 +1443,11 @@
                         "creditCardDebtAmount",
                         "creditCardDebtComments"
                       ],
-                      "dynamicPropertyPathList": [],
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "tableData"
+                        }
+                      ],
                       "displayName": "Table",
                       "bottomRow": 17,
                       "columnWidthMap": {

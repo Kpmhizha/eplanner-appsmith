@@ -42,7 +42,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"storeAccountsAmount\" : {{ inputStoreAccountsAmount.value }}\n\t\"userId\": {{ appsmith.store.jwt }},\n\t\"rowIndex\" : {{ get_Other_Liabilities.data.data[0].rowIndex }}\n \n}"
+          "data": "{\n\t\"storeAccountsAmount\" : {{ inputStoreAccountsAmount.value }},\n\t\"userId\": {{ appsmith.store.jwt }},\n\t\"rowIndex\" : {{ get_Other_Liabilities.data.data[0].rowIndex }}\n \n}"
         },
         "sheetName": {
           "data": "Other debts and Liabilities"

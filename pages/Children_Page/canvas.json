@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 77,
+          "version": 80,
           "minHeight": 680,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -1059,6 +1059,9 @@
                                 },
                                 {
                                   "key": "primaryColumns.EditActions1.isDiscardDisabled"
+                                },
+                                {
+                                  "key": "tableData"
                                 }
                               ],
                               "compactMode": "DEFAULT",

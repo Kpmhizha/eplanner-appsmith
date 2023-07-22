@@ -42,7 +42,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"bondAmount\": {{ inputBondAmount.value }},\n\t\"userId\": {{ appsmith.store.jwt }},\n\t\"rowIndex\": {{ get_Loans_Credit.data[0].rowIndex }}\n}"
+          "data": "{\n\t\"bondAmount\": {{ inputBondAmount.value }},\n\t\"bondComments\": {{ inputBondComments.value }},\n\t\"vehicleFinancingAmount\": {{ inputVehicleAmount.value }},\n\t\"vehicleFinancingComments\": {{ inputVehicleComments.value }},\n\t\"stLoanAmount\": {{ inputLoanAmount.value }},\n\t\"stLoanComments\": {{ inputLoansComments.value }},\n\t\"creditCardDebtAmount\": {{ inputCreditCardAmount.value }},\n\t\"creditCardDebtComments\": {{ inputCreditCardComments.value }},\n\t\"userId\": {{ appsmith.store.jwt }},\n\t\"rowIndex\": {{ get_Loans_Credit.data[0].rowIndex }}\n}"
         },
         "sheetName": {
           "data": "Loans and Credit Liabilities"
@@ -75,7 +75,14 @@
     "jsonPathKeys": [
       " appsmith.store.jwt ",
       " get_Loans_Credit.data[0].rowIndex ",
-      " inputBondAmount.value "
+      " inputBondAmount.value ",
+      " inputBondComments.value ",
+      " inputCreditCardAmount.value ",
+      " inputCreditCardComments.value ",
+      " inputLoanAmount.value ",
+      " inputLoansComments.value ",
+      " inputVehicleAmount.value ",
+      " inputVehicleComments.value "
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

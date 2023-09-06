@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "insert_letter_of_wishes",
+    "name": "update_letter_of_wishes",
     "datasource": {
       "name": "eplannerDB",
       "pluginId": "google-sheets-plugin",
@@ -21,7 +21,7 @@
       "selfReferencingDataPaths": [],
       "formData": {
         "command": {
-          "data": "INSERT_ONE"
+          "data": "UPDATE_ONE"
         },
         "entityType": {
           "data": "ROWS"
@@ -42,7 +42,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"dateSigned\":{{Date_Signed_Input.value}},\n\t\"letterOfWishes\": \"\"\n}"
+          "data": "{\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"rowIndex\": {{ get_letter_of_wishes.data[0].rowIndex }},\n\t\"dateSigned\":{{Date_Signed_Input.value}},\n\t\"letterOfWishes\": \"\"\n}"
         },
         "sheetName": {
           "data": "Letter of Wishes"
@@ -73,15 +73,17 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      " get_letter_of_wishes.data[0].rowIndex ",
       "Date_Signed_Input.value",
       "appsmith.store.jwt"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-09-06T07:14:40Z"
   },
-  "id": "Estate_Tools_Page_insert_letter_of_wishes",
+  "id": "Estate_Tools_Page_update_letter_of_wishes",
   "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_6415bb617d14f758304b7cf9"
+  "gitSyncId": "6381f6413e748351b7e698c0_64f826e0d72da94d05c11812"
 }

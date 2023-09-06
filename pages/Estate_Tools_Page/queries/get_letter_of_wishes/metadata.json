@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "insert_letter_of_wishes",
+    "name": "get_letter_of_wishes",
     "datasource": {
       "name": "eplannerDB",
       "pluginId": "google-sheets-plugin",
@@ -21,7 +21,7 @@
       "selfReferencingDataPaths": [],
       "formData": {
         "command": {
-          "data": "INSERT_ONE"
+          "data": "FETCH_MANY"
         },
         "entityType": {
           "data": "ROWS"
@@ -41,9 +41,6 @@
         "range": {
           "data": ""
         },
-        "rowObjects": {
-          "data": "{\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"dateSigned\":{{Date_Signed_Input.value}},\n\t\"letterOfWishes\": \"\"\n}"
-        },
         "sheetName": {
           "data": "Letter of Wishes"
         },
@@ -53,12 +50,27 @@
         "smartSubstitution": {
           "data": true
         },
+        "sortBy": {
+          "data": [
+            {
+              "column": "",
+              "order": "Ascending"
+            }
+          ]
+        },
         "tableHeaderIndex": {
           "data": "1"
         },
         "where": {
           "data": {
-            "condition": "AND"
+            "condition": "AND",
+            "children": [
+              {
+                "condition": "EQ",
+                "key": "userId",
+                "value": "{{ appsmith.store.jwt }}"
+              }
+            ]
           }
         }
       }
@@ -66,22 +78,22 @@
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "formData.rowObjects.data"
+        "key": "formData.where.data.children[0].value"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Date_Signed_Input.value",
-      "appsmith.store.jwt"
+      " appsmith.store.jwt "
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-09-06T07:12:40Z"
   },
-  "id": "Estate_Tools_Page_insert_letter_of_wishes",
+  "id": "Estate_Tools_Page_get_letter_of_wishes",
   "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_6415bb617d14f758304b7cf9"
+  "gitSyncId": "6381f6413e748351b7e698c0_64f826684015b254a5b60132"
 }

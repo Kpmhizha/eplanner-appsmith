@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "insert_letter_of_wishes",
+    "name": "update_offshore_will",
     "datasource": {
       "name": "eplannerDB",
       "pluginId": "google-sheets-plugin",
@@ -21,7 +21,7 @@
       "selfReferencingDataPaths": [],
       "formData": {
         "command": {
-          "data": "INSERT_ONE"
+          "data": "UPDATE_ONE"
         },
         "entityType": {
           "data": "ROWS"
@@ -42,10 +42,10 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"dateSigned\":{{Date_Signed_Input.value}},\n\t\"letterOfWishes\": \"\"\n}"
+          "data": "{\n\t\t\"userId\": {{appsmith.store.jwt}},\n\t\"rowIndex\": {{ get_offshore_will.data[0].rowIndex }},\n\t\"dateExecuted\":{{offshore_will_date_input.value}},\n\t\"executorsName\":{{offshore_executor_name_input.value}},\n\t\"executorsEmail\":{{Offshore_exec_email_input.value}},\n\t\"executorsContactNo\":{{Offshore_Exec_No_Input.value}},\n\t\"whereOriginalStored\":{{Offshore_Will_stored_input.value}},\n\t\"offshoreWill\":\"\"\n}"
         },
         "sheetName": {
-          "data": "Letter of Wishes"
+          "data": "Offshore Will"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1FHGOAvxHSNNlL7eMCMQ-HsGR_xno7J603SvEUaeCd3w/edit"
@@ -73,15 +73,21 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Date_Signed_Input.value",
-      "appsmith.store.jwt"
+      " get_offshore_will.data[0].rowIndex ",
+      "Offshore_Exec_No_Input.value",
+      "Offshore_Will_stored_input.value",
+      "Offshore_exec_email_input.value",
+      "appsmith.store.jwt",
+      "offshore_executor_name_input.value",
+      "offshore_will_date_input.value"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-09-06T07:24:40Z"
   },
-  "id": "Estate_Tools_Page_insert_letter_of_wishes",
+  "id": "Estate_Tools_Page_update_offshore_will",
   "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_6415bb617d14f758304b7cf9"
+  "gitSyncId": "6381f6413e748351b7e698c0_64f829384015b254a5b601bb"
 }

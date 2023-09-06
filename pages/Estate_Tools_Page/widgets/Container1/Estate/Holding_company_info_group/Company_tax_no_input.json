@@ -50,6 +50,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 21,
     "iconAlign": "left",
-    "defaultText": "",
+    "defaultText": "''",
     "minDynamicHeight": 4
 }

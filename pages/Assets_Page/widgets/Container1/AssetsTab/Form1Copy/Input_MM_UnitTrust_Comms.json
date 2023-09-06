@@ -51,6 +51,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 49,
     "iconAlign": "left",
-    "defaultText": "{{get_Movable_Property.data[0].moneyMarketUnitTrustsComments}}",
+    "defaultText": "{{get_Movable_Property.data[0]?.moneyMarketUnitTrustsComments || ''}}",
     "minDynamicHeight": 4
 }

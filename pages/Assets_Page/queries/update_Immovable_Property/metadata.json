@@ -42,7 +42,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"userID\": {{ appsmith.store.jwt }},\n\t\"rowIndex\": {{ get_Immovable_Property.data[0].rowIndex }},\n\t\"primaryResMarketValue\": {{ input_MV_PrimaryRes.value }},\n\t\"primaryResBaseCost\":\t{{ input_BC_PrimaryRes.value }},\n\t\"primaryResBaseCost\": {{ inputCommentPrimaryRes.value }},\n\t\"otherImmovablePropMarketValue\": {{ input_MV_OtherImmv.value }},\n\t\"otherImmovablePropBaseCost\": {{ input_BC_OtherImmv.value }},\n\t\"otherImmovablePropComments\": {{ inputCommentOtherImmv.value }},\n\t\"offshoreImmovablePropMarketValue\": {{ input_MV_OffshoreImmv.value }},\n\t\"offshoreImmovablePropBaseCost\": {{ input_BC_OffshoreImmv.value }},\n\t\"offshoreImmovablePropComments\": {{ inputCommentOffshoreImmv.value }}\n\t\n}"
+          "data": "{\n\t\"userID\": {{ appsmith.store.jwt }},\n\t\"rowIndex\": {{ get_Immovable_Property.data[0]?.rowIndex }},\n\t\"primaryResMarketValue\": {{ input_MV_PrimaryRes.value }},\n\t\"primaryResBaseCost\":\t{{ input_BC_PrimaryRes.value }},\n\t\"primaryResBaseCost\": {{ inputCommentPrimaryRes.value }},\n\t\"otherImmovablePropMarketValue\": {{ input_MV_OtherImmv.value }},\n\t\"otherImmovablePropBaseCost\": {{ input_BC_OtherImmv.value }},\n\t\"otherImmovablePropComments\": {{ inputCommentOtherImmv.value }},\n\t\"offshoreImmovablePropMarketValue\": {{ input_MV_OffshoreImmv.value }},\n\t\"offshoreImmovablePropBaseCost\": {{ input_BC_OffshoreImmv.value }},\n\t\"offshoreImmovablePropComments\": {{ inputCommentOffshoreImmv.value }}\n\t\n}"
         },
         "sheetName": {
           "data": "Immovable Property"
@@ -74,7 +74,7 @@
     "messages": [],
     "jsonPathKeys": [
       " appsmith.store.jwt ",
-      " get_Immovable_Property.data[0].rowIndex ",
+      " get_Immovable_Property.data[0]?.rowIndex ",
       " inputCommentOffshoreImmv.value ",
       " inputCommentOtherImmv.value ",
       " inputCommentPrimaryRes.value ",

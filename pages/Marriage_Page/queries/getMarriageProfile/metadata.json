@@ -68,7 +68,7 @@
               {
                 "condition": "EQ",
                 "key": "userId",
-                "value": "{{ appsmith.store.jwt}}"
+                "value": "{{ appsmith.store.jwt }}"
               }
             ]
           }
@@ -85,7 +85,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      " appsmith.store.jwt"
+      " appsmith.store.jwt "
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

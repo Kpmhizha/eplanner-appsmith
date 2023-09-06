@@ -51,6 +51,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 24,
     "iconAlign": "left",
-    "defaultText": "{{get_Immovable_Property.data[0].otherImmovablePropComments}}",
+    "defaultText": "{{get_Immovable_Property.data[0]?.otherImmovablePropComments|| 0}}",
     "minDynamicHeight": 4
 }

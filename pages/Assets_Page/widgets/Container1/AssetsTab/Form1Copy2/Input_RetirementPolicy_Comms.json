@@ -51,6 +51,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 23,
     "iconAlign": "left",
-    "defaultText": "{{ get_policies_assets.data[0].retirementPoliciesComments }}",
+    "defaultText": "{{ get_policies_assets.data[0]?.retirementPoliciesComments || '' }}",
     "minDynamicHeight": 4
 }

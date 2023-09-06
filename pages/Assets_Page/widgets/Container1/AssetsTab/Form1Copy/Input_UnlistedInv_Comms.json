@@ -51,6 +51,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 31,
     "iconAlign": "left",
-    "defaultText": "{{get_Movable_Property.data[0].unlistedInvestmentsComments}}",
+    "defaultText": "{{get_Movable_Property.data[0]?.unlistedInvestmentsComments || ''}}",
     "minDynamicHeight": 4
 }

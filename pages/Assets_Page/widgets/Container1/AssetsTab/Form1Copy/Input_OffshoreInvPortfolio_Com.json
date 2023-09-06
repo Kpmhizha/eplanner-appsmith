@@ -51,6 +51,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 24,
     "iconAlign": "left",
-    "defaultText": "{{get_Movable_Property.data[0].offshoreInvestmentPortfolioComments}}",
+    "defaultText": "{{get_Movable_Property.data[0]?.offshoreInvestmentPortfolioComments || ''}}",
     "minDynamicHeight": 4
 }

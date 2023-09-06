@@ -49,6 +49,6 @@
     "maxDynamicHeight": 9000,
     "decimals": 0,
     "iconAlign": "left",
-    "defaultText": "{{ get_policies_assets.data[0].retirementPoliciesCurrentValue }}",
+    "defaultText": "{{ get_policies_assets.data[0]?.retirementPoliciesCurrentValue || 0}}",
     "minDynamicHeight": 4
 }

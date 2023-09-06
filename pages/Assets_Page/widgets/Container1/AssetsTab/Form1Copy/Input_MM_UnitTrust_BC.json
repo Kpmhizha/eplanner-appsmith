@@ -49,6 +49,6 @@
     "maxDynamicHeight": 9000,
     "decimals": 0,
     "iconAlign": "left",
-    "defaultText": "{{get_Movable_Property.data[0].moneyMarketUnitTrustsBaseCost}}",
+    "defaultText": "{{get_Movable_Property.data[0]?.moneyMarketUnitTrustsBaseCost || 0}}",
     "minDynamicHeight": 4
 }

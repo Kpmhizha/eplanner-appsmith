@@ -51,6 +51,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 30,
     "iconAlign": "left",
-    "defaultText": "{{ get_policies_assets.data[0].otherPoliciesComments }}",
+    "defaultText": "{{ get_policies_assets.data[0]?.otherPoliciesComments || '' }}",
     "minDynamicHeight": 4
 }

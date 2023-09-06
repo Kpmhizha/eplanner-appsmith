@@ -42,7 +42,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"storeAccountsAmount\": {{ inputStoreAccountsAmount.value }},\n\t\"storeAccountsComments\": {{ inputStoreAccComments.value }},\n\t\"cellphoneContractsAmount\": {{ inputCellAmount.value }},\n\t\"cellphoneContractsComments\": {{ inputCellComments.value }},\n\t\"otherContractsAmount\": {{ inputOtherContractsAmount }},\n\t\"otherContractsComments\": {{inputContractsComments.value}} ,\n\t\"medicalExpensesAmount\": {{ inputMedicalExpenses.value }},\n\t\"medicalExpensesComments\": {{ inputMedicalExpComments.value }},\n\t\"ratesTaxesAmount\": {{ inputRatesTaxes.value }},\n\t\"ratesTaxesComments\": {{ inputRatesTaxComments.value }},\n\t\"medicalAidAmount\": {{ inputMedicalAid.value }},\n\t\"medicalAidComments\": {{ inputMedicalAidComments.value }},\n\t\"otherDebtsAmount\": {{ inputOtherDebts.value }},\n\t\"otherDebtsComments\": {{ inputOtherDebtsComments.value }},\n\t\"userId\": {{ appsmith.store.jwt }},\n\t\"rowIndex\": {{ get_Other_Liabilities.data[0].rowIndex }}\n}\n"
+          "data": "{\n\t\"storeAccountsAmount\": {{ inputStoreAccountsAmount.value }},\n\t\"storeAccountsComments\": {{ inputStoreAccComments.value }},\n\t\"cellphoneContractsAmount\": {{ inputCellAmount.value }},\n\t\"cellphoneContractsComments\": {{ inputCellComments.value }},\n\t\"otherContractsAmount\": {{ inputOtherContractsAmount.value }},\n\t\"otherContractsComments\": {{inputContractsComments.value}} ,\n\t\"medicalExpensesAmount\": {{ inputMedicalExpenses.value }},\n\t\"medicalExpensesComments\": {{ inputMedicalExpComments.value }},\n\t\"ratesTaxesAmount\": {{ inputRatesTaxes.value }},\n\t\"ratesTaxesComments\": {{ inputRatesTaxComments.value }},\n\t\"medicalAidAmount\": {{ inputMedicalAid.value }},\n\t\"medicalAidComments\": {{ inputMedicalAidComments.value }},\n\t\"otherDebtsAmount\": {{ inputOtherDebts.value }},\n\t\"otherDebtsComments\": {{ inputOtherDebtsComments.value }},\n\t\"userId\": {{ appsmith.store.jwt }},\n\t\"rowIndex\": {{ get_Other_Liabilities.data[0].rowIndex }}\n}\n"
         },
         "sheetName": {
           "data": "Other debts and Liabilities"
@@ -81,7 +81,7 @@
       " inputMedicalAidComments.value ",
       " inputMedicalExpComments.value ",
       " inputMedicalExpenses.value ",
-      " inputOtherContractsAmount ",
+      " inputOtherContractsAmount.value ",
       " inputOtherDebts.value ",
       " inputOtherDebtsComments.value ",
       " inputRatesTaxComments.value ",

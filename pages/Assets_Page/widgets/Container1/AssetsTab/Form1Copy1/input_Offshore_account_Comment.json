@@ -9,8 +9,8 @@
         "number",
         "textarea"
     ],
-    "topRow": 18,
-    "bottomRow": 23,
+    "topRow": 19,
+    "bottomRow": 24,
     "parentRowSpace": 10,
     "labelWidth": 5,
     "autoFocus": false,
@@ -46,11 +46,11 @@
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "originalTopRow": 19,
+    "originalTopRow": 18,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 24,
+    "originalBottomRow": 23,
     "iconAlign": "left",
-    "defaultText": "{{ get_other_assets.data[0].offshoreBankAccountsComments }}",
+    "defaultText": "{{ get_other_assets.data[0]?.offshoreBankAccountsComments || '' }}",
     "minDynamicHeight": 4
 }

@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "update_policies_assets",
+    "name": "insert_details_of_trusts",
     "datasource": {
       "name": "eplannerDB",
       "pluginId": "google-sheets-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Assets_Page",
+    "pageId": "Estate_Tools_Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -21,7 +21,7 @@
       "selfReferencingDataPaths": [],
       "formData": {
         "command": {
-          "data": "UPDATE_ONE"
+          "data": "INSERT_ONE"
         },
         "entityType": {
           "data": "ROWS"
@@ -42,10 +42,10 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"userId\": {{ appsmith.store.jwt }},\n\t\"rowIndex\": {{ get_policies_assets.data[0]?.rowIndex }},\n\t\"lifePoliciesCurrentValue\": {{ Input_lifePolicy_CurrentVal.value }},\n\t\"lifePoliciesDeathPayoutValue\": {{ Input_LifePolicy_DeathPayVal.value }},\n\t\"lifePoliciesComments\": {{ Input_LifePolicy_Comms.value }},\n\t\"retirementPoliciesCurrentValue\": {{ Input_RetirementPolicy_CurrVal.value }},\n\t\"retirementPoliciesDeathPayoutValue\": {{ Input_RetirementPolicy_DeathVa.value }},\n\t\"retirementPoliciesComments\": {{ Input_RetirementPolicy_Comms.value }},\n\t\"otherPoliciesCurrentValue\": {{ Input_OtherPolicy_CurrVal.value }},\n\t\"otherPoliciesDeathPayoutValue\": {{ Input_OtherPolicy_DeathPayVal.value }},\n\t\"otherPoliciesComments\": {{ Input_OtherPolicy_Comms.value }}\n\t}"
+          "data": "{\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"trustName\":{{Trust_name_input.value}},\n\t\"managingTrusteeName\":{{Trustee_name_input.value}},\n\t\"managingTrusteeEmail\":{{Trustee_email_input.value}},\n\t\"managingTrusteeContactNo\":{{Trustee_contact_input.value}},\n\t\"trustRegNo\":{{Trust_Reg_No_input.value}},\n\t\"trustTaxNo\":{{Trust_Tax_No_Input.value}},\n\t\"letterOfAuthority\":\"\",\n\t\"trustDeed\":\"\",\n\t\"trustResolution\":\"\"\n\t\n}"
         },
         "sheetName": {
-          "data": "Policies"
+          "data": "Trust Structures"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1FHGOAvxHSNNlL7eMCMQ-HsGR_xno7J603SvEUaeCd3w/edit"
@@ -73,25 +73,21 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      " Input_LifePolicy_Comms.value ",
-      " Input_LifePolicy_DeathPayVal.value ",
-      " Input_OtherPolicy_Comms.value ",
-      " Input_OtherPolicy_CurrVal.value ",
-      " Input_OtherPolicy_DeathPayVal.value ",
-      " Input_RetirementPolicy_Comms.value ",
-      " Input_RetirementPolicy_CurrVal.value ",
-      " Input_RetirementPolicy_DeathVa.value ",
-      " Input_lifePolicy_CurrentVal.value ",
-      " appsmith.store.jwt ",
-      " get_policies_assets.data[0]?.rowIndex "
+      "Trust_Reg_No_input.value",
+      "Trust_Tax_No_Input.value",
+      "Trust_name_input.value",
+      "Trustee_contact_input.value",
+      "Trustee_email_input.value",
+      "Trustee_name_input.value",
+      "appsmith.store.jwt"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-07-22T13:55:42Z"
+    "createdAt": "2023-03-18T13:36:32Z"
   },
-  "id": "Assets_Page_update_policies_assets",
+  "id": "Estate_Tools_Page_insert_details_of_trusts",
   "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_64bbdfde3b53e00844f041f9"
+  "gitSyncId": "6381f6413e748351b7e698c0_6415be60ec20775f76c4cc35"
 }

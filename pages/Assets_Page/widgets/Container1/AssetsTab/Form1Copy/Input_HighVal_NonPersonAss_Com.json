@@ -51,6 +51,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 37,
     "iconAlign": "left",
-    "defaultText": "{{get_Movable_Property.data[0].highValueNonPersonalUseComments}}",
+    "defaultText": "{{get_Movable_Property.data[0]?.highValueNonPersonalUseComments || ''}}",
     "minDynamicHeight": 4
 }

@@ -42,7 +42,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"userID\": {{ appsmith.store.jwt }},\n\t\"rowIndex\": {{ get_Movable_Property.data[0].rowIndex }},\n\t\"localSharePortfolioMarketValue\": {{ Input_Local_Share_MV.value }},\n\t\"localSharePorfolioBaseCost\": {{ Input_LocalShare_BC.value }},\n\t\"localSharePortfolioComments\": {{ Input_Local_Share_Comms.value }},\n\t\"offshoreInvestmentPortfolioMarketValue\": {{ Input_OffshoreInvPortfolio_MV.value }},\n\t\"offshoreInvestmentPortfolioBaseCost\": {{ Input_OffshoreInvPort_BC.value }},\n\t\"offshoreInvestmentPortfolioComments\": {{ Input_OffshoreInvPortfolio_Com.value }},\n\t\"unlistedInvestmentsMarketValue\": {{ Input_UnlistedInv_MV.value }},\n\t\"unlistedInvestmentsBaseCost\": {{ Input_UnlistedInv_BC.value }},\n\t\"unlistedInvestmentsComments\": {{ Input_UnlistedInv_Comms.value }},\n\t\"highValueNonPersonalUseMarketValue\": {{ Input_HighVal_non_personal_Ass.value }},\n\t\"highValueNonPersonalUseBaseCost\": {{ Input_HighVal_nonpersonAss_BC.value }},\n\t\"highValueNonPersonalUseComments\": {{ Input_HighVal_NonPersonAss_Com.value }},\n\t\"digitalAssetsMarketValue\": {{ Input_DigiAss_MV.value }},\n\t\"digitalAssetsBaseCost\": {{ Input_DigiAss_BC.value }},\n\t\"digitalAssetsComments\": {{ Input_DigiAss_Comms.value }},\n\t\"moneyMarketUnitTrustsMarketValue\": {{ Input_MM_UnitTrust_MV.value }},\n\t\"moneyMarketUnitTrustsBaseCost\": {{ Input_MM_UnitTrust_BC.value }},\n\t\"moneyMarketUnitTrustsComments\": {{ Input_MM_UnitTrust_Comms.value }}\n}"
+          "data": "{\n\t\"userID\": {{ appsmith.store.jwt }},\n\t\"rowIndex\": {{ get_Movable_Property.data[0]?.rowIndex }},\n\t\"localSharePortfolioMarketValue\": {{ Input_Local_Share_MV.value }},\n\t\"localSharePorfolioBaseCost\": {{ Input_LocalShare_BC.value }},\n\t\"localSharePortfolioComments\": {{ Input_Local_Share_Comms.value }},\n\t\"offshoreInvestmentPortfolioMarketValue\": {{ Input_OffshoreInvPortfolio_MV.value }},\n\t\"offshoreInvestmentPortfolioBaseCost\": {{ Input_OffshoreInvPort_BC.value }},\n\t\"offshoreInvestmentPortfolioComments\": {{ Input_OffshoreInvPortfolio_Com.value }},\n\t\"unlistedInvestmentsMarketValue\": {{ Input_UnlistedInv_MV.value }},\n\t\"unlistedInvestmentsBaseCost\": {{ Input_UnlistedInv_BC.value }},\n\t\"unlistedInvestmentsComments\": {{ Input_UnlistedInv_Comms.value }},\n\t\"highValueNonPersonalUseMarketValue\": {{ Input_HighVal_non_personal_Ass.value }},\n\t\"highValueNonPersonalUseBaseCost\": {{ Input_HighVal_nonpersonAss_BC.value }},\n\t\"highValueNonPersonalUseComments\": {{ Input_HighVal_NonPersonAss_Com.value }},\n\t\"digitalAssetsMarketValue\": {{ Input_DigiAss_MV.value }},\n\t\"digitalAssetsBaseCost\": {{ Input_DigiAss_BC.value }},\n\t\"digitalAssetsComments\": {{ Input_DigiAss_Comms.value }},\n\t\"moneyMarketUnitTrustsMarketValue\": {{ Input_MM_UnitTrust_MV.value }},\n\t\"moneyMarketUnitTrustsBaseCost\": {{ Input_MM_UnitTrust_BC.value }},\n\t\"moneyMarketUnitTrustsComments\": {{ Input_MM_UnitTrust_Comms.value }}\n}"
         },
         "sheetName": {
           "data": "Movable Assets"
@@ -92,7 +92,7 @@
       " Input_UnlistedInv_Comms.value ",
       " Input_UnlistedInv_MV.value ",
       " appsmith.store.jwt ",
-      " get_Movable_Property.data[0].rowIndex "
+      " get_Movable_Property.data[0]?.rowIndex "
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

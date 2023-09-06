@@ -49,6 +49,6 @@
     "maxDynamicHeight": 9000,
     "decimals": 0,
     "iconAlign": "left",
-    "defaultText": "{{ get_other_assets.data[0].localBankAccountValue }}",
+    "defaultText": "{{ get_other_assets.data[0]?.localBankAccountValue || 0}}",
     "minDynamicHeight": 4
 }

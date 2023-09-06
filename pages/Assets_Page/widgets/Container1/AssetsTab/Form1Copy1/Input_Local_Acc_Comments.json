@@ -9,8 +9,8 @@
         "number",
         "textarea"
     ],
-    "topRow": 11,
-    "bottomRow": 16,
+    "topRow": 12,
+    "bottomRow": 17,
     "parentRowSpace": 10,
     "labelWidth": 5,
     "autoFocus": false,
@@ -46,11 +46,11 @@
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "originalTopRow": 12,
+    "originalTopRow": 11,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 17,
+    "originalBottomRow": 16,
     "iconAlign": "left",
-    "defaultText": "{{ get_other_assets.data[0].localBankAccountComments }}",
+    "defaultText": "{{ get_other_assets.data[0]?.localBankAccountComments || '' }}",
     "minDynamicHeight": 4
 }

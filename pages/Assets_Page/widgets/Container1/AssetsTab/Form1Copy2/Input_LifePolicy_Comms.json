@@ -51,6 +51,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 16,
     "iconAlign": "left",
-    "defaultText": "{{ get_policies_assets.data[0].lifePoliciesComments }}",
+    "defaultText": "{{ get_policies_assets.data[0]?.lifePoliciesComments || ''}}",
     "minDynamicHeight": 4
 }

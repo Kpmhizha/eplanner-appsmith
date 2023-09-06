@@ -80,6 +80,7 @@
         }
     },
     "key": "qpg25srqfx",
+    "showDataPointLabel": false,
     "isDeprecated": false,
     "rightColumn": 37,
     "widgetId": "kb87vna6pp",

@@ -51,6 +51,6 @@
     "originalBottomRow": 24,
     "decimals": 0,
     "iconAlign": "left",
-    "defaultText": "{{ get_policies_assets.data[0].retirementPoliciesDeathPayoutValue }}",
+    "defaultText": "{{ get_policies_assets.data[0]?.retirementPoliciesDeathPayoutValue || 0}}",
     "minDynamicHeight": 4
 }

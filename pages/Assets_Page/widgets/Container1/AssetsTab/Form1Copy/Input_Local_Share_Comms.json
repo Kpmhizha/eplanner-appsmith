@@ -51,6 +51,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 17,
     "iconAlign": "left",
-    "defaultText": "{{get_Movable_Property.data[0].localSharePortfolioComments}}",
+    "defaultText": "{{get_Movable_Property.data[0]?.localSharePortfolioComments || ''}}",
     "minDynamicHeight": 4
 }

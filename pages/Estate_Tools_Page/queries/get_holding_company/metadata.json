@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "fetchChildren",
+    "name": "get_holding_company",
     "datasource": {
       "name": "eplannerDB",
       "pluginId": "google-sheets-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Children_Page",
+    "pageId": "Estate_Tools_Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,7 +42,7 @@
           "data": ""
         },
         "sheetName": {
-          "data": "Children"
+          "data": "Holding Company"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1FHGOAvxHSNNlL7eMCMQ-HsGR_xno7J603SvEUaeCd3w/edit"
@@ -75,7 +75,7 @@
         }
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "formData.where.data.children[0].value"
@@ -90,9 +90,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-09-06T07:03:11Z"
   },
-  "id": "Children_Page_fetchChildren",
+  "id": "Estate_Tools_Page_get_holding_company",
   "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_6397c2bdb5ce0e64b70acb65"
+  "gitSyncId": "6381f6413e748351b7e698c0_64f8242fe129476317de206c"
 }

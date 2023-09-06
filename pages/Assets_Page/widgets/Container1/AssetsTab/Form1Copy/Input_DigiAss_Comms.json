@@ -51,6 +51,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 43,
     "iconAlign": "left",
-    "defaultText": "{{get_Movable_Property.data[0].digitalAssetsComments}}",
+    "defaultText": "{{get_Movable_Property.data[0]?.digitalAssetsComments || ''}}",
     "minDynamicHeight": 4
 }

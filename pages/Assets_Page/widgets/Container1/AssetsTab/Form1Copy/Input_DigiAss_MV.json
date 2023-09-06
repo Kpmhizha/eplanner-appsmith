@@ -49,6 +49,6 @@
     "maxDynamicHeight": 9000,
     "decimals": 0,
     "iconAlign": "left",
-    "defaultText": "{{get_Movable_Property.data[0].digitalAssetsMarketValue}}",
+    "defaultText": "{{get_Movable_Property.data[0]?.digitalAssetsMarketValue || 0}}",
     "minDynamicHeight": 4
 }

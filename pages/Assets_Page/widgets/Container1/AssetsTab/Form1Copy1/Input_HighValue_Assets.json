@@ -49,6 +49,6 @@
     "maxDynamicHeight": 9000,
     "decimals": 0,
     "iconAlign": "left",
-    "defaultText": "{{ get_other_assets.data[0].highValuePersonalUseAssetsValue }}",
+    "defaultText": "{{ get_other_assets.data[0]?.highValuePersonalUseAssetsValue || 0 }}",
     "minDynamicHeight": 4
 }

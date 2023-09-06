@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "Insert_Will_and_testament",
+    "name": "update_other_estate_tools",
     "datasource": {
       "name": "eplannerDB",
       "pluginId": "google-sheets-plugin",
@@ -21,7 +21,7 @@
       "selfReferencingDataPaths": [],
       "formData": {
         "command": {
-          "data": "INSERT_ONE"
+          "data": "UPDATE_ONE"
         },
         "entityType": {
           "data": "ROWS"
@@ -42,10 +42,10 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"dateExecuted\":{{Date_Will_Executed_input.value}},\n\t\"executorsFullName\":{{Executors_full_name_input.value}},\n\t\"executorsEmail\":{{Executors_email_input.value}},\n\t\"executorsContactNo\":{{Executors_contact_no_input.value}},\n\t\"whereOriginalisStored\":{{Wheres_original_will_input.value}},\n\t\"copyOfWill\":\"\"\n}\n"
+          "data": "{\n\t\"userId\": {{appsmith.store.jwt}},\n\t\"rowIndex\": {{ get_other_estate_tools.data[0].rowIndex }},\n\t\"otherEstateToolsDetails\":{{OtherEstateToolsInput.value}},\n\t\"otherEstateToolsInfo\":\"\"\n}"
         },
         "sheetName": {
-          "data": "Last Will and Testament"
+          "data": "Other Estate Tools"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1FHGOAvxHSNNlL7eMCMQ-HsGR_xno7J603SvEUaeCd3w/edit"
@@ -73,19 +73,17 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Date_Will_Executed_input.value",
-      "Executors_contact_no_input.value",
-      "Executors_email_input.value",
-      "Executors_full_name_input.value",
-      "Wheres_original_will_input.value",
+      " get_other_estate_tools.data[0].rowIndex ",
+      "OtherEstateToolsInput.value",
       "appsmith.store.jwt"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-09-06T07:30:09Z"
   },
-  "id": "Estate_Tools_Page_Insert_Will_and_testament",
+  "id": "Estate_Tools_Page_update_other_estate_tools",
   "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_6415ab98ec20775f76c4cbb7"
+  "gitSyncId": "6381f6413e748351b7e698c0_64f82a81e129476317de20e8"
 }

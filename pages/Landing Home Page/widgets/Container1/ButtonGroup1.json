@@ -1,5 +1,6 @@
 {
     "boxShadow": "none",
+    "mobileBottomRow": 11.8,
     "widgetName": "ButtonGroup1",
     "isCanvas": false,
     "displayName": "Button Group",
@@ -98,10 +99,11 @@
     },
     "type": "BUTTON_GROUP_WIDGET",
     "hideCard": false,
+    "mobileRightColumn": 148.92890995260663,
     "animateLoading": true,
     "parentColumnSpace": 17.625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 20.503432494279174,
+    "leftColumn": 29.619834710743802,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton1.buttonColor"},
@@ -113,7 +115,7 @@
     "flexVerticalAlignment": "end",
     "orientation": "horizontal",
     "isDeprecated": false,
-    "rightColumn": 56.45766590389016,
+    "rightColumn": 81.5603305785124,
     "widgetId": "omke4z0oqg",
     "minWidth": 450,
     "isVisible": true,
@@ -121,9 +123,11 @@
     "parentId": "h6bqyruirj",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "mobileTopRow": 6.8,
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
     "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 0,
     "buttonVariant": "TERTIARY",
     "alignment": "end"
 }

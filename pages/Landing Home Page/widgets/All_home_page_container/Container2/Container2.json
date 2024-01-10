@@ -1,5 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "mobileBottomRow": 84.078125,
     "widgetName": "Container2",
     "borderColor": "#ffffff",
     "isCanvas": true,
@@ -12,11 +13,12 @@
         "group"
     ],
     "topRow": 0,
-    "bottomRow": 18.4,
+    "bottomRow": 25.357812499999998,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
     "shouldScrollContents": true,
+    "mobileRightColumn": 64,
     "animateLoading": true,
     "parentColumnSpace": 12.53125,
     "dynamicTriggerPathList": [],
@@ -26,10 +28,11 @@
         {"key": "backgroundColor"}
     ],
     "children": [{
+        "mobileBottomRow": 840.78125,
         "widgetName": "Canvas4",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 184,
+        "bottomRow": 253.57812499999997,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -51,6 +54,7 @@
         "parentId": "xdnktgf46b",
         "renderMode": "CANVAS",
         "isLoading": false,
+        "mobileTopRow": 0,
         "responsiveBehavior": "fill",
         "flexLayers": [
             {"children": [{
@@ -82,9 +86,11 @@
     "parentId": "ajpxrotium",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "mobileTopRow": 0,
     "originalTopRow": 0,
     "responsiveBehavior": "fill",
     "borderRadius": "0px",
+    "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 32,
     "alignment": "start",

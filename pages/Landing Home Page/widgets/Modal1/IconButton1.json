@@ -1,5 +1,6 @@
 {
     "boxShadow": "none",
+    "mobileBottomRow": 8.8,
     "widgetName": "IconButton1",
     "onClick": "{{closeModal('Modal1')}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -13,6 +14,7 @@
     "bottomRow": 4,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
+    "mobileRightColumn": 64,
     "animateLoading": true,
     "leftColumn": 58,
     "dynamicBindingPathList": [
@@ -33,8 +35,10 @@
     "parentId": "g95ufandrx",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "mobileTopRow": 4.8,
     "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 56.78466741826381,
     "buttonVariant": "TERTIARY",
     "alignment": "end"
 }

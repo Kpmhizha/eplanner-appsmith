@@ -20,7 +20,7 @@
     "parentColumnSpace": 11.43701171875,
     "dynamicTriggerPathList": [],
     "resetOnSubmit": true,
-    "leftColumn": 13.016949152542374,
+    "leftColumn": 16,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -30,14 +30,16 @@
     "inputType": "TEXT",
     "isDisabled": false,
     "key": "ami0akrka3",
+    "flexVerticalAlignment": "end",
     "labelTextSize": "0.875rem",
     "isRequired": false,
     "isDeprecated": false,
-    "rightColumn": 35.79661016949152,
+    "rightColumn": 32,
     "dynamicHeight": "FIXED",
     "widgetId": "972ulwd6y2",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "showStepArrows": false,
+    "minWidth": 450,
     "isVisible": true,
     "label": "Executor's Full Name",
     "version": 2,
@@ -45,9 +47,11 @@
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
     "defaultText": "",
+    "alignment": "start",
     "minDynamicHeight": 4
 }

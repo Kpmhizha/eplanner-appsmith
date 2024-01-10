@@ -8,8 +8,8 @@
         "click",
         "submit"
     ],
-    "topRow": 1,
-    "bottomRow": 5,
+    "topRow": 0,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "groupButtons": {
         "groupButton30t30p912r": {
@@ -101,7 +101,7 @@
     "animateLoading": true,
     "parentColumnSpace": 17.625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 24,
+    "leftColumn": 20.503432494279174,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton1.buttonColor"},
@@ -110,16 +110,20 @@
         {"key": "groupButtons.groupButton30t30p912r.buttonColor"}
     ],
     "key": "3bbldjnpk8",
+    "flexVerticalAlignment": "end",
     "orientation": "horizontal",
     "isDeprecated": false,
-    "rightColumn": 48,
+    "rightColumn": 56.45766590389016,
     "widgetId": "omke4z0oqg",
+    "minWidth": 450,
     "isVisible": true,
     "version": 1,
     "parentId": "h6bqyruirj",
     "renderMode": "CANVAS",
     "isLoading": false,
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
+    "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "buttonVariant": "TERTIARY"
+    "buttonVariant": "TERTIARY",
+    "alignment": "end"
 }

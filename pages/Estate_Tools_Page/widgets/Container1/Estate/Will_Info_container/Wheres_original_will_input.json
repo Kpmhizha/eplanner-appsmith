@@ -9,8 +9,8 @@
         "number",
         "textarea"
     ],
-    "topRow": 9,
-    "bottomRow": 16,
+    "topRow": 8.2,
+    "bottomRow": 15.2,
     "parentRowSpace": 10,
     "labelWidth": 5,
     "autoFocus": false,
@@ -30,6 +30,7 @@
     "inputType": "TEXT",
     "isDisabled": false,
     "key": "ami0akrka3",
+    "flexVerticalAlignment": "end",
     "labelTextSize": "0.875rem",
     "isRequired": false,
     "isDeprecated": false,
@@ -38,6 +39,7 @@
     "widgetId": "6efec4mdpi",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "showStepArrows": false,
+    "minWidth": 450,
     "isVisible": true,
     "label": "Where is the Original Will Stored?",
     "version": 2,
@@ -45,9 +47,11 @@
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
     "defaultText": "",
+    "alignment": "start",
     "minDynamicHeight": 4
 }

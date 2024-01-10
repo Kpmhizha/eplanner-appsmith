@@ -8,8 +8,8 @@
         "click",
         "submit"
     ],
-    "topRow": 34,
-    "bottomRow": 38,
+    "topRow": 20.8,
+    "bottomRow": 24.8,
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
@@ -23,15 +23,19 @@
     ],
     "isDisabled": false,
     "key": "6t81wp5yej",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 9,
     "iconName": "calculator",
     "widgetId": "e0ciyhcqlh",
+    "minWidth": 50,
     "isVisible": true,
     "version": 1,
     "parentId": "fqwzal4x0w",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "buttonVariant": "PRIMARY"
+    "buttonVariant": "PRIMARY",
+    "alignment": "start"
 }

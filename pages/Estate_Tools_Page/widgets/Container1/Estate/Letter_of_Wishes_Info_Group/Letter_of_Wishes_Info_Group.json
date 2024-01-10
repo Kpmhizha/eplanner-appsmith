@@ -12,8 +12,8 @@
         "parent",
         "group"
     ],
-    "topRow": 96,
-    "bottomRow": 109,
+    "topRow": 99.8,
+    "bottomRow": 114,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -24,13 +24,13 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [{"key": "isVisible"}],
     "children": [{
-        "rightColumn": 508.65625,
         "widgetName": "Canvas6",
+        "rightColumn": 508.65625,
         "detachFromLayout": true,
         "widgetId": "gscjqlb6ui",
-        "containerStyle": "none",
-        "bottomRow": 130,
+        "bottomRow": 142,
         "topRow": 0,
+        "containerStyle": "none",
         "parentRowSpace": 1,
         "isVisible": true,
         "type": "CANVAS_WIDGET",
@@ -43,27 +43,50 @@
             "containerStyle": "none",
             "canExtend": false
         },
-        "isLoading": false,
         "minHeight": 130,
+        "isLoading": false,
         "renderMode": "CANVAS",
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
-        "leftColumn": 0
+        "responsiveBehavior": "fill",
+        "leftColumn": 0,
+        "positioning": "vertical",
+        "flexLayers": [
+            {"children": [{
+                "id": "745rab0u6d",
+                "align": "start"
+            }]},
+            {"children": [
+                {
+                    "id": "ky178pbbox",
+                    "align": "start"
+                },
+                {
+                    "id": "yolu710ief",
+                    "align": "end"
+                }
+            ]}
+        ]
     }],
     "borderWidth": "1",
     "key": "ca2ft8ngsi",
+    "flexVerticalAlignment": "stretch",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
     "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "oif3l6zh9m",
     "containerStyle": "card",
+    "minWidth": 450,
     "isVisible": "{{ShowHideLetterOfWishes.isChecked}}",
     "version": 1,
     "parentId": "rkx3fq4pu1",
     "renderMode": "CANVAS",
     "isLoading": false,
     "originalTopRow": 96,
+    "responsiveBehavior": "fill",
     "maxDynamicHeight": 9000,
     "originalBottomRow": 109,
+    "alignment": "start",
     "minDynamicHeight": 10
 }

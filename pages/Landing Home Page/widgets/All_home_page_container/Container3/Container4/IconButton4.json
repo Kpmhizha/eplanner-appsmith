@@ -16,15 +16,16 @@
     "animateLoading": true,
     "parentColumnSpace": 17.037109375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 20,
+    "leftColumn": 30,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "buttonColor"}
     ],
     "isDisabled": false,
     "key": "np38pk8z2a",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 24,
+    "rightColumn": 34,
     "iconName": "issue-new",
     "widgetId": "ht13of490e",
     "minWidth": 50,
@@ -33,6 +34,8 @@
     "parentId": "sc93w66krl",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "buttonVariant": "PRIMARY"
+    "buttonVariant": "PRIMARY",
+    "alignment": "center"
 }

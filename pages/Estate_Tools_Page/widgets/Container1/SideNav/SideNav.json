@@ -11,8 +11,8 @@
         "parent",
         "group"
     ],
-    "topRow": 6,
-    "bottomRow": 60,
+    "topRow": 5.2,
+    "bottomRow": 49.2,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -23,13 +23,13 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [],
     "children": [{
-        "rightColumn": 210.744140625,
         "widgetName": "Canvas2Copy",
+        "rightColumn": 210.744140625,
         "detachFromLayout": true,
         "widgetId": "q54qi2zl2w",
-        "containerStyle": "none",
-        "bottomRow": 540,
+        "bottomRow": 440,
         "topRow": 0,
+        "containerStyle": "none",
         "parentRowSpace": 1,
         "isVisible": true,
         "type": "CANVAS_WIDGET",
@@ -42,26 +42,59 @@
             "containerStyle": "none",
             "canExtend": false
         },
+        "minHeight": 380,
         "isLoading": false,
-        "minHeight": 520,
         "renderMode": "CANVAS",
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
-        "leftColumn": 0
+        "responsiveBehavior": "fill",
+        "leftColumn": 0,
+        "positioning": "vertical",
+        "flexLayers": [
+            {"children": [{
+                "id": "2gvomedcym",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "wauu2dj0a5",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "xjrclc4ryr",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "y2i7jib958",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "ofcwe5p1oe",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "palxsi9fgq",
+                "align": "start"
+            }]}
+        ]
     }],
     "borderWidth": "0",
     "key": "clq6nnnf42",
+    "flexVerticalAlignment": "stretch",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 12,
-    "dynamicHeight": "FIXED",
+    "rightColumn": 32,
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "61shhlc866",
     "containerStyle": "card",
+    "minWidth": 450,
     "isVisible": true,
     "version": 1,
     "parentId": "43yv8pkr8k",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "fill",
     "borderRadius": "1.5rem",
     "maxDynamicHeight": 9000,
+    "alignment": "start",
     "minDynamicHeight": 4
 }

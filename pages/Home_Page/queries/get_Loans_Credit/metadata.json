@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "Loans_and_Credit_Liabilities",
+    "name": "get_Loans_Credit",
     "datasource": {
       "name": "eplannerDB",
       "pluginId": "google-sheets-plugin",
@@ -75,13 +75,10 @@
         }
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "formData.where.data.children[0].value"
-      },
-      {
-        "key": "formData.tableHeaderIndex.data"
       }
     ],
     "isValid": true,
@@ -95,7 +92,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Home_Page_Loans_and_Credit_Liabilities",
+  "id": "Home_Page_get_Loans_Credit",
   "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_646c50feef177c62ce865265"
+  "gitSyncId": "6381f6413e748351b7e698c0_65312f23991e6b5168ba8772"
 }

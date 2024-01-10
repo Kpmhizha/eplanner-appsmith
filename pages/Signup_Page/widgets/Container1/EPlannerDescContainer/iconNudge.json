@@ -8,8 +8,8 @@
         "click",
         "submit"
     ],
-    "topRow": 29,
-    "bottomRow": 33,
+    "topRow": 15.600000000000001,
+    "bottomRow": 19.6,
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
@@ -23,15 +23,19 @@
     ],
     "isDisabled": false,
     "key": "6t81wp5yej",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 9,
     "iconName": "info-sign",
     "widgetId": "ffsw2terwh",
+    "minWidth": 50,
     "isVisible": true,
     "version": 1,
     "parentId": "fqwzal4x0w",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "buttonVariant": "PRIMARY"
+    "buttonVariant": "PRIMARY",
+    "alignment": "start"
 }

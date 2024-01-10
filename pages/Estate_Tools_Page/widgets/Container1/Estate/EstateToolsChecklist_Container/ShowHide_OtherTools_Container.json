@@ -12,7 +12,7 @@
     "animateLoading": true,
     "parentColumnSpace": 10.915939331054688,
     "dynamicTriggerPathList": [],
-    "leftColumn": 56.774193548387096,
+    "leftColumn": 64.10684474123539,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -20,12 +20,15 @@
     "labelPosition": "Right",
     "isDisabled": false,
     "key": "hobxonie75",
+    "flexVerticalAlignment": "end",
+    "labelTextSize": "0.875rem",
     "isRequired": false,
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 76.92821368948248,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "foz2scl8ck",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "minWidth": 450,
     "isVisible": true,
     "label": "Other",
     "version": 1,
@@ -33,9 +36,11 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "originalTopRow": 0,
+    "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "defaultCheckedState": false,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 4,
+    "alignment": "start",
     "minDynamicHeight": 4
 }

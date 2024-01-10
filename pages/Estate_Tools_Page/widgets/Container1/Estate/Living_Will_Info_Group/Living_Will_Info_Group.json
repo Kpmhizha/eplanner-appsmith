@@ -12,8 +12,8 @@
         "parent",
         "group"
     ],
-    "topRow": 76,
-    "bottomRow": 95,
+    "topRow": 78.2,
+    "bottomRow": 98.6,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -24,13 +24,13 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [{"key": "isVisible"}],
     "children": [{
-        "rightColumn": 756.78125,
         "widgetName": "Canvas5",
+        "rightColumn": 756.78125,
         "detachFromLayout": true,
         "widgetId": "o039txob5f",
-        "containerStyle": "none",
-        "bottomRow": 190,
+        "bottomRow": 204,
         "topRow": 0,
+        "containerStyle": "none",
         "parentRowSpace": 1,
         "isVisible": true,
         "type": "CANVAS_WIDGET",
@@ -43,27 +43,62 @@
             "containerStyle": "none",
             "canExtend": false
         },
+        "minHeight": 180,
         "isLoading": false,
-        "minHeight": 190,
         "renderMode": "CANVAS",
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
-        "leftColumn": 0
+        "responsiveBehavior": "fill",
+        "leftColumn": 0,
+        "positioning": "vertical",
+        "flexLayers": [
+            {"children": [{
+                "id": "mrb5mg00mr",
+                "align": "start"
+            }]},
+            {"children": [
+                {
+                    "id": "ondqp770m9",
+                    "align": "start"
+                },
+                {
+                    "id": "omzl8tpgd0",
+                    "align": "start"
+                },
+                {
+                    "id": "tqp1qmbzy9",
+                    "align": "start"
+                },
+                {
+                    "id": "jityb1t31x",
+                    "align": "start"
+                }
+            ]},
+            {"children": [{
+                "id": "cy38wn8x2m",
+                "align": "center"
+            }]}
+        ]
     }],
     "borderWidth": "1",
     "key": "ca2ft8ngsi",
+    "flexVerticalAlignment": "stretch",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
     "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "p59jxjd5u1",
     "containerStyle": "card",
+    "minWidth": 450,
     "isVisible": "{{ShowHide_LivingWIll_Container.isChecked}}",
     "version": 1,
     "parentId": "rkx3fq4pu1",
     "renderMode": "CANVAS",
     "isLoading": false,
     "originalTopRow": 76,
+    "responsiveBehavior": "fill",
     "maxDynamicHeight": 9000,
     "originalBottomRow": 95,
+    "alignment": "start",
     "minDynamicHeight": 10
 }

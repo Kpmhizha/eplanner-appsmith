@@ -22,15 +22,19 @@
     "iconSize": 24,
     "isDisabled": false,
     "key": "gm24yp9ply",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 64,
     "iconName": "cross",
     "widgetId": "p95ynlslw8",
+    "minWidth": 50,
     "isVisible": true,
     "version": 1,
     "parentId": "xw7gex610h",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "buttonVariant": "TERTIARY"
+    "buttonVariant": "TERTIARY",
+    "alignment": "end"
 }

@@ -11,8 +11,8 @@
         "parent",
         "group"
     ],
-    "topRow": 38,
-    "bottomRow": 50,
+    "topRow": 33.2,
+    "bottomRow": 39.2,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -23,13 +23,13 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [{"key": "backgroundColor"}],
     "children": [{
-        "rightColumn": 778.640625,
         "widgetName": "Canvas7",
+        "rightColumn": 778.640625,
         "detachFromLayout": true,
         "widgetId": "kuacj3ngiw",
-        "containerStyle": "none",
-        "bottomRow": 120,
+        "bottomRow": 60,
         "topRow": 0,
+        "containerStyle": "none",
         "parentRowSpace": 1,
         "isVisible": true,
         "type": "CANVAS_WIDGET",
@@ -42,14 +42,48 @@
             "containerStyle": "none",
             "canExtend": false
         },
+        "minHeight": 120,
         "isLoading": false,
-        "minHeight": 123.59375,
         "renderMode": "CANVAS",
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
-        "leftColumn": 0
+        "responsiveBehavior": "fill",
+        "leftColumn": 0,
+        "positioning": "vertical",
+        "flexLayers": [{"children": [
+            {
+                "id": "lumooumqy2",
+                "align": "start"
+            },
+            {
+                "id": "51ya30oejv",
+                "align": "start"
+            },
+            {
+                "id": "g8eyhn0s4v",
+                "align": "start"
+            },
+            {
+                "id": "u37wm3l7ma",
+                "align": "start"
+            },
+            {
+                "id": "my5bf0s783",
+                "align": "start"
+            },
+            {
+                "id": "s4kgm5fa0b",
+                "align": "start"
+            },
+            {
+                "id": "gy7luqfeh0",
+                "align": "start"
+            }
+        ]}]
     }],
     "borderWidth": "1",
     "key": "j1ym1lmwve",
+    "flexVerticalAlignment": "stretch",
     "backgroundColor": "{{appsmith.theme.colors.primaryColor}}",
     "isDeprecated": false,
     "rightColumn": 64,
@@ -63,9 +97,10 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "responsiveBehavior": "fill",
-    "originalTopRow": 38,
-    "borderRadius": "1.5rem",
+    "originalTopRow": 35,
+    "borderRadius": "0px",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 50,
+    "originalBottomRow": 45,
+    "alignment": "start",
     "minDynamicHeight": 10
 }

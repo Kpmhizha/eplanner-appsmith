@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "AssetsUtils",
+    "pageId": "Assets_Page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Assets_Page_AssetsUtils",
+  "deleted": false,
+  "gitSyncId": "6381f6413e748351b7e698c0_6533fa2f0e3c8b55423b93d2"
+}

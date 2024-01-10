@@ -6,8 +6,8 @@
     "displayName": "Form",
     "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
     "searchTags": ["group"],
-    "topRow": 1,
-    "bottomRow": 54,
+    "topRow": 0,
+    "bottomRow": 42.2,
     "parentRowSpace": 10,
     "type": "FORM_WIDGET",
     "hideCard": false,
@@ -19,41 +19,124 @@
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{
         "widgetName": "Canvas4",
-        "isDeprecated": false,
-        "rightColumn": 326.8359375,
-        "detachFromLayout": true,
         "displayName": "Canvas",
-        "widgetId": "wdg8bh4lbb",
         "topRow": 0,
-        "bottomRow": 530,
-        "containerStyle": "none",
+        "bottomRow": 422,
         "parentRowSpace": 1,
-        "isVisible": true,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
-        "version": 1,
         "hideCard": true,
-        "parentId": "rz3igr3pab",
-        "minHeight": 530,
-        "renderMode": "CANVAS",
-        "isLoading": false,
+        "minHeight": 350,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [],
-        "key": "leno67bocd"
+        "positioning": "vertical",
+        "key": "leno67bocd",
+        "isDeprecated": false,
+        "rightColumn": 326.8359375,
+        "detachFromLayout": true,
+        "widgetId": "wdg8bh4lbb",
+        "containerStyle": "none",
+        "isVisible": true,
+        "version": 1,
+        "parentId": "rz3igr3pab",
+        "renderMode": "CANVAS",
+        "isLoading": false,
+        "responsiveBehavior": "fill",
+        "flexLayers": [
+            {"children": [{
+                "id": "17jzvp2p5l",
+                "align": "start"
+            }]},
+            {"children": [
+                {
+                    "id": "ebxoj7l58l",
+                    "align": "end"
+                },
+                {
+                    "id": "dw7jrps1c5",
+                    "align": "end"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "aejrddieyo",
+                    "align": "start"
+                },
+                {
+                    "id": "pd7gyf68fs",
+                    "align": "start"
+                },
+                {
+                    "id": "om6t7zgcg5",
+                    "align": "start"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "rc1r37ab0d",
+                    "align": "start"
+                },
+                {
+                    "id": "713pgale9l",
+                    "align": "start"
+                },
+                {
+                    "id": "dllta7elu9",
+                    "align": "start"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "uptl1ym8qt",
+                    "align": "start"
+                },
+                {
+                    "id": "w8st5suqog",
+                    "align": "start"
+                },
+                {
+                    "id": "7xvu0oyewi",
+                    "align": "start"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "mf8a9pb5s1",
+                    "align": "start"
+                },
+                {
+                    "id": "6ez3uirbse",
+                    "align": "start"
+                },
+                {
+                    "id": "ilfiqidu66",
+                    "align": "start"
+                }
+            ]},
+            {"children": [{
+                "id": "lpudat3vue",
+                "align": "center"
+            }]}
+        ]
     }],
     "borderWidth": "0",
     "key": "11t9z4v94b",
+    "flexVerticalAlignment": "stretch",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 63,
-    "dynamicHeight": "FIXED",
+    "rightColumn": 64,
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "rz3igr3pab",
+    "minWidth": 450,
     "isVisible": true,
     "parentId": "yub4z9sr7o",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
+    "alignment": "start",
     "minDynamicHeight": 10
 }

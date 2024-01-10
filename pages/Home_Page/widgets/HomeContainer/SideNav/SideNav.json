@@ -11,25 +11,25 @@
         "parent",
         "group"
     ],
-    "topRow": 8,
-    "bottomRow": 60,
+    "topRow": 5.2,
+    "bottomRow": 49.2,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
-    "shouldScrollContents": false,
+    "shouldScrollContents": true,
     "animateLoading": true,
     "parentColumnSpace": 3.292877197265625,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [],
     "children": [{
-        "rightColumn": 210.744140625,
         "widgetName": "Canvas2Copy",
+        "rightColumn": 210.744140625,
         "detachFromLayout": true,
         "widgetId": "u09cu43fhr",
-        "containerStyle": "none",
-        "bottomRow": 520,
+        "bottomRow": 440,
         "topRow": 0,
+        "containerStyle": "none",
         "parentRowSpace": 1,
         "isVisible": true,
         "type": "CANVAS_WIDGET",
@@ -42,26 +42,61 @@
             "containerStyle": "none",
             "canExtend": false
         },
+        "minHeight": 380,
         "isLoading": false,
-        "minHeight": 520,
         "renderMode": "CANVAS",
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
-        "leftColumn": 0
+        "responsiveBehavior": "fill",
+        "leftColumn": 0,
+        "positioning": "vertical",
+        "flexLayers": [
+            {"children": [{
+                "id": "e2lbim9bor",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "3s0tnhbz7v",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "jlrdwvbyhz",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "hlay5mbghc",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "z6ya6qu9ir",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "afye2618ju",
+                "align": "start"
+            }]}
+        ]
     }],
     "borderWidth": "0",
     "key": "clq6nnnf42",
+    "flexVerticalAlignment": "stretch",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 12,
-    "dynamicHeight": "FIXED",
+    "rightColumn": 32,
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "f1hhw12tof",
     "containerStyle": "card",
+    "minWidth": 450,
     "isVisible": true,
     "version": 1,
     "parentId": "5xkftqjn5b",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "originalTopRow": 9,
+    "responsiveBehavior": "fill",
     "borderRadius": "1.5rem",
     "maxDynamicHeight": 9000,
-    "minDynamicHeight": 4
+    "originalBottomRow": 60,
+    "alignment": "start",
+    "minDynamicHeight": 10
 }

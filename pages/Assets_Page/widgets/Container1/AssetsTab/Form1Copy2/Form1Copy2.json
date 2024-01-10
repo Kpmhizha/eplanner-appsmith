@@ -7,7 +7,7 @@
     "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
     "searchTags": ["group"],
     "topRow": 0,
-    "bottomRow": 39,
+    "bottomRow": 36,
     "parentRowSpace": 10,
     "type": "FORM_WIDGET",
     "hideCard": false,
@@ -19,43 +19,128 @@
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{
         "widgetName": "Canvas5Copy2",
-        "isDeprecated": false,
-        "rightColumn": 295.1953125,
-        "detachFromLayout": true,
         "displayName": "Canvas",
-        "widgetId": "nu0ftocly1",
         "topRow": 0,
-        "bottomRow": 390,
-        "containerStyle": "none",
+        "bottomRow": 360,
         "parentRowSpace": 1,
-        "isVisible": true,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
-        "version": 1,
         "hideCard": true,
-        "parentId": "bj82sh3o6c",
-        "minHeight": 390,
-        "renderMode": "CANVAS",
-        "isLoading": false,
+        "minHeight": 310,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [],
-        "key": "4oekesaaxy"
+        "positioning": "vertical",
+        "key": "4oekesaaxy",
+        "isDeprecated": false,
+        "rightColumn": 295.1953125,
+        "detachFromLayout": true,
+        "widgetId": "nu0ftocly1",
+        "containerStyle": "none",
+        "isVisible": true,
+        "version": 1,
+        "parentId": "bj82sh3o6c",
+        "renderMode": "CANVAS",
+        "isLoading": false,
+        "responsiveBehavior": "fill",
+        "flexLayers": [
+            {"children": [{
+                "id": "ygist8ztsn",
+                "align": "start"
+            }]},
+            {"children": [
+                {
+                    "id": "60xf9rr7qn",
+                    "align": "end"
+                },
+                {
+                    "id": "chx8d50ihv",
+                    "align": "end"
+                },
+                {
+                    "id": "ujvxqwqfmf",
+                    "align": "end"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "10efk625e6",
+                    "align": "start"
+                },
+                {
+                    "id": "sjqmi7gayt",
+                    "align": "start"
+                },
+                {
+                    "id": "1mpdecdhqr",
+                    "align": "start"
+                },
+                {
+                    "id": "2yem7x4r5i",
+                    "align": "start"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "8jibgwpn13",
+                    "align": "start"
+                },
+                {
+                    "id": "e503gyki97",
+                    "align": "start"
+                },
+                {
+                    "id": "qua2zo0p9h",
+                    "align": "start"
+                },
+                {
+                    "id": "3l1xxkokfc",
+                    "align": "start"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "t75capt0wy",
+                    "align": "start"
+                },
+                {
+                    "id": "pofkqu1b8y",
+                    "align": "start"
+                },
+                {
+                    "id": "6tfe4s3xnu",
+                    "align": "start"
+                },
+                {
+                    "id": "xkugxnpsd0",
+                    "align": "start"
+                }
+            ]},
+            {"children": [{
+                "id": "b4fqw5kz6c",
+                "align": "center"
+            }]}
+        ]
     }],
     "borderWidth": "0",
     "key": "y6ank1msy6",
+    "flexVerticalAlignment": "stretch",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
     "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "bj82sh3o6c",
+    "minWidth": 450,
     "isVisible": true,
     "parentId": "hpf91pchqn",
     "renderMode": "CANVAS",
     "isLoading": false,
     "originalTopRow": 0,
+    "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
     "originalBottomRow": 39,
+    "alignment": "start",
     "minDynamicHeight": 10
 }

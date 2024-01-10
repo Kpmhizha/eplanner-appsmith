@@ -20,7 +20,7 @@
     "parentColumnSpace": 11.43701171875,
     "dynamicTriggerPathList": [],
     "resetOnSubmit": true,
-    "leftColumn": 35.79661016949152,
+    "leftColumn": 32,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -30,14 +30,16 @@
     "inputType": "EMAIL",
     "isDisabled": false,
     "key": "ami0akrka3",
+    "flexVerticalAlignment": "end",
     "labelTextSize": "0.875rem",
     "isRequired": false,
     "isDeprecated": false,
-    "rightColumn": 48.813559322033896,
+    "rightColumn": 48,
     "dynamicHeight": "FIXED",
     "widgetId": "addchlkuuu",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "showStepArrows": false,
+    "minWidth": 450,
     "isVisible": true,
     "label": "Executor's email",
     "version": 2,
@@ -45,9 +47,11 @@
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
     "defaultText": "",
+    "alignment": "start",
     "minDynamicHeight": 4
 }

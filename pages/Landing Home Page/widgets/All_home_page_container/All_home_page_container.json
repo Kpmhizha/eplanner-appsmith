@@ -11,8 +11,8 @@
         "parent",
         "group"
     ],
-    "topRow": 10,
-    "bottomRow": 169,
+    "topRow": 9.2,
+    "bottomRow": 135.20000000000002,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -23,13 +23,13 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [],
     "children": [{
-        "rightColumn": 802,
         "widgetName": "Canvas9",
+        "rightColumn": 802,
         "detachFromLayout": true,
         "widgetId": "ajpxrotium",
-        "containerStyle": "none",
-        "bottomRow": 1590,
+        "bottomRow": 1260.0000000000002,
         "topRow": 0,
+        "containerStyle": "none",
         "parentRowSpace": 1,
         "isVisible": true,
         "type": "CANVAS_WIDGET",
@@ -42,15 +42,33 @@
             "containerStyle": "none",
             "canExtend": false
         },
+        "minHeight": 1510,
         "isLoading": false,
-        "minHeight": 1904.75,
         "renderMode": "CANVAS",
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
-        "leftColumn": 0
+        "responsiveBehavior": "fill",
+        "leftColumn": 0,
+        "positioning": "vertical",
+        "flexLayers": [
+            {"children": [{
+                "id": "xdnktgf46b",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "xexhf2wd8d",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "0jzpqx7v1l",
+                "align": "start"
+            }]}
+        ]
     }],
     "borderWidth": "1",
     "key": "j1ym1lmwve",
-    "backgroundColor": "#f4f4f5",
+    "flexVerticalAlignment": "stretch",
+    "backgroundColor": "#ffffff",
     "isDeprecated": false,
     "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
@@ -65,6 +83,7 @@
     "responsiveBehavior": "fill",
     "originalTopRow": 10,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 169,
+    "originalBottomRow": 161,
+    "alignment": "start",
     "minDynamicHeight": 10
 }

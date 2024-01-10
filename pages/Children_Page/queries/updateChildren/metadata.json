@@ -42,7 +42,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"userId\": {{ appsmith.store.jwt }},\n\t\"rowIndex\": {{ fetchChildren.data[0].rowIndex }},\n\t\"childName\": {{ childNameField.value }},\n\t\"childDateOfBirth\": {{ childDOBField.value }},\n\t\"guardianName\": {{ guardianNameField.value }},\n\t\"guardianContact\": {{ guardianContactField.value }},\n\t\"acceptanceOfGuardianship\": \"\"\n}"
+          "data": "{\n\t\"userId\": {{ appsmith.store.jwt }},\n\t\"rowIndex\": {{ fetchChildren.data[0]?.rowIndex }},\n\t\"childName\": {{ childNameField.value }},\n\t\"childDateOfBirth\": {{ childDOBField.value }},\n\t\"guardianName\": {{ guardianNameField.value }},\n\t\"guardianContact\": {{ guardianContactField.value }},\n\t\"acceptanceOfGuardianship\": \"\"\n}"
         },
         "sheetName": {
           "data": "Children"
@@ -76,7 +76,7 @@
       " appsmith.store.jwt ",
       " childDOBField.value ",
       " childNameField.value ",
-      " fetchChildren.data[0].rowIndex ",
+      " fetchChildren.data[0]?.rowIndex ",
       " guardianContactField.value ",
       " guardianNameField.value "
     ],

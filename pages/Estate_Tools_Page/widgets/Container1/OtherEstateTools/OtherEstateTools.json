@@ -12,8 +12,8 @@
         "parent",
         "group"
     ],
-    "topRow": 176,
-    "bottomRow": 195,
+    "topRow": 180.99999999999997,
+    "bottomRow": 201.39999999999998,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -21,16 +21,16 @@
     "animateLoading": true,
     "parentColumnSpace": 7.94775390625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 13,
+    "leftColumn": 0,
     "dynamicBindingPathList": [{"key": "isVisible"}],
     "children": [{
-        "rightColumn": 508.65625,
         "widgetName": "Canvas6Copy",
+        "rightColumn": 508.65625,
         "detachFromLayout": true,
         "widgetId": "v7lp7jxns5",
-        "containerStyle": "none",
-        "bottomRow": 190,
+        "bottomRow": 204,
         "topRow": 0,
+        "containerStyle": "none",
         "parentRowSpace": 1,
         "isVisible": true,
         "type": "CANVAS_WIDGET",
@@ -43,27 +43,48 @@
             "containerStyle": "none",
             "canExtend": false
         },
+        "minHeight": 180,
         "isLoading": false,
-        "minHeight": 190,
         "renderMode": "CANVAS",
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
-        "leftColumn": 0
+        "responsiveBehavior": "fill",
+        "leftColumn": 0,
+        "positioning": "vertical",
+        "flexLayers": [
+            {"children": [{
+                "id": "yg7xe6gnt9",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "v99vzyosjy",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "bcozvv5f3v",
+                "align": "center"
+            }]}
+        ]
     }],
     "borderWidth": "1",
     "key": "ca2ft8ngsi",
+    "flexVerticalAlignment": "stretch",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
-    "rightColumn": 60,
+    "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "2xkdeu3thb",
     "containerStyle": "card",
+    "minWidth": 450,
     "isVisible": "{{ShowHide_OtherTools_Container.isChecked}}",
     "version": 1,
     "parentId": "43yv8pkr8k",
     "renderMode": "CANVAS",
     "isLoading": false,
     "originalTopRow": 176,
+    "responsiveBehavior": "fill",
     "maxDynamicHeight": 9000,
     "originalBottomRow": 195,
+    "alignment": "center",
     "minDynamicHeight": 10
 }

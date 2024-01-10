@@ -13,37 +13,65 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 680,
+          "bottomRow": 1356.0000000000002,
           "containerStyle": "none",
           "snapRows": 67,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 85,
-          "minHeight": 680,
+          "version": 87,
+          "minHeight": 780,
+          "useAutoLayout": true,
           "parentColumnSpace": 1,
+          "responsiveBehavior": "fill",
           "dynamicBindingPathList": [],
-          "leftColumn": 0
+          "leftColumn": 0,
+          "positioning": "vertical",
+          "flexLayers": [
+            {
+              "children": [
+                {
+                  "id": "bunl99jote",
+                  "align": "start"
+                }
+              ]
+            }
+          ]
         },
         "layoutOnLoadActions": [
           [
             {
-              "id": "Home_Page_fetch_users",
-              "name": "fetch_users",
+              "id": "Home_Page_DashboardUtils.assetsCalculation",
+              "name": "DashboardUtils.assetsCalculation",
+              "collectionId": "Home_Page_DashboardUtils",
               "confirmBeforeExecute": false,
-              "pluginType": "SAAS",
-              "jsonPathKeys": [],
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async function () {\n  const movablePropertyTotal = await get_Movable_Property.run().then(data => {\n    return data.reduce((total, row) => {\n      return total + Number(row.localSharePortfolioBaseCost) + Number(row.offshoreInvestmentPortfolioBaseCost) + Number(row.unlistedInvestmentsBaseCost) + Number(row.highValueNonPersonalUseBaseCost) + Number(row.digitalAssetsBaseCost) + Number(row.moneyMarketUnitTrustsBaseCost);\n    }, 0);\n  });\n  const immovablePropertyTotal = await get_Immovable_Property.run().then(data => {\n    return data.reduce((total, row) => {\n      return total + Number(row.primaryResBaseCost) + Number(row.otherImmovablePropBaseCost) + Number(row.offshoreImmovablePropBaseCost);\n    }, 0);\n  });\n  const otherAssetsTotal = await get_other_assets.run().then(data => {\n    return data.reduce((total, row) => {\n      return total + Number(row.localBankAccountValue) + Number(row.offshoreBankAccountsValue) + Number(row.highValuePersonalUseAssetsValue);\n    }, 0);\n  });\n  const policiesAssetsTotal = await get_policies_assets.run().then(data => {\n    return data.reduce((total, row) => {\n      return total + Number(row.lifePoliciesCurrentValue) + Number(row.retirementPoliciesCurrentValue) + Number(row.otherPoliciesCurrentValue);\n    }, 0);\n  });\n  return {\n    movablePropertyTotal,\n    immovablePropertyTotal,\n    otherAssetsTotal,\n    policiesAssetsTotal\n  };\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Home_Page_DashboardUtils.liabilitiesCalculation",
+              "name": "DashboardUtils.liabilitiesCalculation",
+              "collectionId": "Home_Page_DashboardUtils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async function () {\n  const loansCreditTotal = await get_Loans_Credit.run().then(data => {\n    return data.reduce((total, row) => {\n      return total + Number(row.bondAmount) + Number(row.vehicleFinancingAmount) + Number(row.stLoanAmount) + Number(row.creditCardDebtAmount);\n    }, 0);\n  });\n  const otherLiabilitiesTotal = await get_Other_Liabilities.run().then(data => {\n    return data.reduce((total, row) => {\n      return total + Number(row.storeAccountsAmount) + Number(row.cellphoneContractsAmount) + Number(row.otherContractsAmount) + Number(row.medicalExpensesAmount) + Number(row.ratesTaxesAmount) + Number(row.medicalAidAmount) + Number(row.otherDebtsAmount);\n    }, 0);\n  });\n  return {\n    loansCreditTotal,\n    otherLiabilitiesTotal\n  };\n}"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],
           [
             {
-              "id": "Home_Page_Loans_and_Credit_Liabilities",
-              "name": "Loans_and_Credit_Liabilities",
+              "id": "Home_Page_DashboardUtils.solvencyCalculation",
+              "name": "DashboardUtils.solvencyCalculation",
+              "collectionId": "Home_Page_DashboardUtils",
               "confirmBeforeExecute": false,
-              "pluginType": "SAAS",
+              "pluginType": "JS",
               "jsonPathKeys": [
-                " appsmith.store.jwt "
+                "async function () {\n  const loansCreditTotal = await get_Loans_Credit.run().then(data => {\n    return data.reduce((total, row) => {\n      return total + Number(row.bondAmount) + Number(row.vehicleFinancingAmount) + Number(row.stLoanAmount) + Number(row.creditCardDebtAmount);\n    }, 0);\n  });\n  const otherLiabilitiesTotal = await get_Other_Liabilities.run().then(data => {\n    return data.reduce((total, row) => {\n      return total + Number(row.storeAccountsAmount) + Number(row.cellphoneContractsAmount) + Number(row.otherContractsAmount) + Number(row.medicalExpensesAmount) + Number(row.ratesTaxesAmount) + Number(row.medicalAidAmount) + Number(row.otherDebtsAmount);\n    }, 0);\n  });\n  const totalLiabilitiesValue = loansCreditTotal + otherLiabilitiesTotal;\n  console.log('totalLiabilitiesValue', totalLiabilitiesValue);\n  const movablePropertyTotal = await get_Movable_Property.run().then(data => {\n    return data.reduce((total, row) => {\n      return total + Number(row.localSharePortfolioBaseCost) + Number(row.offshoreInvestmentPortfolioBaseCost) + Number(row.unlistedInvestmentsBaseCost) + Number(row.highValueNonPersonalUseBaseCost) + Number(row.digitalAssetsBaseCost) + Number(row.moneyMarketUnitTrustsBaseCost);\n    }, 0);\n  });\n  const immovablePropertyTotal = await get_Immovable_Property.run().then(data => {\n    return data.reduce((total, row) => {\n      return total + Number(row.primaryResBaseCost) + Number(row.otherImmovablePropBaseCost) + Number(row.offshoreImmovablePropBaseCost);\n    }, 0);\n  });\n  const otherAssetsTotal = await get_other_assets.run().then(data => {\n    return data.reduce((total, row) => {\n      return total + Number(row.localBankAccountValue) + Number(row.offshoreBankAccountsValue) + Number(row.highValuePersonalUseAssetsValue);\n    }, 0);\n  });\n  const policiesAssetsTotal = await get_policies_assets.run().then(data => {\n    return data.reduce((total, row) => {\n      return total + Number(row.lifePoliciesCurrentValue) + Number(row.retirementPoliciesCurrentValue) + Number(row.otherPoliciesCurrentValue);\n    }, 0);\n  });\n  console.log('assets', {\n    movablePropertyTotal,\n    immovablePropertyTotal,\n    otherAssetsTotal,\n    policiesAssetsTotal\n  });\n  const totalAssetsValue = movablePropertyTotal + immovablePropertyTotal + otherAssetsTotal + policiesAssetsTotal;\n  return {\n    x: totalLiabilitiesValue,\n    y: totalAssetsValue\n  };\n}"
               ],
               "timeoutInMillisecond": 10000
             }

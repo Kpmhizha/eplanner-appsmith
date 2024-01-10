@@ -12,8 +12,8 @@
         "parent",
         "group"
     ],
-    "topRow": 47,
-    "bottomRow": 75,
+    "topRow": 48.400000000000006,
+    "bottomRow": 77,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -24,13 +24,13 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [{"key": "isVisible"}],
     "children": [{
-        "rightColumn": 756.78125,
         "widgetName": "Canvas4",
+        "rightColumn": 756.78125,
         "detachFromLayout": true,
         "widgetId": "y0d0b4fwlk",
-        "containerStyle": "none",
-        "bottomRow": 280,
+        "bottomRow": 286,
         "topRow": 0,
+        "containerStyle": "none",
         "parentRowSpace": 1,
         "isVisible": true,
         "type": "CANVAS_WIDGET",
@@ -43,27 +43,66 @@
             "containerStyle": "none",
             "canExtend": false
         },
+        "minHeight": 250,
         "isLoading": false,
-        "minHeight": 280,
         "renderMode": "CANVAS",
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
-        "leftColumn": 0
+        "responsiveBehavior": "fill",
+        "leftColumn": 0,
+        "positioning": "vertical",
+        "flexLayers": [
+            {"children": [{
+                "id": "9qfl5zmdqc",
+                "align": "start"
+            }]},
+            {"children": [
+                {
+                    "id": "huceyue0dy",
+                    "align": "start"
+                },
+                {
+                    "id": "avga41ojji",
+                    "align": "start"
+                },
+                {
+                    "id": "42khvhcrmp",
+                    "align": "start"
+                },
+                {
+                    "id": "v3kkgm3dt5",
+                    "align": "start"
+                }
+            ]},
+            {"children": [{
+                "id": "3h01a5pl2u",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "jm3g5gk2sn",
+                "align": "center"
+            }]}
+        ]
     }],
     "borderWidth": "1",
     "key": "ca2ft8ngsi",
+    "flexVerticalAlignment": "stretch",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
     "rightColumn": 64,
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "8fwn2wpsgm",
     "containerStyle": "card",
+    "minWidth": 450,
     "isVisible": "{{ShowHide_OffshoreWIll_Containe.isChecked}}",
     "version": 1,
     "parentId": "rkx3fq4pu1",
     "renderMode": "CANVAS",
     "isLoading": false,
     "originalTopRow": 47,
+    "responsiveBehavior": "fill",
     "maxDynamicHeight": 9000,
     "originalBottomRow": 75,
+    "alignment": "start",
     "minDynamicHeight": 10
 }

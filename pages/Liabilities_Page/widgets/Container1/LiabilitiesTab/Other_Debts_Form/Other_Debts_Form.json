@@ -1,188 +1,218 @@
 {
-    "boxShadow": "none",
-    "borderColor": "#E0DEDE",
-    "widgetName": "Other_Debts_Form",
-    "isCanvas": true,
-    "displayName": "Form",
-    "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
-    "searchTags": ["group"],
-    "topRow": 0,
-    "bottomRow": 60.80000000000001,
-    "parentRowSpace": 10,
-    "type": "FORM_WIDGET",
-    "hideCard": false,
-    "shouldScrollContents": true,
-    "animateLoading": true,
-    "parentColumnSpace": 12.2998046875,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
-    "children": [{
-        "widgetName": "Canvas5",
-        "displayName": "Canvas",
-        "topRow": 0,
-        "bottomRow": 608.0000000000001,
-        "parentRowSpace": 1,
-        "type": "CANVAS_WIDGET",
-        "canExtend": false,
-        "hideCard": true,
-        "minHeight": 1010,
-        "useAutoLayout": true,
-        "parentColumnSpace": 1,
-        "leftColumn": 0,
-        "dynamicBindingPathList": [],
-        "positioning": "vertical",
-        "key": "oilh9lqxii",
-        "isDeprecated": false,
-        "rightColumn": 295.1953125,
-        "detachFromLayout": true,
-        "widgetId": "ghh2fww39f",
-        "containerStyle": "none",
-        "isVisible": true,
-        "version": 1,
-        "parentId": "jkqa04pyv3",
-        "renderMode": "CANVAS",
-        "isLoading": false,
-        "responsiveBehavior": "fill",
-        "flexLayers": [
-            {"children": [{
-                "id": "n556b1k2oe",
-                "align": "start"
-            }]},
-            {"children": [
-                {
-                    "id": "fzjrha8rd5",
-                    "align": "start"
-                },
-                {
-                    "id": "ggf3wqs2qy",
-                    "align": "start"
-                },
-                {
-                    "id": "e2l39lxpje",
-                    "align": "start"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "o5un8eyrn6",
-                    "align": "end"
-                },
-                {
-                    "id": "k7a4xd8z70",
-                    "align": "end"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "laszum3vyj",
-                    "align": "start"
-                },
-                {
-                    "id": "9uz0p0jd4o",
-                    "align": "start"
-                },
-                {
-                    "id": "oigst5hes6",
-                    "align": "start"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "ggzwjq00xb",
-                    "align": "start"
-                },
-                {
-                    "id": "6i7qy2d46t",
-                    "align": "start"
-                },
-                {
-                    "id": "h1p7nmuyer",
-                    "align": "start"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "ee9jzrmvd0",
-                    "align": "end"
-                },
-                {
-                    "id": "evi3cqu8cs",
-                    "align": "end"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "cbjlozee11",
-                    "align": "start"
-                },
-                {
-                    "id": "360zezp8x1",
-                    "align": "start"
-                },
-                {
-                    "id": "m2q86ruokz",
-                    "align": "start"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "1w6nxlmimt",
-                    "align": "start"
-                },
-                {
-                    "id": "3a0fkzdqev",
-                    "align": "start"
-                },
-                {
-                    "id": "lmfmgcq47s",
-                    "align": "start"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "leurzsdpo5",
-                    "align": "start"
-                },
-                {
-                    "id": "cvtriprc7i",
-                    "align": "start"
-                },
-                {
-                    "id": "sga9ia39zc",
-                    "align": "start"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "y6yfhdfck4",
-                    "align": "start"
-                },
-                {
-                    "id": "pe8h0e31ol",
-                    "align": "center"
-                }
-            ]}
-        ]
-    }],
-    "borderWidth": "0",
-    "key": "0kzpofrtrc",
-    "flexVerticalAlignment": "stretch",
-    "backgroundColor": "#FFFFFF",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "jkqa04pyv3",
-    "minWidth": 450,
-    "isVisible": true,
-    "parentId": "fg6ka0usss",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "originalTopRow": 1,
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "originalBottomRow": 74,
-    "alignment": "start",
-    "minDynamicHeight": 10
+  "alignment": "start",
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "0",
+  "bottomRow": 60.80000000000001,
+  "boxShadow": "none",
+  "children": [
+    {
+      "bottomRow": 608.0000000000001,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "flexLayers": [
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "n556b1k2oe"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "fzjrha8rd5"
+            },
+            {
+              "align": "start",
+              "id": "ggf3wqs2qy"
+            },
+            {
+              "align": "start",
+              "id": "e2l39lxpje"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "end",
+              "id": "o5un8eyrn6"
+            },
+            {
+              "align": "end",
+              "id": "k7a4xd8z70"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "laszum3vyj"
+            },
+            {
+              "align": "start",
+              "id": "9uz0p0jd4o"
+            },
+            {
+              "align": "start",
+              "id": "oigst5hes6"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "ggzwjq00xb"
+            },
+            {
+              "align": "start",
+              "id": "6i7qy2d46t"
+            },
+            {
+              "align": "start",
+              "id": "h1p7nmuyer"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "end",
+              "id": "ee9jzrmvd0"
+            },
+            {
+              "align": "end",
+              "id": "evi3cqu8cs"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "cbjlozee11"
+            },
+            {
+              "align": "start",
+              "id": "360zezp8x1"
+            },
+            {
+              "align": "start",
+              "id": "m2q86ruokz"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "1w6nxlmimt"
+            },
+            {
+              "align": "start",
+              "id": "3a0fkzdqev"
+            },
+            {
+              "align": "start",
+              "id": "lmfmgcq47s"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "leurzsdpo5"
+            },
+            {
+              "align": "start",
+              "id": "cvtriprc7i"
+            },
+            {
+              "align": "start",
+              "id": "sga9ia39zc"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "y6yfhdfck4"
+            },
+            {
+              "align": "center",
+              "id": "pe8h0e31ol"
+            }
+          ]
+        }
+      ],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "oilh9lqxii",
+      "leftColumn": 0,
+      "minHeight": 1010,
+      "parentColumnSpace": 1,
+      "parentId": "jkqa04pyv3",
+      "parentRowSpace": 1,
+      "positioning": "vertical",
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 295.1953125,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "useAutoLayout": true,
+      "version": 1,
+      "widgetId": "ghh2fww39f",
+      "widgetName": "Canvas5"
+    }
+  ],
+  "displayName": "Form",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "stretch",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "0kzpofrtrc",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "originalBottomRow": 74,
+  "originalTopRow": 1,
+  "parentColumnSpace": 12.2998046875,
+  "parentId": "fg6ka0usss",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "group"
+  ],
+  "shouldScrollContents": true,
+  "topRow": 0,
+  "type": "FORM_WIDGET",
+  "widgetId": "jkqa04pyv3",
+  "widgetName": "Other_Debts_Form"
 }

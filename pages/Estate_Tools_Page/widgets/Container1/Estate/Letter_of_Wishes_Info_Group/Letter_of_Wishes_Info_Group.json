@@ -1,92 +1,108 @@
 {
-    "tabId": "",
-    "boxShadow": "NONE",
-    "widgetName": "Letter_of_Wishes_Info_Group",
-    "borderColor": "#E0DEDE",
-    "isCanvas": true,
-    "dynamicPropertyPathList": [{"key": "isVisible"}],
-    "displayName": "Container",
-    "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
-    "searchTags": [
-        "div",
-        "parent",
-        "group"
-    ],
-    "topRow": 99.8,
-    "bottomRow": 114,
-    "parentRowSpace": 10,
-    "type": "CONTAINER_WIDGET",
-    "hideCard": false,
-    "shouldScrollContents": true,
-    "animateLoading": true,
-    "parentColumnSpace": 7.94775390625,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [{"key": "isVisible"}],
-    "children": [{
-        "widgetName": "Canvas6",
-        "rightColumn": 508.65625,
-        "detachFromLayout": true,
-        "widgetId": "gscjqlb6ui",
-        "bottomRow": 142,
-        "topRow": 0,
-        "containerStyle": "none",
-        "parentRowSpace": 1,
-        "isVisible": true,
-        "type": "CANVAS_WIDGET",
-        "canExtend": false,
-        "version": 1,
-        "parentId": "oif3l6zh9m",
-        "props": {
-            "detachFromLayout": true,
-            "children": [],
-            "containerStyle": "none",
-            "canExtend": false
+  "alignment": "start",
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E0DEDE",
+  "borderWidth": "1",
+  "bottomRow": 114,
+  "boxShadow": "NONE",
+  "children": [
+    {
+      "bottomRow": 142,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "flexLayers": [
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "745rab0u6d"
+            }
+          ]
         },
-        "minHeight": 130,
-        "isLoading": false,
-        "renderMode": "CANVAS",
-        "useAutoLayout": true,
-        "parentColumnSpace": 1,
-        "responsiveBehavior": "fill",
-        "leftColumn": 0,
-        "positioning": "vertical",
-        "flexLayers": [
-            {"children": [{
-                "id": "745rab0u6d",
-                "align": "start"
-            }]},
-            {"children": [
-                {
-                    "id": "ky178pbbox",
-                    "align": "start"
-                },
-                {
-                    "id": "yolu710ief",
-                    "align": "end"
-                }
-            ]}
-        ]
-    }],
-    "borderWidth": "1",
-    "key": "ca2ft8ngsi",
-    "flexVerticalAlignment": "stretch",
-    "backgroundColor": "#FFFFFF",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "oif3l6zh9m",
-    "containerStyle": "card",
-    "minWidth": 450,
-    "isVisible": "{{ShowHideLetterOfWishes.isChecked}}",
-    "version": 1,
-    "parentId": "rkx3fq4pu1",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "originalTopRow": 96,
-    "responsiveBehavior": "fill",
-    "maxDynamicHeight": 9000,
-    "originalBottomRow": 109,
-    "alignment": "start",
-    "minDynamicHeight": 10
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "ky178pbbox"
+            },
+            {
+              "align": "end",
+              "id": "yolu710ief"
+            }
+          ]
+        }
+      ],
+      "isLoading": false,
+      "isVisible": true,
+      "leftColumn": 0,
+      "minHeight": 130,
+      "parentColumnSpace": 1,
+      "parentId": "oif3l6zh9m",
+      "parentRowSpace": 1,
+      "positioning": "vertical",
+      "props": {
+        "canExtend": false,
+        "children": [],
+        "containerStyle": "none",
+        "detachFromLayout": true
+      },
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 508.65625,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "useAutoLayout": true,
+      "version": 1,
+      "widgetId": "gscjqlb6ui",
+      "widgetName": "Canvas6"
+    }
+  ],
+  "containerStyle": "card",
+  "displayName": "Container",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "stretch",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": "{{ShowHideLetterOfWishes.isChecked}}",
+  "key": "ca2ft8ngsi",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "originalBottomRow": 109,
+  "originalTopRow": 96,
+  "parentColumnSpace": 7.94775390625,
+  "parentId": "rkx3fq4pu1",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "div",
+    "parent",
+    "group"
+  ],
+  "shouldScrollContents": true,
+  "tabId": "",
+  "topRow": 99.8,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "oif3l6zh9m",
+  "widgetName": "Letter_of_Wishes_Info_Group"
 }

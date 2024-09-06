@@ -1,101 +1,107 @@
 {
-    "tabId": "",
-    "boxShadow": "NONE",
-    "widgetName": "EstateToolsChecklist_Container",
-    "borderColor": "#E0DEDE",
-    "isCanvas": true,
-    "displayName": "Container",
-    "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
-    "searchTags": [
-        "div",
-        "parent",
-        "group"
-    ],
-    "topRow": 41.2,
-    "bottomRow": 47.2,
-    "parentRowSpace": 10,
-    "type": "CONTAINER_WIDGET",
-    "hideCard": false,
-    "shouldScrollContents": true,
-    "animateLoading": true,
-    "parentColumnSpace": 10.915939331054688,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [],
-    "children": [{
-        "widgetName": "Canvas10",
-        "rightColumn": 698.6201171875,
-        "detachFromLayout": true,
-        "widgetId": "2mgvzzddez",
-        "bottomRow": 60,
-        "topRow": 0,
-        "containerStyle": "none",
-        "parentRowSpace": 1,
-        "isVisible": true,
-        "type": "CANVAS_WIDGET",
-        "canExtend": false,
-        "version": 1,
-        "parentId": "8r840jovby",
-        "props": {
-            "detachFromLayout": true,
-            "children": [],
-            "containerStyle": "none",
-            "canExtend": false
-        },
-        "minHeight": 60,
-        "isLoading": false,
-        "renderMode": "CANVAS",
-        "useAutoLayout": true,
-        "parentColumnSpace": 1,
-        "responsiveBehavior": "fill",
-        "leftColumn": 0,
-        "positioning": "vertical",
-        "flexLayers": [{"children": [
+  "alignment": "start",
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E0DEDE",
+  "borderWidth": "1",
+  "bottomRow": 47.2,
+  "boxShadow": "NONE",
+  "children": [
+    {
+      "bottomRow": 60,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "flexLayers": [
+        {
+          "children": [
             {
-                "id": "245paqswlq",
-                "align": "start"
+              "align": "start",
+              "id": "245paqswlq"
             },
             {
-                "id": "b5chadxje2",
-                "align": "start"
+              "align": "start",
+              "id": "b5chadxje2"
             },
             {
-                "id": "c8k9q6cn8y",
-                "align": "start"
+              "align": "start",
+              "id": "c8k9q6cn8y"
             },
             {
-                "id": "brscvce48d",
-                "align": "start"
+              "align": "start",
+              "id": "brscvce48d"
             },
             {
-                "id": "uhcgbrxmt1",
-                "align": "start"
+              "align": "start",
+              "id": "uhcgbrxmt1"
             },
             {
-                "id": "foz2scl8ck",
-                "align": "start"
+              "align": "start",
+              "id": "foz2scl8ck"
             }
-        ]}]
-    }],
-    "borderWidth": "1",
-    "key": "622fppg7zm",
-    "flexVerticalAlignment": "stretch",
-    "backgroundColor": "#FFFFFF",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "8r840jovby",
-    "containerStyle": "card",
-    "minWidth": 450,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "rkx3fq4pu1",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "originalTopRow": 40,
-    "responsiveBehavior": "fill",
-    "maxDynamicHeight": 9000,
-    "originalBottomRow": 45,
-    "alignment": "start",
-    "minDynamicHeight": 10
+          ]
+        }
+      ],
+      "isLoading": false,
+      "isVisible": true,
+      "leftColumn": 0,
+      "minHeight": 60,
+      "parentColumnSpace": 1,
+      "parentId": "8r840jovby",
+      "parentRowSpace": 1,
+      "positioning": "vertical",
+      "props": {
+        "canExtend": false,
+        "children": [],
+        "containerStyle": "none",
+        "detachFromLayout": true
+      },
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 698.6201171875,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "useAutoLayout": true,
+      "version": 1,
+      "widgetId": "2mgvzzddez",
+      "widgetName": "Canvas10"
+    }
+  ],
+  "containerStyle": "card",
+  "displayName": "Container",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "stretch",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "622fppg7zm",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "originalBottomRow": 45,
+  "originalTopRow": 40,
+  "parentColumnSpace": 10.915939331054688,
+  "parentId": "rkx3fq4pu1",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "div",
+    "parent",
+    "group"
+  ],
+  "shouldScrollContents": true,
+  "tabId": "",
+  "topRow": 41.2,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "8r840jovby",
+  "widgetName": "EstateToolsChecklist_Container"
 }

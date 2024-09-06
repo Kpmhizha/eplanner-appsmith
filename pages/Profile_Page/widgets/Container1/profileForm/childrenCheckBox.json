@@ -1,46 +1,58 @@
 {
-    "widgetName": "childrenCheckBox",
-    "dynamicPropertyPathList": [{"key": "defaultCheckedState"}],
-    "displayName": "Checkbox",
-    "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
-    "searchTags": ["boolean"],
-    "topRow": 38,
-    "bottomRow": 42,
-    "parentRowSpace": 10,
-    "type": "CHECKBOX_WIDGET",
-    "alignWidget": "LEFT",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 12.01953125,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultCheckedState"}
-    ],
-    "labelPosition": "Left",
-    "isDisabled": false,
-    "key": "ibvdj7cv7y",
-    "flexVerticalAlignment": "end",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 32,
-    "dynamicHeight": "FIXED",
-    "widgetId": "uuxe9wqmkm",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "minWidth": 450,
-    "isVisible": true,
-    "label": "I have Children",
-    "version": 1,
-    "parentId": "n61p0d6ln9",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "defaultCheckedState": "{{getUser.data[0]['Has Children']}}",
-    "maxDynamicHeight": 9000,
-    "alignment": "center",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "alignment": "center",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 42,
+  "defaultCheckedState": "{{getUser.data[0]['Has Children']}}",
+  "displayName": "Checkbox",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultCheckedState"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "end",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "ibvdj7cv7y",
+  "label": "I have Children",
+  "labelPosition": "Left",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "parentColumnSpace": 12.01953125,
+  "parentId": "n61p0d6ln9",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "searchTags": [
+    "boolean"
+  ],
+  "topRow": 38,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "uuxe9wqmkm",
+  "widgetName": "childrenCheckBox"
 }

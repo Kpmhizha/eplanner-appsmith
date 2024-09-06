@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "6381f6413e748351b7e698c0_64fda2d5cdcf08037df4f901",
+  "id": "Children_Page_Utils",
   "unpublishedCollection": {
     "name": "Utils",
     "pageId": "Children_Page",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Children_Page_Utils",
-  "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_64fda2d5cdcf08037df4f901"
+    ]
+  }
 }

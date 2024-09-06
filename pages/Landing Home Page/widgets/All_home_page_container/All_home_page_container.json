@@ -1,95 +1,109 @@
 {
-    "tabId": "",
-    "boxShadow": "NONE",
-    "mobileBottomRow": 368.3890625000001,
-    "widgetName": "All_home_page_container",
-    "borderColor": "#E0DEDE",
-    "isCanvas": true,
-    "displayName": "Container",
-    "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
-    "searchTags": [
-        "div",
-        "parent",
-        "group"
-    ],
-    "topRow": 9.2,
-    "bottomRow": 158.79687500000003,
-    "parentRowSpace": 10,
-    "type": "CONTAINER_WIDGET",
-    "hideCard": false,
-    "shouldScrollContents": true,
-    "mobileRightColumn": 64,
-    "animateLoading": true,
-    "parentColumnSpace": 12.53125,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [],
-    "children": [{
-        "mobileBottomRow": 3499.890625000001,
-        "widgetName": "Canvas9",
-        "bottomRow": 1495.9687500000005,
-        "topRow": 0,
-        "parentRowSpace": 1,
-        "type": "CANVAS_WIDGET",
-        "canExtend": false,
-        "minHeight": 1510,
-        "useAutoLayout": true,
-        "parentColumnSpace": 1,
-        "leftColumn": 0,
-        "positioning": "vertical",
-        "rightColumn": 802,
-        "detachFromLayout": true,
-        "widgetId": "ajpxrotium",
-        "containerStyle": "none",
-        "isVisible": true,
-        "version": 1,
-        "parentId": "b0cb40dien",
-        "props": {
-            "detachFromLayout": true,
-            "children": [],
-            "containerStyle": "none",
-            "canExtend": false
+  "alignment": "start",
+  "animateLoading": true,
+  "backgroundColor": "#ffffff",
+  "borderColor": "#E0DEDE",
+  "borderWidth": "1",
+  "bottomRow": 158.79687500000003,
+  "boxShadow": "NONE",
+  "children": [
+    {
+      "bottomRow": 1495.9687500000005,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "flexLayers": [
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "xdnktgf46b"
+            }
+          ]
         },
-        "isLoading": false,
-        "renderMode": "CANVAS",
-        "mobileTopRow": 0,
-        "responsiveBehavior": "fill",
-        "flexLayers": [
-            {"children": [{
-                "id": "xdnktgf46b",
-                "align": "start"
-            }]},
-            {"children": [{
-                "id": "xexhf2wd8d",
-                "align": "start"
-            }]},
-            {"children": [{
-                "id": "0jzpqx7v1l",
-                "align": "start"
-            }]}
-        ]
-    }],
-    "borderWidth": "1",
-    "key": "j1ym1lmwve",
-    "flexVerticalAlignment": "stretch",
-    "backgroundColor": "#ffffff",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "b0cb40dien",
-    "containerStyle": "card",
-    "minWidth": 450,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 18.400000000000002,
-    "responsiveBehavior": "fill",
-    "originalTopRow": 10,
-    "mobileLeftColumn": 0,
-    "maxDynamicHeight": 9000,
-    "originalBottomRow": 161,
-    "alignment": "start",
-    "minDynamicHeight": 10
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "xexhf2wd8d"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "0jzpqx7v1l"
+            }
+          ]
+        }
+      ],
+      "isLoading": false,
+      "isVisible": true,
+      "leftColumn": 0,
+      "minHeight": 1510,
+      "mobileBottomRow": 3499.890625000001,
+      "mobileTopRow": 0,
+      "parentColumnSpace": 1,
+      "parentId": "b0cb40dien",
+      "parentRowSpace": 1,
+      "positioning": "vertical",
+      "props": {
+        "canExtend": false,
+        "children": [],
+        "containerStyle": "none",
+        "detachFromLayout": true
+      },
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 802,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "useAutoLayout": true,
+      "version": 1,
+      "widgetId": "ajpxrotium",
+      "widgetName": "Canvas9"
+    }
+  ],
+  "containerStyle": "card",
+  "displayName": "Container",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "stretch",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "j1ym1lmwve",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "mobileBottomRow": 368.3890625000001,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 18.400000000000002,
+  "originalBottomRow": 161,
+  "originalTopRow": 10,
+  "parentColumnSpace": 12.53125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "div",
+    "parent",
+    "group"
+  ],
+  "shouldScrollContents": true,
+  "tabId": "",
+  "topRow": 9.2,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "b0cb40dien",
+  "widgetName": "All_home_page_container"
 }

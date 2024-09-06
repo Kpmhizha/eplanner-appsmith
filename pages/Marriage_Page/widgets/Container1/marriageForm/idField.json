@@ -1,63 +1,77 @@
 {
-    "boxShadow": "none",
-    "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-    "onSubmit": "",
-    "topRow": 13.399999999999999,
-    "labelWidth": "13",
-    "type": "INPUT_WIDGET_V2",
-    "animateLoading": true,
-    "resetOnSubmit": true,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultText"}
-    ],
-    "labelStyle": "",
-    "inputType": "TEXT",
-    "isDisabled": false,
-    "flexVerticalAlignment": "end",
-    "isRequired": true,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 2,
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "alignment": "center",
-    "widgetName": "idField",
-    "dynamicPropertyPathList": [{"key": "onTextChanged"}],
-    "displayName": "Input",
-    "searchTags": [
-        "form",
-        "text input",
-        "number",
-        "textarea"
-    ],
-    "bottomRow": 20.4,
-    "parentRowSpace": 10,
-    "autoFocus": false,
-    "hideCard": false,
-    "parentColumnSpace": 6.2021484375,
-    "dynamicTriggerPathList": [
-        {"key": "onTextChanged"},
-        {"key": "onSubmit"}
-    ],
-    "labelPosition": "Top",
-    "key": "ntok3jk76w",
-    "labelTextSize": "0.875rem",
-    "onTextChanged": "",
-    "isDeprecated": false,
-    "rightColumn": 32,
-    "widgetId": "u74c5jdf5v",
-    "minWidth": 450,
-    "label": "Spouse 's ID/Passport",
-    "parentId": "urj5skkolo",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "responsiveBehavior": "fill",
-    "maxDynamicHeight": 9000,
-    "iconAlign": "left",
-    "defaultText": "{{getMarriageProfile.data[0].spouseId}}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "center",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 20.4,
+  "boxShadow": "none",
+  "defaultText": "{{getMarriageProfile.data[0].spouseId}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    },
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "flexVerticalAlignment": "end",
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "ntok3jk76w",
+  "label": "Spouse 's ID/Passport",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "13",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "onSubmit": "",
+  "onTextChanged": "",
+  "parentColumnSpace": 6.2021484375,
+  "parentId": "urj5skkolo",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "topRow": 13.399999999999999,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "u74c5jdf5v",
+  "widgetName": "idField"
 }

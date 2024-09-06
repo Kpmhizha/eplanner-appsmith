@@ -1,146 +1,170 @@
 {
-    "boxShadow": "none",
-    "borderColor": "#E0DEDE",
-    "widgetName": "Form1",
-    "isCanvas": true,
-    "displayName": "Form",
-    "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
-    "searchTags": ["group"],
-    "topRow": 0,
-    "bottomRow": 36,
-    "parentRowSpace": 10,
-    "type": "FORM_WIDGET",
-    "hideCard": false,
-    "shouldScrollContents": true,
-    "animateLoading": true,
-    "parentColumnSpace": 12.2998046875,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
-    "children": [{
-        "widgetName": "Canvas5",
-        "displayName": "Canvas",
-        "topRow": 0,
-        "bottomRow": 360,
-        "parentRowSpace": 1,
-        "type": "CANVAS_WIDGET",
-        "canExtend": false,
-        "hideCard": true,
-        "minHeight": 320,
-        "useAutoLayout": true,
-        "parentColumnSpace": 1,
-        "leftColumn": 0,
-        "dynamicBindingPathList": [],
-        "positioning": "vertical",
-        "key": "4oekesaaxy",
-        "isDeprecated": false,
-        "rightColumn": 295.1953125,
-        "detachFromLayout": true,
-        "widgetId": "mh53i4yie5",
-        "containerStyle": "none",
-        "isVisible": true,
-        "version": 1,
-        "parentId": "c1t64wyphz",
-        "renderMode": "CANVAS",
-        "isLoading": false,
-        "responsiveBehavior": "fill",
-        "flexLayers": [
-            {"children": [{
-                "id": "76z0p4q688",
-                "align": "start"
-            }]},
-            {"children": [
-                {
-                    "id": "z9omqglizd",
-                    "align": "end"
-                },
-                {
-                    "id": "stydsrd6lq",
-                    "align": "end"
-                },
-                {
-                    "id": "rsmq3avzm5",
-                    "align": "end"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "ovfvouzora",
-                    "align": "start"
-                },
-                {
-                    "id": "zp7lj6cki3",
-                    "align": "start"
-                },
-                {
-                    "id": "murabrg5uu",
-                    "align": "start"
-                },
-                {
-                    "id": "t5btxp70sc",
-                    "align": "start"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "qf85m0iys6",
-                    "align": "start"
-                },
-                {
-                    "id": "dek8p2afg9",
-                    "align": "start"
-                },
-                {
-                    "id": "2yvaaofq5l",
-                    "align": "start"
-                },
-                {
-                    "id": "dmhmlhw8dx",
-                    "align": "start"
-                }
-            ]},
-            {"children": [
-                {
-                    "id": "t0a7ywhn0j",
-                    "align": "start"
-                },
-                {
-                    "id": "qbt9ywjfgo",
-                    "align": "start"
-                },
-                {
-                    "id": "npcusbf4eh",
-                    "align": "start"
-                },
-                {
-                    "id": "nb5lzpaxik",
-                    "align": "start"
-                }
-            ]},
-            {"children": [{
-                "id": "9wocqdc2rq",
-                "align": "center"
-            }]}
-        ]
-    }],
-    "borderWidth": "0",
-    "key": "y6ank1msy6",
-    "flexVerticalAlignment": "stretch",
-    "backgroundColor": "#FFFFFF",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "c1t64wyphz",
-    "minWidth": 450,
-    "isVisible": true,
-    "parentId": "ft0dh1ya1u",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "originalTopRow": 0,
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "originalBottomRow": 39,
-    "alignment": "start",
-    "minDynamicHeight": 10
+  "alignment": "start",
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "0",
+  "bottomRow": 36,
+  "boxShadow": "none",
+  "children": [
+    {
+      "bottomRow": 360,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "flexLayers": [
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "76z0p4q688"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "end",
+              "id": "z9omqglizd"
+            },
+            {
+              "align": "end",
+              "id": "stydsrd6lq"
+            },
+            {
+              "align": "end",
+              "id": "rsmq3avzm5"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "ovfvouzora"
+            },
+            {
+              "align": "start",
+              "id": "zp7lj6cki3"
+            },
+            {
+              "align": "start",
+              "id": "murabrg5uu"
+            },
+            {
+              "align": "start",
+              "id": "t5btxp70sc"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "qf85m0iys6"
+            },
+            {
+              "align": "start",
+              "id": "dek8p2afg9"
+            },
+            {
+              "align": "start",
+              "id": "2yvaaofq5l"
+            },
+            {
+              "align": "start",
+              "id": "dmhmlhw8dx"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "t0a7ywhn0j"
+            },
+            {
+              "align": "start",
+              "id": "qbt9ywjfgo"
+            },
+            {
+              "align": "start",
+              "id": "npcusbf4eh"
+            },
+            {
+              "align": "start",
+              "id": "nb5lzpaxik"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "center",
+              "id": "9wocqdc2rq"
+            }
+          ]
+        }
+      ],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "4oekesaaxy",
+      "leftColumn": 0,
+      "minHeight": 320,
+      "parentColumnSpace": 1,
+      "parentId": "c1t64wyphz",
+      "parentRowSpace": 1,
+      "positioning": "vertical",
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 295.1953125,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "useAutoLayout": true,
+      "version": 1,
+      "widgetId": "mh53i4yie5",
+      "widgetName": "Canvas5"
+    }
+  ],
+  "displayName": "Form",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "stretch",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "y6ank1msy6",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "originalBottomRow": 39,
+  "originalTopRow": 0,
+  "parentColumnSpace": 12.2998046875,
+  "parentId": "ft0dh1ya1u",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "group"
+  ],
+  "shouldScrollContents": true,
+  "topRow": 0,
+  "type": "FORM_WIDGET",
+  "widgetId": "c1t64wyphz",
+  "widgetName": "Form1"
 }

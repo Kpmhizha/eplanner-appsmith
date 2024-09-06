@@ -1,59 +1,73 @@
 {
-    "boxShadow": "none",
-    "widgetName": "contactField",
-    "dynamicPropertyPathList": [{"key": "onTextChanged"}],
-    "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-    "displayName": "Input",
-    "topRow": 21.599999999999998,
-    "searchTags": [
-        "form",
-        "text input",
-        "number",
-        "textarea"
-    ],
-    "bottomRow": 28.599999999999998,
-    "parentRowSpace": 10,
-    "labelWidth": "13",
-    "autoFocus": false,
-    "type": "INPUT_WIDGET_V2",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 6.2021484375,
-    "dynamicTriggerPathList": [{"key": "onTextChanged"}],
-    "resetOnSubmit": true,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultText"}
-    ],
-    "labelPosition": "Top",
-    "labelStyle": "",
-    "inputType": "TEXT",
-    "isDisabled": false,
-    "flexVerticalAlignment": "end",
-    "key": "ntok3jk76w",
-    "labelTextSize": "0.875rem",
-    "isRequired": true,
-    "onTextChanged": "",
-    "isDeprecated": false,
-    "rightColumn": 32,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "widgetId": "ud6vkvzg6y",
-    "minWidth": 450,
-    "isVisible": true,
-    "label": "Spouse Contact No.",
-    "version": 2,
-    "parentId": "urj5skkolo",
-    "isLoading": false,
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "iconAlign": "left",
-    "defaultText": "{{getMarriageProfile.data[0].spouseContact}}",
-    "alignment": "center",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "center",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 28.599999999999998,
+  "boxShadow": "none",
+  "defaultText": "{{getMarriageProfile.data[0].spouseContact}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "flexVerticalAlignment": "end",
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "ntok3jk76w",
+  "label": "Spouse Contact No.",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "13",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "onTextChanged": "",
+  "parentColumnSpace": 6.2021484375,
+  "parentId": "urj5skkolo",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "topRow": 21.599999999999998,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "ud6vkvzg6y",
+  "widgetName": "contactField"
 }

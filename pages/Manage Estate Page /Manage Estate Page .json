@@ -1,56 +1,45 @@
 {
+  "gitSyncId": "6381f6413e748351b7e698c0_63bbc347a9c896341acc3689",
   "unpublishedPage": {
-    "name": "Manage Estate Page ",
-    "slug": "manage-estate-page",
+    "isHidden": true,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 1042.0000000000002,
-          "containerStyle": "none",
-          "snapRows": 60,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
-          "minHeight": 640,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
-          "responsiveBehavior": "fill",
+          "containerStyle": "none",
+          "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "3xwmgx1cs4",
-                  "align": "start"
+                  "align": "start",
+                  "id": "3xwmgx1cs4"
                 }
               ]
             }
-          ]
-        },
-        "layoutOnLoadActions": [],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Manage Estate Page ",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          ],
+          "leftColumn": 0,
+          "minHeight": 640,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "vertical",
+          "responsiveBehavior": "fill",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 60,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": true,
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": true
-  },
-  "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_63bbc347a9c896341acc3689"
+    "name": "Manage Estate Page ",
+    "slug": "manage-estate-page"
+  }
 }

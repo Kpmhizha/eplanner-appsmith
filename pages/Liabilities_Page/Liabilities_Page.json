@@ -1,87 +1,53 @@
 {
+  "gitSyncId": "6381f6413e748351b7e698c0_638367cfa943cc38d7dec7bd",
   "unpublishedPage": {
-    "name": "Liabilities_Page",
-    "slug": "liabilities-page",
+    "isHidden": true,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 758,
-          "containerStyle": "none",
-          "snapRows": 67,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
-          "minHeight": 720,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
-          "responsiveBehavior": "fill",
+          "containerStyle": "none",
+          "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "d71s8uwqw7",
-                  "align": "start"
+                  "align": "start",
+                  "id": "d71s8uwqw7"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "x16o3vwchp",
-                  "align": "center"
+                  "align": "center",
+                  "id": "x16o3vwchp"
                 }
               ]
             }
-          ]
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Liabilities_Page_get_Loans_Credit",
-              "name": "get_Loans_Credit",
-              "confirmBeforeExecute": false,
-              "pluginType": "SAAS",
-              "jsonPathKeys": [
-                " appsmith.store.jwt "
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Liabilities_Page_get_Other_Liabilities",
-              "name": "get_Other_Liabilities",
-              "confirmBeforeExecute": false,
-              "pluginType": "SAAS",
-              "jsonPathKeys": [
-                " appsmith.store.jwt "
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Liabilities_Page",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          ],
+          "leftColumn": 0,
+          "minHeight": 720,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "vertical",
+          "responsiveBehavior": "fill",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 67,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": true,
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": true
-  },
-  "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_638367cfa943cc38d7dec7bd"
+    "name": "Liabilities_Page",
+    "slug": "liabilities-page"
+  }
 }

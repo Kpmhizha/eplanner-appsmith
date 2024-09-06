@@ -1,59 +1,73 @@
 {
-    "boxShadow": "none",
-    "widgetName": "emailField",
-    "dynamicPropertyPathList": [{"key": "onTextChanged"}],
-    "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-    "displayName": "Input",
-    "topRow": 21.599999999999998,
-    "searchTags": [
-        "form",
-        "text input",
-        "number",
-        "textarea"
-    ],
-    "bottomRow": 28.599999999999998,
-    "parentRowSpace": 10,
-    "labelWidth": "13",
-    "autoFocus": false,
-    "type": "INPUT_WIDGET_V2",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 6.2021484375,
-    "dynamicTriggerPathList": [{"key": "onTextChanged"}],
-    "resetOnSubmit": true,
-    "leftColumn": 32,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultText"}
-    ],
-    "labelPosition": "Top",
-    "labelStyle": "",
-    "inputType": "EMAIL",
-    "isDisabled": false,
-    "flexVerticalAlignment": "end",
-    "key": "ntok3jk76w",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "onTextChanged": "",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "widgetId": "a5zjeebzmc",
-    "minWidth": 450,
-    "isVisible": true,
-    "label": "Spouse 's Email Address",
-    "version": 2,
-    "parentId": "urj5skkolo",
-    "isLoading": false,
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "iconAlign": "left",
-    "defaultText": "{{getMarriageProfile.data[0].spouseEmail}}",
-    "alignment": "center",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "center",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 28.599999999999998,
+  "boxShadow": "none",
+  "defaultText": "{{getMarriageProfile.data[0].spouseEmail}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "flexVerticalAlignment": "end",
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "EMAIL",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "ntok3jk76w",
+  "label": "Spouse 's Email Address",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "13",
+  "leftColumn": 32,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "onTextChanged": "",
+  "parentColumnSpace": 6.2021484375,
+  "parentId": "urj5skkolo",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "topRow": 21.599999999999998,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "a5zjeebzmc",
+  "widgetName": "emailField"
 }

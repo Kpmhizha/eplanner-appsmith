@@ -1,108 +1,132 @@
 {
-    "tabId": "",
-    "boxShadow": "NONE",
-    "widgetName": "Offshore_Will_Info_group",
-    "borderColor": "#E0DEDE",
-    "isCanvas": true,
-    "dynamicPropertyPathList": [{"key": "isVisible"}],
-    "displayName": "Container",
-    "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
-    "searchTags": [
-        "div",
-        "parent",
-        "group"
-    ],
-    "topRow": 48.400000000000006,
-    "bottomRow": 77,
-    "parentRowSpace": 10,
-    "type": "CONTAINER_WIDGET",
-    "hideCard": false,
-    "shouldScrollContents": true,
-    "animateLoading": true,
-    "parentColumnSpace": 11.82470703125,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [{"key": "isVisible"}],
-    "children": [{
-        "widgetName": "Canvas4",
-        "rightColumn": 756.78125,
-        "detachFromLayout": true,
-        "widgetId": "y0d0b4fwlk",
-        "bottomRow": 286,
-        "topRow": 0,
-        "containerStyle": "none",
-        "parentRowSpace": 1,
-        "isVisible": true,
-        "type": "CANVAS_WIDGET",
-        "canExtend": false,
-        "version": 1,
-        "parentId": "8fwn2wpsgm",
-        "props": {
-            "detachFromLayout": true,
-            "children": [],
-            "containerStyle": "none",
-            "canExtend": false
+  "alignment": "start",
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E0DEDE",
+  "borderWidth": "1",
+  "bottomRow": 77,
+  "boxShadow": "NONE",
+  "children": [
+    {
+      "bottomRow": 286,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "flexLayers": [
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "9qfl5zmdqc"
+            }
+          ]
         },
-        "minHeight": 250,
-        "isLoading": false,
-        "renderMode": "CANVAS",
-        "useAutoLayout": true,
-        "parentColumnSpace": 1,
-        "responsiveBehavior": "fill",
-        "leftColumn": 0,
-        "positioning": "vertical",
-        "flexLayers": [
-            {"children": [{
-                "id": "9qfl5zmdqc",
-                "align": "start"
-            }]},
-            {"children": [
-                {
-                    "id": "huceyue0dy",
-                    "align": "start"
-                },
-                {
-                    "id": "avga41ojji",
-                    "align": "start"
-                },
-                {
-                    "id": "42khvhcrmp",
-                    "align": "start"
-                },
-                {
-                    "id": "v3kkgm3dt5",
-                    "align": "start"
-                }
-            ]},
-            {"children": [{
-                "id": "3h01a5pl2u",
-                "align": "start"
-            }]},
-            {"children": [{
-                "id": "jm3g5gk2sn",
-                "align": "center"
-            }]}
-        ]
-    }],
-    "borderWidth": "1",
-    "key": "ca2ft8ngsi",
-    "flexVerticalAlignment": "stretch",
-    "backgroundColor": "#FFFFFF",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "8fwn2wpsgm",
-    "containerStyle": "card",
-    "minWidth": 450,
-    "isVisible": "{{ShowHide_OffshoreWIll_Containe.isChecked}}",
-    "version": 1,
-    "parentId": "rkx3fq4pu1",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "originalTopRow": 47,
-    "responsiveBehavior": "fill",
-    "maxDynamicHeight": 9000,
-    "originalBottomRow": 75,
-    "alignment": "start",
-    "minDynamicHeight": 10
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "huceyue0dy"
+            },
+            {
+              "align": "start",
+              "id": "avga41ojji"
+            },
+            {
+              "align": "start",
+              "id": "42khvhcrmp"
+            },
+            {
+              "align": "start",
+              "id": "v3kkgm3dt5"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "3h01a5pl2u"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "center",
+              "id": "jm3g5gk2sn"
+            }
+          ]
+        }
+      ],
+      "isLoading": false,
+      "isVisible": true,
+      "leftColumn": 0,
+      "minHeight": 250,
+      "parentColumnSpace": 1,
+      "parentId": "8fwn2wpsgm",
+      "parentRowSpace": 1,
+      "positioning": "vertical",
+      "props": {
+        "canExtend": false,
+        "children": [],
+        "containerStyle": "none",
+        "detachFromLayout": true
+      },
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 756.78125,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "useAutoLayout": true,
+      "version": 1,
+      "widgetId": "y0d0b4fwlk",
+      "widgetName": "Canvas4"
+    }
+  ],
+  "containerStyle": "card",
+  "displayName": "Container",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "stretch",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": "{{ShowHide_OffshoreWIll_Containe.isChecked}}",
+  "key": "ca2ft8ngsi",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "originalBottomRow": 75,
+  "originalTopRow": 47,
+  "parentColumnSpace": 11.82470703125,
+  "parentId": "rkx3fq4pu1",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "div",
+    "parent",
+    "group"
+  ],
+  "shouldScrollContents": true,
+  "tabId": "",
+  "topRow": 48.400000000000006,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "8fwn2wpsgm",
+  "widgetName": "Offshore_Will_Info_group"
 }

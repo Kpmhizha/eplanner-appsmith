@@ -1,82 +1,71 @@
 {
+  "gitSyncId": "6381f6413e748351b7e698c0_63f8b92202d27175e02b6213",
   "unpublishedPage": {
-    "name": "Landing Home Page",
-    "slug": "landing-home-page",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 4091.8906250000014,
-          "widgetName": "MainContainer",
-          "topRow": 0,
-          "bottomRow": 1587.9687500000002,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "minHeight": 1640,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
+          "bottomRow": 1587.9687500000002,
+          "canExtend": true,
           "containerStyle": "none",
-          "snapRows": 50,
-          "version": 89,
-          "mobileTopRow": 0,
-          "responsiveBehavior": "fill",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "sjkuftplxo",
-                  "align": "start"
+                  "align": "start",
+                  "id": "sjkuftplxo"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "b0cb40dien",
-                  "align": "start"
+                  "align": "start",
+                  "id": "b0cb40dien"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "g0umi4vmci",
-                  "align": "center"
+                  "align": "center",
+                  "id": "g0umi4vmci"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "f7dsxlmqi3",
-                  "align": "center"
+                  "align": "center",
+                  "id": "f7dsxlmqi3"
                 }
               ]
             }
-          ]
-        },
-        "layoutOnLoadActions": [],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Landing Home Page",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          ],
+          "leftColumn": 0,
+          "minHeight": 1640,
+          "mobileBottomRow": 4091.8906250000014,
+          "mobileTopRow": 0,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "vertical",
+          "responsiveBehavior": "fill",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 50,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": true,
+          "version": 90,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_63f8b92202d27175e02b6213"
+    "name": "Landing Home Page",
+    "slug": "landing-home-page"
+  }
 }

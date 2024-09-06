@@ -1,112 +1,122 @@
 {
-    "tabId": "",
-    "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-    "mobileBottomRow": 141.27187499999997,
-    "widgetName": "Container5",
-    "borderColor": "#E0DEDE",
-    "isCanvas": true,
-    "displayName": "Container",
-    "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
-    "searchTags": [
-        "div",
-        "parent",
-        "group"
-    ],
-    "topRow": 41.75937500000001,
-    "bottomRow": 54.639062500000016,
-    "parentRowSpace": 10,
-    "type": "CONTAINER_WIDGET",
-    "hideCard": false,
-    "shouldScrollContents": true,
-    "mobileRightColumn": 64,
-    "animateLoading": true,
-    "parentColumnSpace": 12.166259765625,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [{"key": "backgroundColor"}],
-    "children": [{
-        "mobileBottomRow": 471.96875000000006,
-        "widgetName": "Canvas7",
-        "bottomRow": 128.79687500000003,
-        "topRow": 0,
-        "parentRowSpace": 1,
-        "type": "CANVAS_WIDGET",
-        "canExtend": false,
-        "minHeight": 120,
-        "useAutoLayout": true,
-        "parentColumnSpace": 1,
-        "leftColumn": 0,
-        "positioning": "vertical",
-        "rightColumn": 778.640625,
-        "detachFromLayout": true,
-        "widgetId": "kuacj3ngiw",
-        "containerStyle": "none",
-        "isVisible": true,
-        "version": 1,
-        "parentId": "6dgynj9neb",
-        "props": {
-            "detachFromLayout": true,
-            "children": [],
-            "containerStyle": "none",
-            "canExtend": false
-        },
-        "isLoading": false,
-        "renderMode": "CANVAS",
-        "mobileTopRow": 0,
-        "responsiveBehavior": "fill",
-        "flexLayers": [{"children": [
+  "alignment": "start",
+  "animateLoading": true,
+  "backgroundColor": "{{appsmith.theme.colors.primaryColor}}",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "0px",
+  "borderWidth": "1",
+  "bottomRow": 54.639062500000016,
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+  "children": [
+    {
+      "bottomRow": 128.79687500000003,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "flexLayers": [
+        {
+          "children": [
             {
-                "id": "lumooumqy2",
-                "align": "start"
+              "align": "start",
+              "id": "lumooumqy2"
             },
             {
-                "id": "51ya30oejv",
-                "align": "start"
+              "align": "start",
+              "id": "51ya30oejv"
             },
             {
-                "id": "g8eyhn0s4v",
-                "align": "start"
+              "align": "start",
+              "id": "g8eyhn0s4v"
             },
             {
-                "id": "u37wm3l7ma",
-                "align": "start"
+              "align": "start",
+              "id": "u37wm3l7ma"
             },
             {
-                "id": "my5bf0s783",
-                "align": "start"
+              "align": "start",
+              "id": "my5bf0s783"
             },
             {
-                "id": "s4kgm5fa0b",
-                "align": "start"
+              "align": "start",
+              "id": "s4kgm5fa0b"
             },
             {
-                "id": "gy7luqfeh0",
-                "align": "start"
+              "align": "start",
+              "id": "gy7luqfeh0"
             }
-        ]}]
-    }],
-    "borderWidth": "1",
-    "key": "j1ym1lmwve",
-    "flexVerticalAlignment": "stretch",
-    "backgroundColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "6dgynj9neb",
-    "containerStyle": "card",
-    "minWidth": 450,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "l2n9aorh2i",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 94.07499999999997,
-    "responsiveBehavior": "fill",
-    "originalTopRow": 35,
-    "borderRadius": "0px",
-    "mobileLeftColumn": 0,
-    "maxDynamicHeight": 9000,
-    "originalBottomRow": 45,
-    "alignment": "start",
-    "minDynamicHeight": 10
+          ]
+        }
+      ],
+      "isLoading": false,
+      "isVisible": true,
+      "leftColumn": 0,
+      "minHeight": 120,
+      "mobileBottomRow": 471.96875000000006,
+      "mobileTopRow": 0,
+      "parentColumnSpace": 1,
+      "parentId": "6dgynj9neb",
+      "parentRowSpace": 1,
+      "positioning": "vertical",
+      "props": {
+        "canExtend": false,
+        "children": [],
+        "containerStyle": "none",
+        "detachFromLayout": true
+      },
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 778.640625,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "useAutoLayout": true,
+      "version": 1,
+      "widgetId": "kuacj3ngiw",
+      "widgetName": "Canvas7"
+    }
+  ],
+  "containerStyle": "card",
+  "displayName": "Container",
+  "dynamicBindingPathList": [
+    {
+      "key": "backgroundColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "stretch",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "j1ym1lmwve",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "mobileBottomRow": 141.27187499999997,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 94.07499999999997,
+  "originalBottomRow": 45,
+  "originalTopRow": 35,
+  "parentColumnSpace": 12.166259765625,
+  "parentId": "l2n9aorh2i",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "div",
+    "parent",
+    "group"
+  ],
+  "shouldScrollContents": true,
+  "tabId": "",
+  "topRow": 41.75937500000001,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "6dgynj9neb",
+  "widgetName": "Container5"
 }

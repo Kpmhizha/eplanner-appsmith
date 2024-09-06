@@ -1,103 +1,137 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "borderColor": "#E0DEDE",
-    "widgetName": "Form1",
-    "isCanvas": true,
-    "displayName": "Form",
-    "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
-    "searchTags": ["group"],
-    "topRow": 5.2,
-    "bottomRow": 44.2,
-    "parentRowSpace": 10,
-    "type": "FORM_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 17.9375,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [{"key": "boxShadow"}],
-    "children": [{
-        "boxShadow": "none",
-        "widgetName": "Canvas2",
-        "displayName": "Canvas",
-        "topRow": 0,
-        "bottomRow": 390,
-        "parentRowSpace": 1,
-        "type": "CANVAS_WIDGET",
-        "canExtend": false,
-        "hideCard": true,
-        "minHeight": 350,
-        "useAutoLayout": true,
-        "parentColumnSpace": 1,
-        "leftColumn": 0,
-        "dynamicBindingPathList": [
-            {"key": "borderRadius"},
-            {"key": "accentColor"}
-        ],
-        "positioning": "vertical",
-        "key": "hm9r191g3q",
-        "isDeprecated": false,
-        "rightColumn": 430.5,
-        "detachFromLayout": true,
-        "widgetId": "1h4mj87z10",
-        "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-        "containerStyle": "none",
-        "isVisible": true,
-        "version": 1,
-        "parentId": "a2stc5fk74",
-        "renderMode": "CANVAS",
-        "isLoading": false,
-        "responsiveBehavior": "fill",
-        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "flexLayers": [
-            {"children": [{
-                "id": "zgz4bei2qb",
-                "align": "start"
-            }]},
-            {"children": [{
-                "id": "sthey2u3fc",
-                "align": "start"
-            }]},
-            {"children": [{
-                "id": "fl2i8oa05d",
-                "align": "center"
-            }]},
-            {"children": [{
-                "id": "1fhuv7rmms",
-                "align": "center"
-            }]},
-            {"children": [
-                {
-                    "id": "y4prlixglw",
-                    "align": "center"
-                },
-                {
-                    "id": "yqp1zgqtkz",
-                    "align": "center"
-                }
-            ]},
-            {"children": [{
-                "id": "kcn67i31d7",
-                "align": "center"
-            }]}
-        ]
-    }],
-    "borderWidth": "1",
-    "key": "dy43fblovv",
-    "flexVerticalAlignment": "stretch",
-    "backgroundColor": "#FFFFFF",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "a2stc5fk74",
-    "minWidth": 450,
-    "isVisible": true,
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "responsiveBehavior": "fill",
-    "borderRadius": "0.375rem",
-    "maxDynamicHeight": 9000,
-    "alignment": "start",
-    "minDynamicHeight": 4
+  "alignment": "start",
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "0.375rem",
+  "borderWidth": "1",
+  "bottomRow": 44.2,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "children": [
+    {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 390,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "accentColor"
+        }
+      ],
+      "flexLayers": [
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "zgz4bei2qb"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "sthey2u3fc"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "center",
+              "id": "fl2i8oa05d"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "center",
+              "id": "1fhuv7rmms"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "center",
+              "id": "y4prlixglw"
+            },
+            {
+              "align": "center",
+              "id": "yqp1zgqtkz"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "center",
+              "id": "kcn67i31d7"
+            }
+          ]
+        }
+      ],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "hm9r191g3q",
+      "leftColumn": 0,
+      "minHeight": 350,
+      "parentColumnSpace": 1,
+      "parentId": "a2stc5fk74",
+      "parentRowSpace": 1,
+      "positioning": "vertical",
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 430.5,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "useAutoLayout": true,
+      "version": 1,
+      "widgetId": "1h4mj87z10",
+      "widgetName": "Canvas2"
+    }
+  ],
+  "displayName": "Form",
+  "dynamicBindingPathList": [
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "stretch",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "dy43fblovv",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "parentColumnSpace": 17.9375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "group"
+  ],
+  "topRow": 5.2,
+  "type": "FORM_WIDGET",
+  "widgetId": "a2stc5fk74",
+  "widgetName": "Form1"
 }

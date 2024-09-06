@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "6381f6413e748351b7e698c0_6533e96ed36d19549787cb9a",
+  "id": "Home_Page_DashboardUtils",
   "unpublishedCollection": {
     "name": "DashboardUtils",
     "pageId": "Home_Page",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Home_Page_DashboardUtils",
-  "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_6533e96ed36d19549787cb9a"
+    ]
+  }
 }

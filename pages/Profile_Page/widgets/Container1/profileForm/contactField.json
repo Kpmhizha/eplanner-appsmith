@@ -1,59 +1,73 @@
 {
-    "boxShadow": "none",
-    "widgetName": "contactField",
-    "dynamicPropertyPathList": [{"key": "onTextChanged"}],
-    "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-    "displayName": "Input",
-    "topRow": 29.799999999999997,
-    "searchTags": [
-        "form",
-        "text input",
-        "number",
-        "textarea"
-    ],
-    "bottomRow": 36.8,
-    "parentRowSpace": 10,
-    "labelWidth": "13",
-    "autoFocus": false,
-    "type": "INPUT_WIDGET_V2",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 6.2021484375,
-    "dynamicTriggerPathList": [{"key": "onTextChanged"}],
-    "resetOnSubmit": true,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultText"}
-    ],
-    "labelPosition": "Top",
-    "labelStyle": "",
-    "inputType": "TEXT",
-    "isDisabled": false,
-    "flexVerticalAlignment": "end",
-    "key": "ntok3jk76w",
-    "labelTextSize": "0.875rem",
-    "isRequired": true,
-    "onTextChanged": "",
-    "isDeprecated": false,
-    "rightColumn": 32,
-    "dynamicHeight": "FIXED",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "widgetId": "h09fwn5gyj",
-    "minWidth": 450,
-    "isVisible": true,
-    "label": "Contact No.",
-    "version": 2,
-    "parentId": "n61p0d6ln9",
-    "isLoading": false,
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "iconAlign": "left",
-    "defaultText": "{{getUser.data[0]['Contact Number']}}",
-    "alignment": "center",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "center",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 36.8,
+  "boxShadow": "none",
+  "defaultText": "{{getUser.data[0]['Contact Number']}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "flexVerticalAlignment": "end",
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "ntok3jk76w",
+  "label": "Contact No.",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "13",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "onTextChanged": "",
+  "parentColumnSpace": 6.2021484375,
+  "parentId": "n61p0d6ln9",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "topRow": 29.799999999999997,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "h09fwn5gyj",
+  "widgetName": "contactField"
 }

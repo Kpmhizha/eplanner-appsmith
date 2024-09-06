@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "6381f6413e748351b7e698c0_63c0241b926a11120b6fc756",
+  "id": "Estate_Tools_Page_JSObject1",
   "unpublishedCollection": {
     "name": "JSObject1",
     "pageId": "Estate_Tools_Page",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Estate_Tools_Page_JSObject1",
-  "deleted": false,
-  "gitSyncId": "6381f6413e748351b7e698c0_63c0241b926a11120b6fc756"
+    ]
+  }
 }

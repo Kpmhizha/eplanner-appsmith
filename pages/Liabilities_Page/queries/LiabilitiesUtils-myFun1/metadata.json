@@ -23,10 +23,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "LiabilitiesUtils.myFun1",
     "name": "myFun1",
     "pageId": "Liabilities_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

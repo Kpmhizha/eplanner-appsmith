@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "AssetsUtils.insertOrUpdateImmovableProperty",
     "name": "insertOrUpdateImmovableProperty",
     "pageId": "Assets_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

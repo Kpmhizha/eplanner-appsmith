@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "DashboardUtils.myFun1",
     "name": "myFun1",
     "pageId": "Home_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": true
   }
 }

@@ -76,9 +76,9 @@
         "key": "formData.where.data.children[0].value"
       }
     ],
-    "executeOnLoad": false,
     "name": "get_offshore_will",
     "pageId": "Estate_Tools_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

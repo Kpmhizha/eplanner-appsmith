@@ -24,10 +24,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "JSObject1.myFun1",
     "name": "myFun1",
     "pageId": "Estate_Tools_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

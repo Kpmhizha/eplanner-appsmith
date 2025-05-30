@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "AssetsUtils.insertOrUpdateOtherAssets",
     "name": "insertOrUpdateOtherAssets",
     "pageId": "Assets_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

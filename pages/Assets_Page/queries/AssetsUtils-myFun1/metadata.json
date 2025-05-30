@@ -23,10 +23,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "AssetsUtils.myFun1",
     "name": "myFun1",
     "pageId": "Assets_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -24,10 +24,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "Utils.myFun1",
     "name": "myFun1",
     "pageId": "Login_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

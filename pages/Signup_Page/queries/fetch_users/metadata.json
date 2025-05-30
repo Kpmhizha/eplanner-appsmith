@@ -70,9 +70,9 @@
       "pluginId": "google-sheets-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "fetch_users",
     "pageId": "Signup_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

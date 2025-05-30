@@ -64,9 +64,9 @@
         "key": "formData.rowObjects.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "update_policies_assets",
     "pageId": "Assets_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

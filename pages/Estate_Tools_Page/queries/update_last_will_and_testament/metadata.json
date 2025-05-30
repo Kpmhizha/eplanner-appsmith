@@ -64,9 +64,9 @@
         "key": "formData.rowObjects.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "update_last_will_and_testament",
     "pageId": "Estate_Tools_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

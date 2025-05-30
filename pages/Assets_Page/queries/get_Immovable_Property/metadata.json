@@ -76,9 +76,9 @@
         "key": "formData.where.data.children[0].value"
       }
     ],
-    "executeOnLoad": true,
     "name": "get_Immovable_Property",
     "pageId": "Assets_Page",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }

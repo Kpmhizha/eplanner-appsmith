@@ -53,9 +53,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "fileGuardianAcceptanceUpload",
     "pageId": "Children_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

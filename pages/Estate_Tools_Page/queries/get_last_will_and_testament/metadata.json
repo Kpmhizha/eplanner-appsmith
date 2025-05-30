@@ -76,9 +76,9 @@
         "key": "formData.where.data.children[0].value"
       }
     ],
-    "executeOnLoad": false,
     "name": "get_last_will_and_testament",
     "pageId": "Estate_Tools_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

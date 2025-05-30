@@ -24,10 +24,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "insertOrUpdateProfile.myFun1",
     "name": "myFun1",
     "pageId": "Marriage_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

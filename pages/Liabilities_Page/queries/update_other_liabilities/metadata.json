@@ -64,9 +64,9 @@
         "key": "formData.rowObjects.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "update_other_liabilities",
     "pageId": "Liabilities_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

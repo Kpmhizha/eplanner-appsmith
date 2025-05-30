@@ -76,9 +76,9 @@
         "key": "formData.where.data.children[0].value"
       }
     ],
-    "executeOnLoad": false,
     "name": "get_Loans_Credit",
     "pageId": "Home_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "LiabilitiesUtils.insertOrUpdateLoansCredit",
     "name": "insertOrUpdateLoansCredit",
     "pageId": "Liabilities_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

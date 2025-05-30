@@ -64,9 +64,9 @@
         "key": "formData.rowObjects.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "update_Other_Assets",
     "pageId": "Assets_Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
